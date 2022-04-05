@@ -1,0 +1,44 @@
+.navhead{
+    width: 100vw;
+    position: relative;
+    z-index: 11;
+    background-color: white;
+
+}
+.logo a{
+  
+}
+.navbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+.dynamic{
+    
+}
+.dynamic a{
+    text-decoration: none;
+}
+.navlinks{
+    display: flex;
+    background-color: #0070bf;
+    justify-content: center;
+    margin-left: -26rem;
+    font-size: 13px;
+
+
+}
+.nlinks{
+    
+}
+.nlinks a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 0.9rem;
+}
+.navlinks a:hover{
+    display: block;
+    background-color: #00548f;
+}
