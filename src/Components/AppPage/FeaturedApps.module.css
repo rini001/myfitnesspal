@@ -1,0 +1,33 @@
+.div1 {
+  display: grid;
+  width: 50rem;
+  grid-template-columns: repeat(3, 3fr);
+  row-gap: 40px;
+  column-gap: 80px;
+}
+.div0 {
+  display: grid;
+  justify-content: end;
+  width: 60%;
+}
+Apps{
+    grid-area: a;
+}
+.btnDiv {
+  text-align: center;
+}
+h2 {
+  color: #0a5282;
+  font-weight: 650;
+  font-size: 1.4rem;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    box-sizing: border-box;
+  }
+  .div0 {
+    border: 2px solid black;
+  }
+  
+
+}
