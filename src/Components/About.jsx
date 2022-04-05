@@ -155,7 +155,7 @@ const About = () => {
                 </p>
 
                 <p className={styles.button}>
-                  <a className={styles.button} href="">
+                  <a className={styles.button} href="#">
                     Join Now for FREE!
                   </a>
                 </p>
@@ -243,12 +243,12 @@ const About = () => {
               </div>
               <ul className={styles.forgot}>
                 <li>
-                  <a href="/account/forgot_password">
+                  <a href="#">
                     Forgot password or username?
                   </a>
                 </li>
                 <li>
-                  Not a member yet? <a href="/account/create">Sign up now!</a>
+                  Not a member yet? <a href="#">Sign up now!</a>
                 </li>
               </ul>
             </form>
@@ -259,4 +259,4 @@ const About = () => {
   );
 };
 
-export default About;
+export {About};
