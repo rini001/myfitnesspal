@@ -1,0 +1,415 @@
+* {
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+body {
+  background: #fff;
+  color: #000;
+  font-size: 100.01%;
+  min-height: 100%;
+  text-align: left;
+}
+div {
+  display: block;
+}
+.wrap {
+  margin: auto;
+  position: relative;
+  text-align: left;
+  width: 940px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.content {
+  clear: both;
+  float: left;
+  display: inline;
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  padding: 20px 0 4em;
+}
+script {
+  display: none;
+}
+.main {
+  width: 620px;
+  float: left;
+  margin-top: 20px;
+}
+
+h2.main_title {
+  margin: 27px 0 25px 0;
+}
+.main_title,
+.main_title-2 {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.main_title,
+.main_title-2 {
+  color: #0a5282;
+  font-weight: bolder;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+}
+p,
+ul,
+ol,
+table,
+dl,
+dd,
+pre {
+  margin: 0 0 1em;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.p1 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 18px;
+  font-family: Arial, sans-serif;
+}
+.our_system {
+  padding: 44px 43px 46px 162px;
+  background-color: #f6f6f6;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  margin: 65px 0 42px;
+  position: relative;
+  background: url(https://www.myfitnesspal.com/assets/img-about-us.png)
+    no-repeat left bottom;
+}
+.our_system p {
+  margin: 0 0 6px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.secondary_title {
+  margin-top: 0;
+  color: #0a5282;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 51px 0 19px 0;
+}
+
+strong {
+  font-weight: bold;
+  font-style: normal;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+ul,
+ol {
+  list-style: none;
+  list-style-position: outside;
+}
+
+.list0 li {
+  background: transparent url(https://www.myfitnesspal.com/assets/sprite.v6.gif)
+    no-repeat scroll 0 0;
+  background-position: 5px -515px !important;
+  padding: 0 0 9px 18px;
+  padding-left: 23px;
+}
+
+h5 {
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.list0 h5 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 14px;
+  display: inline;
+}
+
+ul.list0 li span {
+  background: none;
+}
+ul.list0 li span {
+  background-position: 5px -515px !important;
+  padding-left: 20px;
+  margin-left: -20px;
+}
+
+ul.list0 p {
+  font-weight: normal;
+  font-size: 14px;
+  display: inline;
+  margin: 0;
+}
+
+.healty_living {
+  padding: 0;
+  margin: 0;
+  min-height: 176px;
+  background: #f6f6f6;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  position: relative;
+}
+
+.healty_living_sub {
+  background: url(https://www.myfitnesspal.com/assets/img-about-us-2.png)
+    no-repeat left bottom;
+  position: absolute;
+  padding: 31px 33px 32px 128px;
+  top: -6px;
+  left: -12px;
+}
+
+.healty_living_sub p {
+  margin: 0 0 6px 0;
+}
+
+.main p {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.button {
+  text-align: center;
+  margin: 23px 0 0;
+}
+p.button a.button {
+  padding: 7px 15px;
+}
+
+a.button {
+  font-size: 13px;
+  width: auto;
+  display: inline-block;
+  border: 1px solid #408140;
+  border-radius: 5px;
+  padding: 8px 25px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+  text-transform: capitalize;
+  background-color: #51a351;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.26, #62c462),
+    color-stop(0.75, #51a351)
+  );
+}
+
+.span194 {
+  vertical-align: bottom;
+  width: 225px;
+  height: 40px;
+}
+
+.iframe211 {
+  border: none;
+  visibility: visible;
+  width: 225px;
+  height: 40px;
+}
+
+.sidebar {
+  padding-top: 35px;
+  width: 300px;
+  float: right;
+}
+
+form {
+  margin: auto;
+  overflow: visible;
+  width: 308px;
+  display: block;
+}
+
+input,
+select,
+textarea,
+button {
+  font-size: 1em;
+  line-height: normal;
+  width: auto;
+  vertical-align: middle;
+}
+
+input[type="hidden" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  display: none !important;
+  border: initial;
+  border-color: initial;
+  border-radius: initial;
+}
+
+form.login div.member_login {
+  padding: 20px 30px;
+  margin-top: 20px;
+}
+
+form.login div.member_login {
+  background: none;
+  border: 3px solid #f3f1f1;
+  border-radius: 1em;
+  width: 234px;
+}
+form.login div.member_login h2 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: normal;
+}
+
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+form.login div.member_login ul {
+  margin-bottom: 0;
+  padding: 0px;
+}
+
+form.login div.member_login ul li {
+  margin-top: 6px;
+  clear: both;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.fb_iframe_widget {
+  display: inline-block;
+  position: relative;
+}
+form.login div.member_login ul li.or {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+form.login div.member_login input.text {
+  background: none;
+  width: 216px;
+  margin-bottom: 5px;
+  background-color: #f2f2f2;
+  height: 20px;
+  font-size: 100%;
+  border-top: 1px solid #b2b2b2;
+  border-right: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  border-bottom: 1px solid #f2f2f2;
+  outline: none;
+  box-shadow: inset 1px 0 1px #d9d9d9, inset -1px 0 1px #d9d9d9,
+    inset 0 1px 1px #b2b2b2;
+}
+
+input.text {
+  color: #444;
+  margin: 3px 0;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  border: initial;
+}
+
+input[type="submit" i] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+form.login div.member_login input[type="submit"] {
+  width: 220px;
+}
+form.login div.member_login ul li.submit {
+  width: 220px;
+}
+form.login div.member_login input[type="submit"] {
+  text-align: center;
+  border-radius: 0.3em;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.5em 14px;
+  border: 1px solid #999999;
+  background-image: -webkit-gradient(
+    linear,
+    0% 100%,
+    0% 0%,
+    from(#cccccc),
+    to(#f0f0f0)
+  );
+  background-color: #cccccc;
+  color: #666;
+  cursor: pointer;
+}
+
+form.login ul.forgot {
+  margin: 10px 0 0 10px;
+}
+
+a,
+a:link {
+  color: #0072bc;
+  cursor: pointer;
+  text-decoration: none;
+}
