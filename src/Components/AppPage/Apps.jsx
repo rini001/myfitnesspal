@@ -9,9 +9,8 @@ export const Apps = ({ image, appName, category }) => {
       <div className={styles.div2}>
         <div className={styles.appName}>{appName}</div>
         <div className={styles.category}>{category}</div>
-        <div>
-          <button className={styles.btn}>GET</button>
-        </div>
+          <div className={styles.divbtn}><button className={styles.btn}>GET</button></div>
+      
       </div>
     </div>
   );

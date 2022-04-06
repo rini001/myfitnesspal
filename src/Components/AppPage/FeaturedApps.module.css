@@ -3,31 +3,75 @@
   width: 50rem;
   grid-template-columns: repeat(3, 3fr);
   row-gap: 40px;
-  column-gap: 80px;
+  column-gap: 70px;
 }
 .div0 {
   display: grid;
   justify-content: end;
   width: 60%;
 }
-Apps{
-    grid-area: a;
-}
 .btnDiv {
   text-align: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: #0a5282;
+  color: aliceblue;
+  border-radius: 4rem;
 }
 h2 {
   color: #0a5282;
   font-weight: 650;
   font-size: 1.4rem;
 }
+.arrowbtn{
+  background-color: white;
+  border: 0px;
+  color: #0a5282;
+}
+.marketbtn{
+  background-color: #0a5282 ;
+  color: white;
+  border-radius: 24px;
+  border: 0px;
+  height: 2rem;
+  width: 2rem;
+  
+}
+.marketbtn1{
+  background-color: none ;
+  border: 0px;
+  color:  #0a5282;
+}
 @media only screen and (max-width: 800px) {
   body {
     box-sizing: border-box;
   }
-  .div0 {
-    border: 2px solid black;
+  h2 {
+    color: #0a5282;
+    font-weight: 400;
+    font-size: 12px;
   }
-  
+  .div0 {
+    display: grid;
+    justify-content: start;
+    width: 60%;
+    /* border: 2px solid black; */
+    padding: 0px;
+  }
 
+  .div1 {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(3, 10%);
+    row-gap: 0px;
+    column-gap: 40px;
+    margin: auto;
+    padding: 0px;
+    /* border: 2px solid black; */
+  }
 }
+/* style={{backgroundColor: page===1 ? '#0a5282':'white', color: page===1?'white' :'#0a5282'}} */

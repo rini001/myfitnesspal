@@ -1,40 +1,85 @@
-
 .div1 {
-    display: flex;
-    column-gap: 20px;
+  display: flex;
+  column-gap: 20px;
+}
+img {
+  width: 5rem;
+}
+.div2 {
+  display: grid;
+  row-gap: 1px;
+  height: 74px;
+}
+.appName {
+  font-size: 14px;
+  text-align: left;
+  color: #0a5282;
+}
+.category {
+  text-align: left;
+  color: #999999;
+  font-size: 12px;
+  height: 20px;
+}
+.btn {
+  width: 7.6rem;
+  height: 1.4rem;
+  background-color: #ebebeb;
+  cursor: pointer;
+  color: #666666;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    box-sizing: border-box;
+  }
+
+  .div1 {
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid black; */
+    column-gap: 1px;
+    /* margin-left: -2rem; */
+    height: 50px;
   }
   img {
-    width: 75px;
-      height: 75px;
-    width: 5rem;
+    width: 100%;
   }
   .div2 {
     display: grid;
-    row-gap: 1px; 
-    height: 74px;
+    grid-row-gap: initial;
+    height: fit-content;
   }
   .appName {
-    font-size: 14px;
-    text-align: left;
+    width: fit-content;
+    font-size: 7px;
     color: #0a5282;
   }
   .category {
-    text-align: left;
     color: #999999;
-    font-size: 12px;
-      height: 20px;
+    font-size: 7px;
+    width: 50px;
+    height: fit-content;
   }
   .btn {
-    width: 7.6rem;
-    height: 1.4rem;
+    width: fit-content;
+    height: fit-content;
+    font-size: 8px;
     background-color: #ebebeb;
     cursor: pointer;
     color: #666666;
     border: 1px solid #d2d2d2;
     border-radius: 5px;
+    padding: 0px;
   }
- 
-  
-  
-  
-  
+  .divbtn {
+    display: grid;
+    justify-content: start;
+    align-items: start;
+  }
+  .divImg {
+    width: 30px;
+    /* border: 2px solid black; */
+  }
+}

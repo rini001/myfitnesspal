@@ -1,0 +1,68 @@
+.maindiv{
+margin-left: 24% ;
+}
+
+.feed{
+    width: 44%;
+    height: 2rem;
+    max-width: 100%;
+    min-width: 200px;
+    display: flex;
+    background-color: rgb(10, 82, 130);
+    color: rgb(255, 255, 255);
+}
+.txtareaandbtn{
+    column-gap: 10px;
+    height: 4rem;
+    display: flex;
+    width: 41.29%;
+    padding: 20px;
+    background-color: rgb(246, 246, 246);
+}
+.txt{
+   width: 85%;
+   font-size:large;
+   /* color: rgb(255, 255, 255); */
+   font-family:  "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+   
+
+}
+.txt:focus{
+    outline: none;
+    border:2px solid rgb(0, 102, 238);;
+}
+.btn{
+    width: 15%;
+    background-color: rgb(0, 102, 238);
+    color: white;
+    padding: 0px;
+    height: 2.5rem;
+    border-radius: 8px ;
+    border: 0px;
+}
+.flexdiv{
+    display: flex;
+    width: 44%;
+    margin-left: 20%;
+    border: 2px solid black;
+}
+.imgandinputbox{
+    display: flex;
+}
+.commentImg{
+    width: 10%;
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+  }
+  
+  .close:hover {background: #bbb;}
+  .nameAndModal{
+      display: flex;
+      gap: 30rem;
+  }

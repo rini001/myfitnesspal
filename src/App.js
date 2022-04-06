@@ -1,8 +1,9 @@
-import { MarketPlace } from "./Components/AppPage/MarketPlace";
-import { FeaturedApps } from "./Components/AppPage/FeaturedApps";
-import { Slides } from "./Components/AppPage/Slides";
-import { Sidebar } from "./Components/AppPage/Sidebar";
+// import { MarketPlace } from "./Components/appPage/MarketPlace";
+// import { FeaturedApps } from "./Components/appPage/FeaturedApps";
+// import { Slides } from "./Components/appPage/Slides";
+// import { Sidebar } from "./Components/appPage/Sidebar";
 import "./App.css";
+import { NewsFeed } from "./Components/home/NewsFeed";
 // import { Head } from './Components/Head';
 // import {Navbar} from './Components/Navbar';
 // import {About} from './Components/About';
@@ -13,11 +14,12 @@ function App() {
       {/* <Navbar/>
      <Head/>
      <About/> */}
-      <Slides />
+      {/* <Slides />
       <Sidebar />
       <FeaturedApps />
 
-      <MarketPlace />
+      <MarketPlace /> */}
+      <NewsFeed/>
     </div>
   );
 }
