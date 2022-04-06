@@ -42,3 +42,28 @@
     display: block;
     background-color: #00548f;
 }
+.fbox{
+    display: none;
+}
+
+@media only screen and (max-width: 756px) {
+    
+    .flex{
+        height: 48px;
+        background-color: #0070bf;
+    }  
+    .fbox{
+        display: inline;
+    }
+    .navbox{
+          display: none;
+      } 
+      .nlinks{
+        display: none;
+      }
+    .burger{
+        
+    }
+      
+      
+}

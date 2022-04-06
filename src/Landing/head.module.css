@@ -1,0 +1,162 @@
+.hero img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    max-width: 100%;
+    margin: 125px auto 0px auto;    
+    z-index: 11;
+}
+.dummy{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 89%;
+    height: 1000px;
+    position: absolute;
+    background-color: #FFDD33;
+}
+.bottombar{
+    /* height: 60vh;
+    background-color: #FFDD33; */
+    
+}
+.tcont{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22%;
+    top: 22%;
+    left: 22%;
+    margin-top: 8px;
+}
+.tcont h1{
+    font-size: 3.3rem;
+    font-weight: 800;
+}
+.tcont button{
+    background-color: #0070bf;
+    width: 17rem;
+    height: 45px;
+    border: 1px solid #0070bf;
+    border-radius: 5px;
+    color: white;
+}
+.yellow{
+    position: absolute;
+    background-color: #FFDD33;
+    left: 0;
+    right: 0;
+    top: 44.9rem;
+    height: 70vh;
+}
+.search{
+    position: relative;
+    text-align: center;
+    z-index: 190;
+    margin: 0 auto;
+    margin-top: 12rem;
+    width: 40%;
+    
+}
+.search h1{
+    font-size: 3.2rem;
+    font-weight:800;
+}
+.sbox{
+    text-align: center;
+    margin-top: 2rem;
+}
+.sbox input{
+    width: 70rem;
+    height: 50px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 8px;
+}
+.sec{
+    margin-top: 75rem;
+    padding: 0.5rem 0;
+}
+.features{
+    /* margin-top: 30rem; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.fbox{
+    width: 226px;
+    text-align: center;
+    padding: 0.5rem;
+}
+.heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+}
+.heading .h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+
+}
+.heading .p{
+    width: 40%;
+    margin: 0px auto;
+}
+.btn{
+    text-align: center;
+    margin: 4.8rem 0px;
+}
+.btn button{
+    width: 260px;
+    height: 50px;
+    background-color: rgb(32, 136, 255);
+    border: 1px solid rgb(32, 136, 255);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+/*FOR Small*/
+@media (max-width: 1000px){
+.dummy {
+    display: none;
+    
+}
+.tcont{
+    width: 38%;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+.tcont h1{
+    font-size: 2rem;
+}
+.yellow{
+    top: 36rem;
+}
+.search{
+    width: 100%;
+}
+.search h1{
+    font-size: 2rem;
+}
+.sbox{
+ margin-bottom: -1rem;
+}
+.sbox input{
+    height: 20px;
+    width: 30rem;
+    
+}
+.sec{
+    margin-top: 65rem;
+}
+}

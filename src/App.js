@@ -1,5 +1,5 @@
 import './App.css';
-import { Head } from './Components/Head';
+import { Head } from './Landing/Head';
 import {Navbar} from './Components/Navbar';
 import {About} from './Components/About';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
      <Navbar/>
      <Head/>
-     <About/>
+
     </div>
   );
 }
