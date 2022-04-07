@@ -17,7 +17,6 @@ function App() {
       {/* <Slides />
       <Sidebar />
       <FeaturedApps />
-
       <MarketPlace /> */}
       <NewsFeed/>
     </div>

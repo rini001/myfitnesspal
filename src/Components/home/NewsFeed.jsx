@@ -2,14 +2,22 @@ import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import styles from "./NewsFeed.module.css";
 export const NewsFeed = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const openModal = () => {
-    setIsOpen(true);
-  };
+  const [clicked,setClicked] =useState(true)
+  const like=(e)=>{
+    if(!clicked ){
+    e.target.innerHTML='Like'
+    setClicked(true)
+    }
+else{
+  e.target.innerHTML='Unike'
+  setClicked(false)
+}
+  }
+//   const unlike=(e)=>{
+//     setClicked(false)
+//     console.log(e.target.parentNode===0)
 
-  const closeModal = () => {
-    setIsOpen(false);
-  };
+//  }
   const [value, setValue] = useState("");
   const handleChange = (e) => {
     const { value } = e.target;
@@ -45,7 +53,6 @@ export const NewsFeed = () => {
       return el.id !== idx;
     });
     setTasks(removeItem);
-    setIsOpen(false)
   };
   return (
     <div>
@@ -55,7 +62,7 @@ export const NewsFeed = () => {
         <div className={styles.txtareaandbtn}>
           <textarea
             className={styles.txt}
-            placeholder="What's on your mind"
+            placeholder="What's on your mind?"
             onChange={handleChange}
             value={value}
           />
@@ -73,22 +80,15 @@ export const NewsFeed = () => {
                 alt=""
               />
             </div>
-            <div>
+            <div className={styles.withoutPic}>
               <div className={styles.nameAndModal}>
                 <div><a href="#">debnathrenaissance</a>{" "}</div>
-               <div> <button onClick={openModal}>x</button></div>
-                {isOpen && (
-                  <div>
-                    <h1>Are you sure?</h1>
-                    <button onClick={() => handleDelete(elem.id)}>yes</button>
-                    <button onClick={closeModal}>No</button>
-                  </div>
-                )}
+                <div className={styles.modal} onClick={() => handleDelete(elem.id)}>x</div>
               </div>
               <div>{elem.value}</div>
-              <div>
-                <div>like</div>
-                <div>comment</div>
+              <div className={styles.likeAndcomment}>
+                <div className={styles.like} style={{color: clicked? 'grey' : 'rgb(0, 102, 238)'}} onClick={like}>Like</div>
+                <div>Comment</div>
               </div>
 
               <div className={styles.imgandinputbox}>
@@ -97,14 +97,14 @@ export const NewsFeed = () => {
                   src="https://www.myfitnesspal.com/_next/image?url=https%3A%2F%2Fd34yn14tavczy0.cloudfront.net%2Fimages%2Fno_photo_thumbnail.png&w=64&q=75"
                   alt=""
                 />
-                <input type="text" />
+                <input  className={styles.inp} type="text" placeholder="Write something..."/>
               </div>
             </div>
             {/* <button onClick={() => handleDelete(elem.id)}>x</button> */}
           </div>
         </div>
       ))}
-      <div style={{ border: "2px solid black" }}></div>
+      {/* <div style={{ border: "2px solid black" }}></div> */}
     </div>
   );
 };
