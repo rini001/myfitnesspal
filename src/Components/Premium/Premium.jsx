@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../Components/Premium.module.css";
+import styles from "../Premium/Premium.module.css";
 import { AiOutlineDown } from "react-icons/ai";
 
 const Premium = () => {
@@ -965,4 +965,4 @@ const Premium = () => {
   );
 };
 
-export default Premium;
+export {Premium};

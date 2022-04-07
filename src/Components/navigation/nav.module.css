@@ -1,21 +1,9 @@
-.navhead{
-    width: 100vw;
-    position: relative;
-    z-index: 11;
-    background-color: white;
-
-}
-.logo a{
-  
-}
 .navbox{
     display: flex;
     justify-content: space-around;
     padding: 1.5rem 0;
 }
-.dynamic{
-    
-}
+
 .dynamic a{
     text-decoration: none;
 }
@@ -46,24 +34,3 @@
     display: none;
 }
 
-@media only screen and (max-width: 756px) {
-    
-    .flex{
-        height: 48px;
-        background-color: #0070bf;
-    }  
-    .fbox{
-        display: inline;
-    }
-    .navbox{
-          display: none;
-      } 
-      .nlinks{
-        display: none;
-      }
-    .burger{
-        
-    }
-      
-      
-}

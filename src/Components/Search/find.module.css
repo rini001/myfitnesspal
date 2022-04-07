@@ -1,0 +1,29 @@
+.search{
+    width: 100%;
+    margin: 1rem auto;
+    height: 80vh;
+    text-align: left;
+    padding: 1rem;
+    /* border: 1px solid black; */
+}
+.search input{
+    margin: 0px 16rem;
+    width: 40rem;
+    height: 65px;
+    outline: none;
+    border: 1px solid rgb(196, 223, 255);
+    border-radius: 5px;
+    padding: 0px 1rem;
+    box-shadow: 5px 5px 5px gray
+}
+.search span{
+    margin-left: 10px;
+    color: blue;
+    width: 200px;
+}
+@media (max-width: 900px){
+    .search input{
+        margin: 0px auto;
+    }
+
+}

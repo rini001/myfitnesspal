@@ -26,6 +26,10 @@ const Feature = () => {
                     <p>Join the World’s Largest Fitness Community for advice, tips, and support 24/7.</p>
                 </div>
             </section>
+            <section className={feat.btn}>
+            <button>START YOUR JOURNEY TODAY</button>
+            </section>
+
         </div>
     )
 }
