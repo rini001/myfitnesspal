@@ -40,6 +40,7 @@ export const MarketPlace = () => {
             image={el.image}
             appName={el.appName}
             category={el.category}
+            
           />
         ))}
       </div>

@@ -15,19 +15,19 @@ export const DailySummary = () => {
         
         </div> */}
         </div>
-        <div>
+        <div className={styles.div3}>
           <div>
-              <p className={styles.cal}>Calories remaining <span className={styles.change}>change</span></p>
+              <p className={styles.cal}>Calories remaining <span className={styles.change}>Change</span></p>
           </div>
           <div className={styles.calCount}>
            
               1290
-            
-            <div>
-            <button>Add Exercise</button>
-            <button>Add Food</button>
+              </div>
+            <div className={styles.addbtns}>
+            <button className={styles.addbtn1}>Add Exercise</button>
+            <button className={styles.addbtn2}>Add Food</button>
             </div>
-          </div>
+         
         
       </div>
         </div>

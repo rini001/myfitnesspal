@@ -4,193 +4,229 @@
      " id": 1,
       "appName": "Fitbit",
       "category": "Activity Trackers",
-      "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_30_1_10_0_45741.png"
+      "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_30_1_10_0_45741.png",
+      "about": "lorem 50"
   },
   {" id": 2,
     "appName": "Garmin connect",
     "category": "Activity Trackers",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_120_1_10_0_9523.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_120_1_10_0_9523.png",
+    "about": "lorem 50"
   },
   {
     " id": 3,
     "appName": "MapMyFitness",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_389_1_10_0_31181.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_389_1_10_0_31181.png",
+    "about": "lorem 50"
   },
   {
     " id": 4,
     "appName": "MapMyRun",
     "category": "Fitness Apps",
-    "image": "https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+    "image": "https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png",
+    "about": "lorem 50"
   },
   {
     " id": 5,
     "appName": "MapMyWalk",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_182_1_10_0_90660.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_182_1_10_0_90660.png",
+    "about": "lorem 50"
   },
   {" id": 6,
     "appName": "MapMyRide",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_184_1_10_0_61431.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_184_1_10_0_61431.png",
+    "about": "lorem 50"
   },
   {" id": 7,
     "appName": "Withings Health",
     "category": "Activity Trackers",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_139_1_10_0_10915.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_139_1_10_0_10915.png",
+    "about": "lorem 50"
   },
   {" id": 8,
     "appName": "Starva",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_229_1_10_0_84885.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_229_1_10_0_84885.png",
+    "about": "lorem 50"
   },
   {" id": 9,
     "appName": "RunKeeper",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_102_1_10_0_44251.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_102_1_10_0_44251.png",
+    "about": "lorem 50"
   },
   {" id": 10,
     "appName": "TrainingPeaks",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_306_1_10_0_49537.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_306_1_10_0_49537.png",
+    "about": "lorem 50"
   },
   {" id": 11,
     "appName": "Polar Flow",
     "category": "Activity Trackers",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_331_1_10_0_52964.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_331_1_10_0_52964.png",
+    "about": "lorem 50"
   },
   {" id": 12,
     "appName": "Runtastic",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_2_1_10_0_87968.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_2_1_10_0_87968.png",
+    "about": "lorem 50"
   },
   {" id": 13,
     "appName": "Pacer Pedometer",
     "category": "Activity Fitness",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_280_1_10_0_42653.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_280_1_10_0_42653.png",
+    "about": "lorem 50"
   },
   {" id": 14,
     "appName": "xID",
     "category": "Fitness Apps",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_86_1_10_0_19952.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_86_1_10_0_19952.png",
+    "about": "lorem 50"
   },
   {" id": 15,
     "appName": "Accupedo Pedom",
     "category": "Activity Fitness",
-    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_281_1_10_0_11521.png"
+    "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_281_1_10_0_11521.png",
+    "about": "lorem 50"
   },
   
  {
-   " id": 1,
+   " id": 16,
    "appName": "MapMyFitness",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_389_1_10_0_31181.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_389_1_10_0_31181.png",
+   "about": "lorem 50"
  },
  {
-   " id": 2,
+   " id": 17,
    "appName": "MapMyRun",
    "category": "Fitness Apps",
-   "image": "https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+   "image": "https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png",
+   "about": "lorem 50"
  },
  {
-   " id": 3,
+   " id": 18,
    "appName": "MapMyWalk",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_182_1_10_0_90660.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_182_1_10_0_90660.png",
+   "about": "lorem 50"
  },
- {" id": 4,
+ {" id": 19,
    "appName": "MapMyRide",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_184_1_10_0_61431.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_184_1_10_0_61431.png",
+   "about": "lorem 50"
  },
- {" id": 5,
+ {" id": 20,
    "appName": "Withings Health",
    "category": "Activity Trackers",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_139_1_10_0_10915.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_139_1_10_0_10915.png",
+   "about": "lorem 50"
  },
- {" id": 6,
+ {" id": 21,
    "appName": "Starva",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_229_1_10_0_84885.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_229_1_10_0_84885.png",
+   "about": "lorem 50"
  },
- {" id": 7,
+ {" id": 22,
    "appName": "RunKeeper",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_102_1_10_0_44251.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_102_1_10_0_44251.png",
+   "about": "lorem 50"
  },
- {" id": 8,
+ {" id": 23,
    "appName": "TrainingPeaks",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_306_1_10_0_49537.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_306_1_10_0_49537.png",
+   "about": "lorem 50"
  },
- {" id": 9,
+ {" id": 24,
   "appName": "xID",
   "category": "Fitness Apps",
-  "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_86_1_10_0_19952.png"
+  "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_86_1_10_0_19952.png",
+  "about": "lorem 50"
 },
-{" id": 10,
+{" id": 25,
   "appName": "Accupedo Pedom",
   "category": "Activity Fitness",
-  "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_281_1_10_0_11521.png"
+  "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_281_1_10_0_11521.png",
+  "about": "lorem 50"
 },
- {" id": 11,
+ {" id": 26,
    "appName": "Polar Flow",
    "category": "Activity Trackers",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_331_1_10_0_52964.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_331_1_10_0_52964.png",
+   "about": "lorem 50"
  },
- {" id": 12,
+ {" id": 27,
    "appName": "Runtastic",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_2_1_10_0_87968.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_2_1_10_0_87968.png",
+   "about": "lorem 50"
  },
- {" id": 13,
+ {" id": 28,
    "appName": "Pacer Pedometer",
    "category": "Activity Fitness",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_280_1_10_0_42653.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_280_1_10_0_42653.png",
+   "about": "lorem 50"
  },
  
  {
-  " id": 14,
+  " id": 29,
    "appName": "Fitbit",
    "category": "Activity Trackers",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_30_1_10_0_45741.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_30_1_10_0_45741.png",
+   "about": "lorem 50"
 },
-{" id": 15,
+{" id": 30,
  "appName": "Garmin connect",
  "category": "Activity Trackers",
- "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_120_1_10_0_9523.png"
+ "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_120_1_10_0_9523.png",
+ "about": "lorem 50"
 },
-{" id": 1,
+{" id": 31,
   "appName": "Accupedo Pedom",
   "category": "Activity Fitness",
-  "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_281_1_10_0_11521.png"
+  "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_281_1_10_0_11521.png",
+  "about": "lorem 50"
 },
- {" id": 11,
+ {" id": 32,
    "appName": "Polar Flow",
    "category": "Activity Trackers",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_331_1_10_0_52964.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_331_1_10_0_52964.png",
+   "about": "lorem 50"
  },
- {" id": 12,
+ {" id": 33,
    "appName": "Runtastic",
    "category": "Fitness Apps",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_2_1_10_0_87968.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_2_1_10_0_87968.png",
+   "about": "lorem 50"
  },
- {" id": 13,
+ {" id": 34,
    "appName": "Pacer Pedometer",
    "category": "Activity Fitness",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_280_1_10_0_42653.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_280_1_10_0_42653.png",
+   "about": "lorem 50"
  },
  
  {
-  " id": 14,
+  " id": 35,
    "appName": "Fitbit",
    "category": "Activity Trackers",
-   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_30_1_10_0_45741.png"
+   "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_30_1_10_0_45741.png",
+   "about": "lorem 50"
 },
-{" id": 15,
+{" id": 36,
  "appName": "Garmin connect",
  "category": "Activity Trackers",
- "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_120_1_10_0_9523.png"
+ "image": 	"https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_120_1_10_0_9523.png",
+ "about": "lorem 50"
 }
 ]
 }
