@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
+// import { Invite } from "./Invite";
 import styles from "./NewsFeed.module.css";
 export const NewsFeed = () => {
   const [clicked,setClicked] =useState(true)
@@ -71,7 +72,8 @@ else{
           </button>
         </div>
       </div>
-      {tasks.map((elem) => (
+   
+     {tasks.map((elem) => (
         <div key={elem.id}>
           <div className={styles.flexdiv}>
             <div>
@@ -85,7 +87,7 @@ else{
                 <div><a href="#">debnathrenaissance</a>{" "}</div>
                 <div className={styles.modal} onClick={() => handleDelete(elem.id)}>x</div>
               </div>
-              <div>{elem.value}</div>
+              <div className={styles.val}>{elem.value}</div>
               <div className={styles.likeAndcomment}>
                 <div className={styles.like} style={{color: clicked? 'grey' : 'rgb(0, 102, 238)'}} onClick={like}>Like</div>
                 <div>Comment</div>
@@ -104,6 +106,7 @@ else{
           </div>
         </div>
       ))}
+
       {/* <div style={{ border: "2px solid black" }}></div> */}
     </div>
   );

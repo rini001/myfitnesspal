@@ -1,10 +1,11 @@
 .maindiv{
 margin-left: 24% ;
+margin-top: 20px;
 }
 
 .feed{
     width: 44%;
-    height: 2rem;
+    height: 2.2rem;
     max-width: 100%;
     min-width: 200px;
     display: flex;
@@ -67,6 +68,7 @@ margin-left: 24% ;
   .nameAndModal{
       display: flex;
       column-gap: 27.7rem;
+      margin-left: 11px;
       /* border: 2px solid blue; */
   }
   .modal{
@@ -82,7 +84,7 @@ margin-left: 24% ;
   }
   .likeAndcomment{
       display: flex;
-      color: rgb(0, 102, 238);
+      color: grey;
      font-weight: 600;
      gap: 5px;
      padding: 15px;
@@ -105,4 +107,7 @@ margin-left: 24% ;
   .like{
     cursor: pointer;
     background-color: 1px solid rgb(242, 242, 242);
+  }
+  .val{
+      padding-left: 14.8px;
   }

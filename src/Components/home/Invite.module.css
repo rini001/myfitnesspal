@@ -1,0 +1,62 @@
+.maindiv{
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 23.8%;
+    margin-top: 18px;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(224, 224, 224);
+   padding: 20px;
+
+}
+.para1{
+margin: 0px 0px 10px;
+font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+font-size: 17px;
+font-weight: 700;
+line-height: 18px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.para2{
+    margin: 13px 0px;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+.mainbutton{
+    border-radius: 2px;
+    min-width: 210px;
+    min-height: 48px;
+    background-color: rgb(255, 255, 255);
+    padding: 6px 16px;
+    border: 1px solid rgb(224, 224, 224);
+    margin: 0px;
+   display: inline-flex;
+}
+.btnInside{
+    margin: 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+}
+.btnIcon{
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 25px;
+    margin-right: 16px
+}

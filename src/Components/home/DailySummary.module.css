@@ -1,0 +1,97 @@
+.maindiv{
+    /* border: 2px solid black; */
+    margin-left: 24%;
+    margin-top: 20px;
+}
+
+.div1{
+    width: 41%;
+    border: 2px solid black;
+    max-width: 100%;
+    min-width: 200px;
+    display: flex;
+    padding: 20px;
+}
+.uploadphoto{
+    width: 120px;
+    height: 120px;
+    text-size-adjust: 100%;
+    background-color: rgb(230, 230, 230);
+}
+.para01{
+    margin: 0px;
+    color: rgb(153, 153, 153);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 1.66;
+    padding: 16px 10px 10px;
+}
+.heading{
+    margin: 2em 0px 0px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.anchor{
+    margin: 0px;
+    color: rgb(0, 102, 238);
+    text-decoration: none;
+}
+.anchor:hover{
+    color: orangered;
+}
+.div2{
+border: 2px solid black;
+display: grid;
+row-gap: 5px;
+}
+.lbs{
+    padding: 7px;
+    border: 2px solid black;
+}
+.cal{
+    margin: 0px;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    color: rgb(109, 113, 122);
+    line-height: 1;
+    font-size: 12px;
+}
+.change{
+    margin: 0px 0px 0px 2px;
+    color: rgb(0, 102, 238);
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.calCount{
+    margin: 0px;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    color: rgb(133, 196, 0);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+.summary{
+    width: 44%;
+    height: 2.2rem;
+    max-width: 100%;
+    min-width: 200px;
+    display: flex;
+    background-color: rgb(10, 82, 130);
+    color: rgb(255, 255, 255);
+}

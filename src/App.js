@@ -3,6 +3,8 @@
 // import { Slides } from "./Components/appPage/Slides";
 // import { Sidebar } from "./Components/appPage/Sidebar";
 import "./App.css";
+import { DailySummary } from "./Components/home/DailySummary";
+import { Invite } from "./Components/home/Invite";
 import { NewsFeed } from "./Components/home/NewsFeed";
 // import { Head } from './Components/Head';
 // import {Navbar} from './Components/Navbar';
@@ -18,7 +20,9 @@ function App() {
       <Sidebar />
       <FeaturedApps />
       <MarketPlace /> */}
+      <DailySummary/>
       <NewsFeed/>
+      <Invite/>
     </div>
   );
 }
