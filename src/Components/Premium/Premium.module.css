@@ -1,0 +1,931 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #222628;
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: white;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+button,
+input {
+  overflow: visible;
+}
+img {
+  border-style: none;
+}
+main {
+  display: block;
+}
+
+.MuiContainer-root {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.MuiTypography_root {
+  margin: 0;
+}
+.MuiTypography_body1 {
+  font-size: 1rem;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.jss54 {
+  width: 100%;
+  margin: 0px auto 48px;
+  display: flex;
+  max-width: 890px;
+  justify-content: space-between;
+}
+
+.jss55 {
+  max-width: 376px;
+  padding-top: 64px;
+}
+.jss58 {
+  margin-bottom: 16px;
+  text-align: left;
+}
+.jss65 {
+  color: #222628;
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 0.875rem;
+  background: #ffc600;
+  font-weight: 600;
+  line-height: 1.4;
+  border-radius: 6.6px;
+  margin-bottom: 0;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+.jss59 {
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.jss60 {
+  color: #222628;
+  white-space: pre-wrap;
+}
+.jss74 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.08;
+}
+
+.jss61 {
+  margin-bottom: 48px;
+}
+.jss62 {
+  color: #6d717a;
+}
+
+.MuiButton_root {
+  color: #222628;
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.jss63 {
+  min-width: 344px;
+  min-height: 60px;
+  text-transform: uppercase;
+}
+
+.jss85 {
+  box-shadow: none;
+}
+
+.jss84 {
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 700;
+}
+
+.jss83 {
+  letter-spacing: 0.015625rem;
+}
+
+.MuiButton_containedPrimary {
+  color: #fff;
+  background-color: #0066ee;
+}
+.MuiButton_contained {
+  padding: 8px 24px;
+}
+
+.MuiButtonBase_root {
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.MuiButton_label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.jss80 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.jss56 {
+  display: none;
+}
+
+.jss57 {
+  width: 100%;
+  max-width: 411px;
+  padding-top: 32px;
+}
+
+.MuiGrid_spacing_xs_3 {
+  width: calc(100% + 12px);
+  margin: -6px;
+}
+
+.MuiGrid_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.jss64 {
+  margin: 0px auto 32px;
+  max-width: 968px;
+}
+
+.MuiGrid_spacing_xs_3 > .MuiGrid_item {
+  padding: 6px;
+}
+.MuiGrid_item {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.jss86 {
+  text-align: center;
+}
+
+.jss87 {
+  margin-bottom: 4px;
+}
+.jss88 {
+  max-width: 160px;
+}
+.jss90 {
+  margin-bottom: 4px;
+}
+
+.jss91 {
+  color: #222628;
+}
+.MuiTypography_h3 {
+  font-size: 1.125rem;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.jss92 {
+  color: #6d717a;
+}
+
+.MuiContainer_root {
+  width: 100%;
+  display: block;
+  padding: 48px 0px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.jss93 {
+  padding: 4px 0px 16px;
+  background-size: 70px 165px;
+  background-image: url(https://www.myfitnesspal.com/react-static/73d9322bba99e1feec5b35fe19026e1f.png);
+  background-repeat: no-repeat;
+  background-position: top 20px right;
+}
+.jss94 {
+  position: relative;
+  max-width: 100%;
+}
+.jss96 {
+  padding: 24px 16px 32px;
+  text-align: left;
+}
+.jss97 {
+  font-size: 1.25rem;
+}
+
+.jss98 {
+  color: #6d717a;
+  margin-top: 20px;
+  padding-right: 15%;
+}
+.jss95 {
+  width: 100%;
+}
+
+.MuiTable_root {
+  width: 100%;
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.MuiTableHead_root {
+  display: table-header-group;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.MuiTableRow_root {
+  color: inherit;
+  display: table-row;
+  outline: 0;
+  vertical-align: middle;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.jss95 thead tr th:nth-child(1) {
+  width: 70%;
+}
+
+.MuiTableCell_alignCenter {
+  text-align: center;
+}
+
+.MuiTableCell_head {
+  color: #222628;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.MuiTableCell_root {
+  display: table-cell;
+  padding: 16px;
+  font-size: 0.875rem;
+  text-align: left;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(251, 251, 252, 1);
+  vertical-align: inherit;
+}
+
+.jss95 thead tr th:not(:first-child) {
+  width: 15%;
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+
+.jss100 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.jss103:first-child {
+  border-top: 2px solid #ffc600;
+}
+
+.jss95 tbody tr {
+  height: 96px;
+  background-color: white;
+}
+
+.jss103 {
+  border-bottom: 2px solid #eeeeee;
+}
+
+.jss95 tbody tr td:first-child {
+  padding-left: 24px;
+  padding-right: 0;
+}
+.MuiTableCell_alignLeft {
+  text-align: left;
+}
+
+.MuiTableCell_body {
+  color: #222628;
+}
+.jss104 {
+  color: #222628;
+  margin-bottom: 4px;
+}
+.MuiTypography_h4 {
+  font-size: 16px;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+}
+strong,
+b {
+  font-weight: 700;
+}
+
+.jss105 {
+  color: #6d717a;
+}
+.jss114 {
+  position: relative;
+}
+
+.jss116 {
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.jss126 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+.MuiPaper_rounded {
+  border-radius: 4px;
+}
+.MuiPaper_root {
+  color: #222628;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #ffffff;
+}
+.MuiExpansionPanel_rounded {
+  overflow: hidden;
+  border-radius: 4px;
+}
+.MuiExpansionPanel_root {
+  position: relative;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  margin-bottom: 16px;
+}
+.MuiPaper_elevation1 {
+  box-shadow: 0px 2px 4px 0 rgb(0 0 0 / 10%), 0px 0px 1px 0px rgb(0 0 0 / 5%),
+    0px 0px 3px 0px rgb(0 0 0 / 5%);
+}
+
+.MuiExpansionPanel_root:before {
+  top: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  content: "";
+  opacity: 1;
+  position: absolute;
+  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: transparent;
+}
+
+.MuiExpansionPanelSummary_root:hover:not(.Mui_disabled) {
+  cursor: pointer;
+}
+.MuiExpansionPanelSummary_root {
+  display: flex;
+  padding: 0px 24px;
+  min-height: 80px;
+  transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fafafa;
+}
+
+.MuiExpansionPanelSummary_content {
+  margin: 12px 0;
+  display: flex;
+  flex-grow: 1;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiTypography_h4 {
+  font-size: 16px;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.MuiExpansionPanelSummary_expandIcon:hover {
+  background-color: transparent;
+}
+
+.MuiExpansionPanelSummary_expandIcon {
+  color: #9e9e9e;
+  transform: rotate(0deg);
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/* .MuiIconButton_edgeEnd {
+  margin-right: -12px;
+} */
+
+.MuiIconButton_root {
+  flex: 0 0 auto;
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.MuiIconButton_label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiSvgIcon_root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.p1 {
+  min-height: 0px;
+  height: auto;
+  transition-duration: 255ms;
+}
+
+.MuiCollapse_entered {
+  overflow: visible;
+}
+.MuiCollapse_container {
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiCollapse_wrapper {
+  display: flex;
+}
+.MuiCollapse_wrapperInner {
+  width: 100%;
+}
+
+.MuiExpansionPanelDetails_root {
+  color: #6d717a;
+  display: flex;
+  padding: 24px;
+  background-color: #ffffff;
+}
+.MuiTypography_colorTextSecondary {
+  color: #6d717a;
+}
+
+.MuiTypography_body2 {
+  font-size: 0.875rem;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+.hidetext {
+  display: none;
+}
+.showtext {
+  display: block;
+}
+.jss134 {
+  background: url(https://www.myfitnesspal.com/react-static/5505f9a4cc71985801691b723cf64d9a.png)
+      top right no-repeat,
+    url(https://www.myfitnesspal.com/react-static/b96cec4f94f4413f2891c9bde43f3bcc.png)
+      bottom left no-repeat;
+  padding-bottom: 200px;
+  background-size: 350px 819px, 169px 217px;
+}
+
+.jss135 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.jss66 {
+  text-transform: uppercase;
+}
+
+.jss136 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.jss75 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.jss137 {
+  color: #222628;
+}
+.jss138 {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.jss139 {
+  color: #6d717a;
+}
+.jss140 {
+  display: flex;
+  justify-content: center;
+}
+.jss141 {
+  display: flex;
+  justify-content: center;
+}
+
+.jss260 {
+  border: 4px solid;
+  margin: 0px 12px;
+  padding: 48px 32px 32px 32px;
+  position: relative;
+  min-width: 400px;
+  box-shadow: 0 0 14px 0 rgb(0 0 0 / 13%);
+  border-color: #ffc600;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.jss262 {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 4px 0px;
+  position: absolute;
+  min-height: 26px;
+  text-align: center;
+  background-color: #ffc600;
+}
+.jss261 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.jss142 {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.jss143 {
+  color: #222628;
+  margin-bottom: 24px;
+}
+
+.jss146 {
+  text-transform: uppercase;
+}
+
+.jss144 {
+  margin-bottom: 24px;
+}
+.jss145 {
+  margin-bottom: 4px;
+}
+.MuiTypography_displayInline {
+  display: inline;
+}
+
+.jss147 {
+  margin: 0px auto 32px;
+  max-width: 230px;
+}
+.jss148 {
+  color: #6d717a;
+}
+.jss149 {
+  margin-top: auto;
+}
+.jss150 {
+  width: 100%;
+  height: 60px;
+}
+
+.jss263 {
+  border: 4px solid;
+  margin: 0px 12px;
+  display: flex;
+  padding: 48px 32px 32px 32px;
+  min-width: 400px;
+  box-shadow: 0 0 14px 0 rgb(0 0 0 / 13%);
+  border-color: transparent;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.MuiTypography_h5 {
+  font-size: 0.875rem;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 600;
+  line-height: 1.334;
+}
+
+.MuiButton_outlinedPrimary {
+  color: #0066ee;
+  border: 1px solid rgba(0, 102, 238, 0.5);
+  border-color: #0066ee;
+  border-width: 2px;
+  background-color: white;
+}
+
+@media (max-width: 575.95px) {
+  .jss54 {
+    margin: 0px auto 32px;
+    padding: 16px 8px 0px 8px;
+  }
+  .jss58 {
+    margin-bottom: 24px;
+  }
+  .jss59 {
+    margin-bottom: 16px;
+  }
+  .jss61 {
+    max-width: 270px;
+    margin-bottom: 0;
+  }
+  .jss63 {
+    display: none;
+  }
+  .jss64 {
+    margin-bottom: 32px;
+  }
+  .jss64 > div:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  .jss86 {
+    display: flex;
+    text-align: left;
+  }
+  .jss87 {
+    margin: 0px 16px 0px 0px;
+  }
+  .jss134 {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .MuiContainer_root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .jss74 {
+    font-size: 2.5463rem;
+  }
+
+  .MuiGrid_grid_sm_4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiTypography_h3 {
+    font-size: 1.25rem;
+  }
+  .jss75 {
+    font-size: 1.7857rem;
+  }
+  .jss117 {
+    margin: auto;
+    padding: 0px 24px;
+    max-width: 800px;
+  }
+  .jss114 {
+    text-align: center;
+  }
+  .jss116 {
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+  .jss126 {
+    font-size: 1.7857rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .jss56 {
+    display: block;
+  }
+  .jss93 {
+    padding-bottom: 0;
+    background-image: none;
+  }
+  .jss96 {
+    height: 100%;
+    padding: 32px 16px 32px;
+    background: none;
+    text-align: center;
+    background-image: none;
+  }
+  .jss97 {
+    font-size: 2rem;
+  }
+  .jss98 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .jss101 {
+    position: relative;
+  }
+
+  .jss102 {
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    box-shadow: 0px 4px 14px 0px rgb(0 0 0 / 15%);
+  }
+  .jss95 {
+    position: relative;
+  }
+  .jss100 {
+    font-size: 0.875rem;
+  }
+  .jss95 tbody tr td:first-child {
+    padding-left: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .jss55 {
+    max-width: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 0.875rem;
+    line-height: 1.75em;
+  }
+}
+
+@media (max-width: 991.95px) {
+  .jss134 {
+    padding: 0 12px 100px 12px;
+    background: none;
+  }
+  .jss141 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .jss55 {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jss53 {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-size: 330px 548px;
+    background-image: url(https://www.myfitnesspal.com/react-static/d25745179dd7595c07dc1f9b09b89efa.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  .jss52 {
+    background-size: contain;
+    background-image: url(https://www.myfitnesspal.com/react-static/78a85ff61ae51bacb70e2839935c0b84.svg);
+  }
+  .jss74 {
+    font-size: 2.7778rem;
+  }
+  .MuiTypography_h3 {
+    font-size: 1.25rem;
+  }
+  .jss75 {
+    font-size: 2.0089rem;
+  }
+  .jss126 {
+    font-size: 2.0089rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3.75rem;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.88em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .MuiContainer_maxWidthLg {
+    max-width: 1200px;
+  }
+  .jss74 {
+    font-size: 3.0093rem;
+  }
+  .MuiTypography_h3 {
+    font-size: 1.25rem;
+  }
+  .jss93 {
+    padding: 8px 0px 48px;
+    overflow: hidden;
+    max-width: 1366px;
+    background-size: auto;
+    background-image: url(https://www.myfitnesspal.com/react-static/0e3daba96c7f16b61bd848c187c939ae.png),
+      url(https://www.myfitnesspal.com/react-static/c07e47cc8b53532097af736f71cc339d.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 30px left, bottom right;
+  }
+  .jss94 {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .jss96 {
+    margin-bottom: 0;
+  }
+  .jss75 {
+    font-size: 2.2321rem;
+  }
+
+  .jss102 {
+    top: 38px;
+    min-width: 800px;
+  }
+  .jss95 thead tr th:nth-child(1) {
+    width: 60%;
+  }
+  .jss95 thead tr th:nth-child(2) {
+    padding-bottom: 12px;
+  }
+  .jss95 thead tr th:nth-child(3) {
+    width: 17%;
+    padding-bottom: 12px;
+  }
+  .jss95 tbody {
+    border-radius: 4px;
+  }
+  .jss95 tbody tr td:first-child {
+    padding-left: 48px;
+  }
+  .jss126 {
+    font-size: 2.2321rem;
+  }
+}
