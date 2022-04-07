@@ -1,0 +1,63 @@
+
+.text{
+    max-width: 22.5em;
+    margin-left: 25rem;
+}
+.text button{
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    width: 16rem;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.text p span a{
+    text-decoration: none;
+    color: blue;
+}
+.text h1{
+    font-size: clamp(1rem, 1rem + 50vw ,3.2rem);
+    font-weight: 800;
+}
+.image{
+    display: block;
+    background-image: url('https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-collage-top-large%402x.dcc5ac56.png&w=1200&q=75" alt="img');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -31rem;
+}
+.yellow{
+    margin-top: -45rem;
+    float: right;
+    overflow: hidden;
+    width: 12%;
+    height: 100vh;
+    background-color: #ffdd33;
+}
+
+@media (max-width: 1200px) {
+    .yellow{
+        display: none;
+    }
+    .text{
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 45rem){
+    .image{
+        background-image: url('https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-collage-top-small%402x.7e48df21.png&w=750&q=75');
+        margin-top: -15rem;
+    }
+    .yellow{
+        display: none;
+    }
+    .text{
+        padding: 1rem;
+        margin-left: 4px;
+    }
+}

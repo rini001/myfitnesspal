@@ -1,0 +1,26 @@
+.box{
+    text-align: center;
+    margin: 2rem auto;
+    
+}
+.box h1{
+    font-size: 3rem;
+    font-weight: 800;
+    width: 40vw;
+    margin: 0px auto;
+}
+.box p{
+    width: 40vw;
+    margin: 0px auto;
+}
+
+.icon > *{
+    padding: 1rem;
+    width: 200px;
+}
+
+.img img{
+    margin: 5rem;
+    height: 600px;
+    width: 50%;
+}
