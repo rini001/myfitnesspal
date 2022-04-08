@@ -1,6 +1,26 @@
+import { useEffect,useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import ex from '../Exercise/ex.module.css'
+import { getData } from '../Redux/Exercise/exAction'
 const Exercise = () => {
-    return(
+    const exname = useSelector(state => state.exercise)
+    const dispatch = useDispatch()
+    const [search, setSearch] = useState([])
+    const [find, setFind] = useState('')
+
+
+    function handleChange(event){
+        setSearch(event.target.value)
+    }
+    function handleSubmit(event){
+        event.preventDefault()
+        dispatch(getData(search))
+    }
+    const {exercise, loading} = exname
+    console.log(exname);
+   
+   return(
+       
         <div className={ex.mainb}>
             <section className={ex.bold}>
                 <h2>Calories Burned From Exercise</h2>
@@ -8,13 +28,22 @@ const Exercise = () => {
             </section>
             <section className={ex.dev}>
                 <section className={ex.search}>
-                    <form className={ex.sform}>
+                    <form className={ex.sform} onSubmit={handleSubmit}>
                         <p>Search our exercise database by name:</p>
-                        <input type="text" />
+                        <input type="text" value={search} onChange={handleChange}/>
                         <input type="submit"/>
                     </form>
                     <p>Matching exercises:</p>
-                    <section className={ex.box}></section>
+                    <section className={ex.box}>
+
+                        {exercise.map(res => {
+                            return (
+                                <div key={res.id}>
+                                    <p style={{cursor:'pointer', fontSize:'16px', color: 'black', padding:'0px 2px'}} onClick={() => setFind(res.title)}>{res.title}</p>
+                                </div>
+                            )
+                        })}
+                    </section>
                 </section>
                 <section className={ex.select}>
                     <h3>...or choose an exercise below:</h3>
@@ -29,12 +58,13 @@ const Exercise = () => {
                     <section className={ex.calc}>
                         <section className={ex.ctext}>
                             <h3>How Many Calories Did I Burn ?</h3>
+                            <h4>{find}</h4>
                         </section>    
                         <section className={ex.wc}>
                             <form>
                             <span>Your Weight: </span>
                             <input type="text"/>
-                            <select name="" id="">
+                            <select>
                                 <option value="pounds">Pounds</option>
                                 <option value="kilogram">Kilogram</option>
                             </select>
@@ -51,8 +81,13 @@ const Exercise = () => {
                     </section>
                 </section>
             </section>
+           
         </div>
     )
+}
+
+const mapStateToProps = state => {
+
 }
 
 export {Exercise}
