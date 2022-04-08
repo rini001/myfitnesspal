@@ -1,15 +1,82 @@
 .mainDiv{
-    width: 20%;
-    margin-top: -160px;
-    margin-left: 80%;
+    width: 10%;
+    margin-left: 70%;
     position:absolute;
+    margin-top: -190px;
+    display: grid;
+    grid-template-rows: 3rem 20rem;
+    height: 26rem;
 }
- @media only screen and (max-width: 800px) {
+.inputbox,.ic{
+    font-size: 18px;
+    color: #666666;
+    position: absolute;
+   
+    /* top: 9px;
+    left: 11px; */
+  
+}
+ .inputbox{
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 10px 10px 10px 30px;
+    background: #F7F7F7;
+    border: 1px solid #D8D8D8;
+    border: 0px;
+    width: 12rem;
+    color: #666666;
+}
+.heading3{
+    color:  #0a5282;
+    font-weight:normal;
+}
+.ic{
+    color:grey;
+   margin-top: 12px;
+   margin-left: 10px ;
+}
+.same {
+    border-bottom: 1px solid #D8D8D8;
+   width: 12rem;
+   cursor: pointer;
+   height: 2rem;
+   /* color: #0072BC; */
+}
+.all{
+    border-bottom: 1px solid #D8D8D8;
+    width: 12rem;
+    cursor: pointer;
+    height: 2rem;
+    background-color:#0a5282;
+    color: white;
+    ;  
+}
+ a{
+    color: #0072BC;
+    cursor: pointer;
+    text-decoration: none;
+    font-size:small;
+}
+.same:hover a{
+    cursor: pointer;
+    background-color:#0a5282 ;
+    color: white;
+}
+.same:hover{
+    cursor: pointer;
+    background-color:#0a5282 ;
+}
+ /* @media only screen and (max-width: 800px) {
+
     .mainDiv{
-        width: 20%;
+        width: 10%;
         margin-top: -160px;
-        margin-left: 80%;
+        margin-left: 60%;
         position:absolute;
     }
     
       }
+      .same:hover{
+          background-color:#0a5282 ;
+          color: white;
+      } */

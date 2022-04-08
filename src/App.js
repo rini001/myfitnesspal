@@ -1,12 +1,12 @@
-import { MarketPlace } from "./Components/AppPage/MarketPlace";
-import { FeaturedApps } from "./Components/AppPage/FeaturedApps";
-import { Slides } from "./Components/AppPage/Slides";
-import { Sidebar } from "./Components/AppPage/Sidebar";
-// import "./App.css";
+// import { MarketPlace } from "./Components/AppPage/MarketPlace";
+// import { FeaturedApps } from "./Components/AppPage/FeaturedApps";
+// import { Slides } from "./Components/AppPage/Slides";
+// import { Sidebar } from "./Components/AppPage/Sidebar";
+// // import "./App.css";
 import {Navbar} from './Components/navigation/Navbar';
-import { Hero } from "./Components/Home/Hero";
+// import { Hero } from "./Components/Home/Hero";
 // import {About} from './Components/About';
-
+import {Myhome} from './Components/Home/myHome/Myhome'
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ function App() {
       <FeaturedApps />
 
       <MarketPlace /> */}
+      <Myhome/>
     </div>
   );
 }

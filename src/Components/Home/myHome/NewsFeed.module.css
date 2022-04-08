@@ -1,0 +1,113 @@
+.maindiv{
+margin-left: 24% ;
+margin-top: 20px;
+}
+
+.feed{
+    width: 44%;
+    height: 2.2rem;
+    max-width: 100%;
+    min-width: 200px;
+    display: flex;
+    background-color: rgb(10, 82, 130);
+    color: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+}
+.txtareaandbtn{
+    column-gap: 10px;
+    /* height: 4rem; */
+    display: flex;
+    width: 41.29%;
+    padding: 20px;
+    background-color: rgb(246, 246, 246);
+    /* display: block; */
+}
+.txt{
+   width: 85%;
+   font-size:300;
+   /* color: rgb(255, 255, 255); */
+   font-family:  "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+   
+
+}
+ .inp:focus,.txt:focus{
+    outline: none;
+    border:2px solid rgb(0, 102, 238);;
+}
+.btn{
+    min-width: 15%;
+    background-color: rgb(0, 102, 238);
+    color: white;
+    padding: 0px;
+    height: 2.5rem;
+    border-radius: 8px ;
+    border: 0px;
+}
+.flexdiv{
+    display: flex;
+    width: 35%;
+    margin-left: 20%;
+    margin-top: 20px;
+    gap: 12px;
+    /* border: 2px solid red; */
+}
+.imgandinputbox{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 96.3%;
+    gap: 15px;
+    padding: 12px;
+    background-color: rgb(246, 246, 246);
+}
+.commentImg{
+    width: 1.6rem;
+    /* border-radius: 4px; */
+}
+
+  .nameAndModal{
+      display: flex;
+      column-gap: 27.7rem;
+      margin-left: 11px;
+      /* border: 2px solid blue; */
+  }
+  .modal{
+      /* border: 2px solid black; */
+      width: 2rem;
+      text-align: center;
+      font-size: larger;
+      font-weight: medium;
+      color:  rgb(192, 192, 192);
+  }
+  .modal:hover{
+      color:rgb(0, 102, 238);
+  }
+  .likeAndcomment{
+      display: flex;
+      color: grey;
+     font-weight: 600;
+     gap: 5px;
+     padding: 15px;
+     
+  }
+  a{
+     text-decoration: none;
+     color: rgb(0, 102, 238);
+  }
+  .inp{
+      width: 100%;
+      border-radius: 4px;
+    border: 1px solid rgb(242, 242, 242); ;
+    /* background-color: rgb(242, 242, 242); */
+  }
+  .withoutPic{
+    box-shadow:rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(0 0 0 / 5%) 0px 0px 1px 0px, rgb(0 0 0 / 5%) 0px 0px 3px 0px;
+    border-radius: 4px;
+    
+  }
+  .like{
+    cursor: pointer;
+    background-color: 1px solid rgb(242, 242, 242);
+  }
+  .val{
+      padding-left: 14.8px;
+  }

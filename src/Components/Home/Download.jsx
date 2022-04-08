@@ -1,6 +1,6 @@
 import doe from '../Home/do.module.css'
-import apple from '/Users/ayush/pro/fitness/src/assets/apple-app-store-badge.svg'
-import google from '/Users/ayush/pro/fitness/src/assets/google-play-badge.svg'
+import apple from '../assets/apple-app-store-badge.svg'
+import google from '../assets/google-play-badge.svg'
 
 const Download = () => {
     return (

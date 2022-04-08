@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {AllApps} from '../src/Components/AppPage/AllApps'
 import {About} from '../src/Components/About'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -9,12 +10,18 @@ import { Hero } from './Components/Home/Hero';
 import {Premium} from './Components/Premium/Premium'
 import { Exercise } from './Components/Exercise/Exercise';
 import { Find } from './Components/Search/Find';
+import { AppsDetail } from './Components/AppPage/AppsDetail';
+import { Search } from './Components/AppPage/Search';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
      <Routes>
        <Route path='/' element={<App/>}>
           <Route index element={<Hero/>}/>
+          <Route path="/Apps" element={<AllApps />}></Route>
+          <Route path="/Apps/:userId" element={<AppsDetail />}></Route>	
+          <Route path="/activityTrackers" element={<Search />}></Route>
+          <Route path="/activityTrackers/:userId" element={<AppsDetail />}></Route>	
           <Route path='about' element={<About/>}/>
           <Route path='premium' element={<Premium/>}/>
           <Route path='exercise' element={<Exercise/>}/>

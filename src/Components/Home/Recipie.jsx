@@ -1,7 +1,7 @@
 import rec from '../Home/rec.module.css'
 import { Card } from './Card'
-import salad from '/Users/ayush/pro/fitness/src/assets/salad.png'
-import red from '/Users/ayush/pro/fitness/src/assets/red.png'
+import salad from '../assets/salad.png'
+import red from '../assets/red.png'
 const Recipie = () =>{
     return(
         <div className = {rec.rbox}>

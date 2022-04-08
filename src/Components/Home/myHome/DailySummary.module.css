@@ -1,0 +1,233 @@
+.maindiv{
+    /* border: 2px solid black; */
+    margin-left: 24%;
+    margin-top: 20px;
+ 
+}
+
+.div1{
+    width: 41.2%;
+    /* border: 2px solid black; */
+    max-width: 100%;
+    min-width: 200px;
+    display: flex;
+    padding: 20px;
+    gap: 12px;
+    background-color: rgb(246, 246, 246)
+}
+.uploadphoto{
+    width: 120px;
+    height: 120px;
+    text-size-adjust: 100%;
+    background-color: rgb(230, 230, 230);
+}
+.uploadphoto:hover{
+    border: 1px solid rgb(109, 113, 122);
+}
+.para01{
+    margin: 0px;
+    color: rgb(153, 153, 153);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 1.66;
+    padding: 16px 10px 10px;
+}
+.heading{
+    margin: 2em 0px 0px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.anchor{
+    margin: 0px;
+    color: rgb(0, 102, 238);
+    text-decoration: none;
+}
+.anchor:hover{
+    color: orangered;
+}
+.div2{
+/* border: 2px solid black; */
+display: grid;
+row-gap: 5px;
+}
+.lbs{
+    padding: 7px;
+    /* border: 2px solid black; */
+}
+.cal{
+    margin: 0px;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    color: rgb(109, 113, 122);
+    line-height: 1;
+    font-size: 12px;
+}
+.change{
+    margin: 0px 0px 0px 2px;
+    color: rgb(0, 102, 238);
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.calCount{
+    margin: 0px;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    color: rgb(133, 196, 0);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+.summary{
+    width: 44%;
+    height: 2.2rem;
+    max-width: 100%;
+    min-width: 200px;
+    display: flex;
+    background-color: rgb(10, 82, 130);
+    color: rgb(255, 255, 255);
+}
+.div001{
+    display: flex;
+    gap: 6rem;
+}
+.addExercise{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    margin: 0px 12px 0px 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    min-width: 64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: none;
+    letter-spacing: 0.015625rem;
+    color: rgb(102, 102, 102);
+    padding: 8px 24px;
+    border: 1px solid rgb(210, 210, 210);
+    height: 36px;
+    text-transform: capitalize;
+    margin: 0px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 1.66;
+}
+.addFood{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    min-width: 64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: none;
+    letter-spacing: 0.015625rem;
+    color: rgb(102, 102, 102);
+    padding: 8px 24px;
+    border: 1px solid rgb(210, 210, 210);
+    height: 36px;
+    text-transform: capitalize;
+    margin: 0px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 1.66;
+}
+.btnFlex{
+    height: 3rem;
+display: flex;
+/* border: 2px solid black; */
+gap: 20px;
+}
+.halfborder{
+    border-bottom: 1px solid   rgb(230, 230, 230);
+    height: fit-content;
+}
+.hi{
+  /* padding: 15px; */
+  /* border:  2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  /* display: flex;
+  flex-flow: row wrap; */
+  column-gap: 2px;
+}
+.d1{
+    /* border: 2px solid red; */
+    padding: 0px;
+    position: relative;
+  
+}
+.p1{
+    margin: 0px 0px 2px;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.p2{
+    margin: 0px;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgb(153, 153, 153)
+}
+.hi1{
+    margin-top: 10px;
+    background-color: rgb(230, 230, 230);
+  /* border:  2px solid black; */
+  cursor: pointer;
+  height: 0.8rem
+}

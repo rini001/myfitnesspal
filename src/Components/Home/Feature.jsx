@@ -1,7 +1,7 @@
 import feat from '../Home/feat.module.css'
-import shoe from '/Users/ayush/pro/fitness/src/assets/shoe.svg'
-import diary from '/Users/ayush/pro/fitness/src/assets/diary.svg'
-import barcode from '/Users/ayush/pro/fitness/src/assets/barcode.svg'
+import shoe from '../assets/shoe.svg'
+import diary from '../assets/diary.svg'
+import barcode from '../assets/barcode.svg'
 const Feature = () => {
     return (
         <div className={feat.fbox}>

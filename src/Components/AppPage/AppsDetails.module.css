@@ -1,0 +1,105 @@
+.flexDiv1{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: 22%;
+    width:auto;
+    gap: 18rem;
+    padding: 60px; 
+}
+.connectBtn{
+    margin-bottom: 18px;
+    width: auto;
+    display: inline-block;
+    border: none;
+    background-color: #1174B9;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+    font-size: 14px;
+
+
+}
+.buyBtn{
+    margin-bottom: 18px;
+    width: auto;
+    display: inline-block;
+    border: none;
+    background-color: #ebebeb;
+    color: #666666;
+    padding: 13px 48px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+    font-size: 14px;
+}
+.gridDiv1{
+    margin: auto;
+    display: grid;
+}
+.aboutDiv{
+    margin-left: 24%;
+}
+.btnAndSearch{
+   display:flex;
+    gap: 6rem;
+}
+/* .wrap {
+    margin: auto;
+    position: relative;
+    text-align: left;
+    width: 940px;
+    display: inline-block;
+    overflow: hidden;
+} */
+.slides{
+    margin-left: 10%;
+}
+
+.aboutDiv{
+    width: 34%;
+    text-align: left;
+    color: #999999
+}
+
+.logo{
+    width: 9rem;
+    height: 8rem;;
+}
+.names{
+    display:flex;
+    gap: 20px;
+}
+.n1{
+    font-size: 2rem;
+    color:#035184;
+    margin: 0 0 5px 0;
+}
+.n2{
+    color: #999999;
+}
+ @media only screen and (max-width: 800px) {
+   .flexDiv1{
+       width: fit-content;
+       margin: auto;
+       gap: 100px;
+       padding: 20px;
+       float: left;
+   }
+   .btnAndSearch{
+    display:flex;
+     gap: 1rem;
+ }
+ input,i{
+    width: min-content;
+  
+}
+.aboutDiv{
+    width: fit-content;
+    text-align: left;
+    color: #999999;
+    margin-left:0px;
+    /* border:2px solid blue */
+}
+  } 
