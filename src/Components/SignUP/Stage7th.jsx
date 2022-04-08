@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./All.module.css";
 
 const Stage7th = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../All.module.css";
+import styles from "./All.module.css";
 
 const Stage1st = () => {
   return (
