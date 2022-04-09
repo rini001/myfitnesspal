@@ -21,7 +21,7 @@
     width: 16rem;
     margin: 4rem auto;
 }
-button{
+.btn button{
 background-color: blue;
 border: 1px solid blue;
 color: white;

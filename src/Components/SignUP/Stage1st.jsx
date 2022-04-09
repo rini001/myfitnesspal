@@ -1,7 +1,10 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./All.module.css";
 
 const Stage1st = () => {
+  const nav = useNavigate()
+ 
   return (
     <>
       <section className={`${styles.MuiBox_root} ${styles.css_1fxczvu}`}>
@@ -36,7 +39,7 @@ const Stage1st = () => {
                 <div
                   className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.css_1wxaqej}`}
                 >
-                  <button
+                  <button onClick={() => nav('/stage2')}
                     className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root}  ${styles.css_1gpft47}`}
                     tabindex="0"
                     type="button"
@@ -44,7 +47,7 @@ const Stage1st = () => {
                     <span
                       className={`${styles.MuiTypography_root}${styles.MuiTypography_button1} ${styles.css_b9fb38}`}
                     >
-                      Continue
+                      <Link style={{color:'white'}} to="work">Continue</Link>
                     </span>
                   </button>
                 </div>

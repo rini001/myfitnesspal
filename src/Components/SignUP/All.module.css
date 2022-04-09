@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   background-color: rgb(240, 242, 244);
-}
+} 
 
 h1 {
   display: block;
@@ -386,15 +386,15 @@ form {
   border-bottom-right-radius: 4px;
 }
 
-/* .css_1dl41vr.Mui_selected {
+.css_1dl41vr.Mui_selected {
   border-color: rgb(0, 102, 238);
   background-color: white;
   color: rgb(34, 38, 40);
-} */
-/* .css_1dl41vr.Mui_selected .MuiTypography_body1 {
+}
+.css_1dl41vr.Mui_selected .MuiTypography_body1 {
   color: rgb(0, 102, 238);
   font-weight: 700;
-} */
+}
 
 .css_1dl41vr .MuiTypography_body2 {
   color: rgb(109, 113, 122);

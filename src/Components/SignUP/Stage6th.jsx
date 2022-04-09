@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./All.module.css";
+import { auth } from "../../firebase";
+import {createUserWithEmailAndPassword} from 'firebase/auth'
+
 
 const Stage6th = () => {
+  const nav = useNavigate()
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('')
+  const register = (e) => {
+      e.preventDefault()
+      createUserWithEmailAndPassword(auth, email, password)
+      .then((res) => {
+          console.log(res.user)
+          nav('/board')
+        })
+      .catch(err => console.log('err.message'))
+
+      setEmail('')
+      setPassword('')
+  }
   return (
     <>
       <section className={`${styles.MuiBox_root} ${styles.css_1fxczvu}`}>
@@ -20,7 +39,7 @@ const Stage6th = () => {
         >
           <main className={`${styles.MuiBox_root} ${styles.css_dmeihm}`}>
             <div className={`${styles.MuiBox_root} ${styles.css_1t5i1n4}`}>
-              <form className={styles.section3}>
+              <form className={styles.section3} onSubmit={register}>
                 <div
                   className={`${styles.MuiGrid_root} ${styles.MuiGrid_container} ${styles.MuiGrid_direction_xs_column} ${styles.css_1wkwmmc}`}
                 >
@@ -43,12 +62,14 @@ const Stage6th = () => {
                       className={`${styles.MuiOutlinedInput_root} ${styles.MuiInputBase_root} ${styles.MuiInputBase_colorPrimary} ${styles.Mui_error} ${styles.MuiInputBase_formControl} ${styles.css_1k70y2s}`}
                     >
                       <input
+                        onChange={(e) => setEmail(e.target.value)}
+                        
                         aria-invalid="true"
                         id="Email address"
                         name="email"
                         type="text"
                         className={`${styles.MuiOutlinedInput_input} ${styles.MuiInputBase_input} ${styles.css_5v3ygq}`}
-                        value=""
+                        value={email}
                       />
                       <fieldset
                         aria-hidden="true"
@@ -79,12 +100,14 @@ const Stage6th = () => {
                       className={`${styles.MuiOutlinedInput_root} ${styles.MuiInputBase_root} ${styles.MuiInputBase_colorPrimary} ${styles.MuiInputBase_formControl} ${styles.css_1k70y2s}`}
                     >
                       <input
+                        onChange={(e) => setPassword(e.target.value)}
+                        
                         aria-invalid="false"
                         id="Create a password"
                         name="password"
                         type="password"
                         className={`${styles.MuiOutlinedInput_input} ${styles.MuiInputBase_input} ${styles.css_5v3ygq}`}
-                        value=""
+                        value={password}
                       />
                       <fieldset
                         aria-hidden="true"
@@ -216,6 +239,9 @@ const Stage6th = () => {
                       </p>
                     </div>
                     <button
+                    onClick={() => 
+                      nav('/')
+                    }
                       className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root}  ${styles.css_stl828}`}
                       tabindex="0"
                       type="button"

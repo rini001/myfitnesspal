@@ -8,6 +8,10 @@ import {Navbar} from './Components/navigation/Navbar';
 import { Hero } from "./Components/Home/Hero";
 // import {About} from './Components/About';
 import {store} from './Redux/store'
+import {Board} from '../src/Components/EBoard/Board'
+import { Route } from "react-router-dom";
+import Stage1st from "./Components/SignUP/Stage1st";
+// import Stage1st from "./Components/SignUP/Stage1st";
 
 function App() {
   return (
@@ -19,7 +23,7 @@ function App() {
      <Navbar/>
      
       {/* <Slides />
-      <Sidebar />
+      <Sidebar /> 
       <FeaturedApps />
 
       <MarketPlace /> */}

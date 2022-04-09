@@ -7,6 +7,24 @@ const Exercise = () => {
     const dispatch = useDispatch()
     const [search, setSearch] = useState([])
     const [find, setFind] = useState('')
+    const [w, setW] = useState('')
+    const [cx, setCx] = useState('')
+    const [bur, setBur] = useState('')
+    
+    const handleme = (e) => {
+        setW(e.target.value)
+        
+    }
+
+    const handleSel = (e) => {
+        // w = +w
+      if(e.target.value === 'kilogram'){
+        setW(Number(w) / 2.25)
+      }
+      else{
+          setW(Number(w) * 2.25)
+      }
+    }
 
 
     function handleChange(event){
@@ -17,8 +35,18 @@ const Exercise = () => {
         dispatch(getData(search))
     }
     const {exercise, loading} = exname
-    console.log(exname);
+    console.log(exercise);
+    const handle = (e) => {
+    console.log(e.target.value);
+   }
    
+   const handlecx = (e) => {
+    setCx(e.target.value)
+    setBur(exercise[0].burned * cx)
+    console.log(bur);
+   }
+   
+  
    return(
        
         <div className={ex.mainb}>
@@ -47,12 +75,12 @@ const Exercise = () => {
                 </section>
                 <section className={ex.select}>
                     <h3>...or choose an exercise below:</h3>
-                    <form className={ex.op}>
+                    <form className={ex.op} onSubmit={handle}>
                         <select>
                             <option value="9Round">9Rounds</option>
-                            <option value="9Round">9Rounds</option>
-                            <option value="9Round">9Rounds</option>
-                            <option value="9Round">9Rounds</option>
+                            <option value="pullups">PullUps</option>
+                            <option value="run">Run</option>
+                            <option value="run">Walk</option>
                         </select>
                     </form>
                     <section className={ex.calc}>
@@ -63,8 +91,8 @@ const Exercise = () => {
                         <section className={ex.wc}>
                             <form>
                             <span>Your Weight: </span>
-                            <input type="text"/>
-                            <select>
+                            <input value={w} onChange={handleme} type="text"/>
+                            <select onChange={handleSel}>
                                 <option value="pounds">Pounds</option>
                                 <option value="kilogram">Kilogram</option>
                             </select>
@@ -73,11 +101,11 @@ const Exercise = () => {
                         <section className={ex.lc}>
                             <form>
                                 <span>How Long: </span>
-                                <input type="text"/>
+                                <input type="text" value={cx} onChange={handlecx}/>
                                 <span>Minutes</span>
                             </form>
                         </section>
-                        <span>Calories burned: <span className={ex.g}>{'0'}</span></span>
+                        <span>Calories burned: <span className={ex.g}>{bur}</span></span>
                     </section>
                 </section>
             </section>
@@ -86,8 +114,5 @@ const Exercise = () => {
     )
 }
 
-const mapStateToProps = state => {
-
-}
 
 export {Exercise}

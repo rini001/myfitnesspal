@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "./All.module.css";
+import {Link, useNavigate} from 'react-router-dom'
 
 const Stage2nd = () => {
+  const navigate = useNavigate();
+
+  
+
   return (
     <>
       <section className={`${styles.MuiBox_root} ${styles.css_1fxczvu}`}>
@@ -100,6 +105,7 @@ const Stage2nd = () => {
                       </span>
                     </a>
                     <button
+                      onClick={() => navigate('/s3')}
                       className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root}  ${styles.css_1q2wf90}`}
                       tabindex="0"
                       type="submit"

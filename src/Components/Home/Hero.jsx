@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import hero from '../Home/hero.module.css'
 import { Download } from './Download'
 import { Feature } from './Feature'
@@ -5,6 +6,7 @@ import { Heros } from './Heros'
 import { Recipie } from './Recipie'
 
 const Hero = () =>{
+    const nav = useNavigate()
     return(
     
         <div>
@@ -12,7 +14,7 @@ const Hero = () =>{
                 <section className={hero.text}>
                     <h1>Fitness starts with what you eat.</h1>
                     <p>Take control of your goals. Track calories, break down ingredients, and log activities with MyFitnessPal.</p>
-                    <button>START FOR FREE</button>
+                    <button onClick={() => nav('/signup')}>START FOR FREE</button>
                     <p>Already have an account?<span> <a href="">Login</a></span></p>
                 </section>
                 <span className={hero.image}>

@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./All.module.css";
 
 const Stage4th = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className={`${styles.MuiBox_root} ${styles.css_1fxczvu}`}>
@@ -177,8 +179,8 @@ const Stage4th = () => {
                               name="zipcode"
                               type="text"
                               className={`${styles.MuiOutlinedInput_input} ${styles.MuiInputBase_input} ${styles.css_5v3ygq}`}
-                              value=""
-                              placeholder="Zip Code"
+                              
+                              
                             />
                           </div>
                         </div>
@@ -209,6 +211,7 @@ const Stage4th = () => {
                         </span>
                       </a>
                       <button
+                        onClick={() => navigate('/s5')}
                         className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root} ${styles.css_1q2wf90}`}
                         tabindex="0"
                         type="submit"

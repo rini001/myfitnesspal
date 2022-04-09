@@ -25,6 +25,7 @@ div {
   width: 940px;
   display: inline-block;
   overflow: hidden;
+  margin: 0px auto;
 }
 
 .content {
@@ -252,12 +253,12 @@ a.button {
   float: right;
 }
 
-form {
+/* form {
   margin: auto;
   overflow: visible;
   width: 308px;
   display: block;
-}
+} */
 
 input,
 select,
