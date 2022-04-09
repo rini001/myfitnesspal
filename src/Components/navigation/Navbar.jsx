@@ -6,6 +6,7 @@ const Navbar = () => {
         <div className={style.navhead}>
             <Top/>
             <section className={style.navlinks}>
+                <section className={style.nlinks}><Link to="home">HOME</Link></section>
                 <section className={style.nlinks}><Link to="about">ABOUT</Link></section>
                 <section className={style.nlinks}><Link to="food">FOOD</Link></section>
                 <section className={style.nlinks}><Link to="exercise">EXERCISE</Link></section>

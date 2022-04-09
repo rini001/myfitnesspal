@@ -1,9 +1,10 @@
 .div1 {
   display: grid;
-  width: 50rem;
+width: 50rem;
   grid-template-columns: repeat(3, 3fr);
   row-gap: 40px;
   column-gap: 70px;
+  /* grid-area: div1; */
 }
 .div0 {
   display: grid;
@@ -16,17 +17,19 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
+  /* border: 2px solid black; */
 }
 .btn {
   background-color: #0a5282;
   color: aliceblue;
   border-radius: 4rem;
 }
-h2 {
+.hh2 {
   color: #0a5282;
   font-weight: 650;
   font-size: 1.4rem;
   border-bottom: 1px solid grey;
+  /* border: 2px solid black; */
 }
 .arrowbtn{
   background-color: white;
@@ -47,14 +50,18 @@ h2 {
   border: 0px;
   color:  #0a5282;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 576px) {
   body {
-    box-sizing: border-box;
+ width: 100%;
+   /* border: 2px solid black; */
+    /* box-sizing: border-box; */
+
   }
-  h2 {
+  .hh2 {
     color: #0a5282;
     font-weight: 400;
     font-size: 12px;
+    width: 100%;
   }
   .div0 {
     display: grid;
@@ -65,14 +72,18 @@ h2 {
   }
 
   .div1 {
-    display: grid;
-    width: fit-content;
-    grid-template-columns: repeat(3, 10%);
+ display: grid; 
+    /* width: fit-content; */
+    /* grid-template-columns: repeat(3, 10%);
     row-gap: 0px;
-    column-gap: 40px;
+column-gap: 40px;  
     margin: auto;
     padding: 0px;
-    /* border: 2px solid black; */
+    border: 2px solid black;  */
+    /* border: 2px solid green; */
+    width: 100%;
+    column-gap: 40px; 
+    grid-template-columns: repeat(3, 10%)
   }
 }
 /* style={{backgroundColor: page===1 ? '#0a5282':'white', color: page===1?'white' :'#0a5282'}} */

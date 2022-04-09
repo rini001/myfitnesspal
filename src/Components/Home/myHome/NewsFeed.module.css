@@ -111,3 +111,59 @@ margin-top: 20px;
   .val{
       padding-left: 14.8px;
   }
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 576px) {
+      .mainDiv0{
+          /* border: 2px solid black; */
+          padding: 0px;
+      }
+      .maindiv{
+        /* border: 2px solid black; */
+          margin-left: 0px;
+          width: auto
+      }
+    .txtareaandbtn{
+       /* border: 2px solid black; */
+       width: 100%;
+       padding:  22px 0px;
+    }
+    .feed{
+        width: 100%;
+    }
+    .flexdiv{
+        margin-left: 0px;
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .likeAndcomment{
+     
+       padding:0px;
+       
+    }
+    .withoutPic{
+        /* border: 2px solid rgb(50, 61, 54); */
+        width: 100%;
+    }
+    
+  }
+
+
+
+
+
+  @media only screen and (min-width: 576px) and(max-width: 1280px) {
+    .maindiv{
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+}

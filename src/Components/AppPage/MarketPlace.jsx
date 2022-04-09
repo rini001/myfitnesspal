@@ -30,7 +30,7 @@ export const MarketPlace = () => {
   return (
     <div className={styles.div0}>
       <div>
-      <h2>App Marketplace</h2>
+      <h2 className={styles.hh2}>App Marketplace</h2>
 
       </div>
       

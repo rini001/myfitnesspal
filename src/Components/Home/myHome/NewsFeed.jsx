@@ -56,7 +56,7 @@ else{
     setTasks(removeItem);
   };
   return (
-    <div>
+    <div className={ styles.mainDiv0}>
       <div className={styles.maindiv}>
         {/* <div className={styles.grid}> */}
         <div className={styles.feed}>News Feed</div>
@@ -74,9 +74,9 @@ else{
       </div>
    
      {tasks.map((elem) => (
-        <div key={elem.id}>
+        <div  className={styles.keyDiv}  key={elem.id}>
           <div className={styles.flexdiv}>
-            <div>
+            <div className={styles.feedimg01}>
               <img className={styles.feedimg}
                 src="https://www.myfitnesspal.com/_next/image?url=https%3A%2F%2Fd34yn14tavczy0.cloudfront.net%2Fimages%2Fno_photo_thumbnail.png&w=64&q=75"
                 alt=""
@@ -102,12 +102,9 @@ else{
                 <input  className={styles.inp} type="text" placeholder="Write something..."/>
               </div>
             </div>
-            {/* <button onClick={() => handleDelete(elem.id)}>x</button> */}
           </div>
         </div>
       ))}
-
-      {/* <div style={{ border: "2px solid black" }}></div> */}
     </div>
   );
 };

@@ -37,7 +37,7 @@ img {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 576px) {
   body {
     box-sizing: border-box;
   }
@@ -57,6 +57,7 @@ img {
     display: grid;
     grid-row-gap: initial;
     height: fit-content;
+    /* border: 2px solid black; */
   }
   .appName {
     width: fit-content;

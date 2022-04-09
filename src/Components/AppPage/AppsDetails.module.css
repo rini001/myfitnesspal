@@ -79,13 +79,14 @@
 .n2{
     color: #999999;
 }
- @media only screen and (max-width: 800px) {
+ @media only screen and (max-width: 576px) {
    .flexDiv1{
        width: fit-content;
        margin: auto;
        gap: 100px;
        padding: 20px;
        float: left;
+       /* border: 2px solid red; */
    }
    .btnAndSearch{
     display:flex;

@@ -12,12 +12,15 @@ import { Exercise } from './Components/Exercise/Exercise';
 import { Find } from './Components/Search/Find';
 import { AppsDetail } from './Components/AppPage/AppsDetail';
 import { Search } from './Components/AppPage/Search';
+import {Myhome} from './Components/Home/myHome/Myhome'
+import { UploadPhoto } from './Components/Home/myHome/UploadPhoto';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
      <Routes>
        <Route path='/' element={<App/>}>
           <Route index element={<Hero/>}/>
+          <Route path="/Home" element={<Myhome />}></Route>
           <Route path="/Apps" element={<AllApps />}></Route>
           <Route path="/Apps/:userId" element={<AppsDetail />}></Route>	
           <Route path="/activityTrackers" element={<Search />}></Route>
@@ -26,6 +29,7 @@ ReactDOM.render(
           <Route path='premium' element={<Premium/>}/>
           <Route path='exercise' element={<Exercise/>}/>
           <Route path='food' element={<Find/>}/>
+          <Route path='choosephoto' element={<UploadPhoto/>}/>
        </Route>
        
      </Routes>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './DailySummary.module.css'
 export const DailySummary = () => {
   return (
@@ -8,11 +9,10 @@ export const DailySummary = () => {
         <div className={styles.div2}>
         <div className={styles.uploadphoto}>
           <p className={styles.para01}>No photo provided</p>
-          <h6 className={styles.heading}><a className={styles.anchor} href="">upload photo</a></h6>
+          <h6 className={styles.heading}><Link to="/choosephoto" className={styles.anchor} href="">upload photo</Link></h6>
         </div>
         {/* <div className={styles.lbs} >
           <p>0</p>
-        
         </div> */}
         </div>
         <div>

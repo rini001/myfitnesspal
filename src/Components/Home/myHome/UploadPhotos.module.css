@@ -1,0 +1,87 @@
+.yourphotos{
+    border: 2px solid black;
+    margin-left: 25%;
+}
+.box{
+    border: 2px solid black;
+    margin-left: 25%;
+display: flex;
+gap: 40px;
+}
+.maindiv01{
+    border: 2px solid black;
+    
+}
+.uploadDiv{
+    display: grid;
+    border: 2px solid black;
+
+}
+.notuploaded{
+    border: 2px solid black;
+
+}
+.uplbtn{
+    font-size: 13px;
+    max-width: 20%;
+    min-height: 2% ;
+    display: inline-block;
+    border: 1px solid #408140;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    background-color: #51a351;
+    background-image: linear-gradient(to bottom, #62c462 26%, #51a351 75%);
+    background-image: -webkit-linear-gradient(top, #62c462 26%, #51a351 75%);
+    background-image: -ms-linear-gradient(top, #62c462 26%, #51a351 75%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.26, #62c462), color-stop(0.75, #51a351));
+}
+/* .hello{
+   border: 2px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 776px) {
+    .yourphotos{
+        border: 2px solid black;
+        margin-left: 0px;
+    }
+    .box{
+        border: 2px solid black;
+        margin-left: 0px;
+    
+    }
+    .maindiv01{
+        border: 2px solid black;
+    
+    }
+}
+
+
+
+@media only screen and (min-width: 777px) and (max-width: 1146px) {
+    .yourphotos{
+        border: 2px solid black;
+        margin-left: 0px;
+    }
+    .box{
+        border: 2px solid black;
+        margin-left: 0px;
+    
+    }
+    .maindiv01{
+        border: 2px solid black;
+    
+    }
+}

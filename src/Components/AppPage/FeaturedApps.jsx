@@ -6,7 +6,7 @@ export const FeaturedApps = () => {
   // console.log(AppsData)
   return (
     <div className={styles.div0}>
-      <h2>
+      <h2 className={styles.hh2}>
         Featured Apps
       </h2>
       <div className={styles.div1}>

@@ -8,7 +8,6 @@ export const Sidebar = () => {
         <input className={styles.inputbox} type="text" placeholder="Search"></input>
         <i className={styles.ic} class="fa fa-search"></i>
         </div>
- 
 <div>
 <h3 className={styles.heading3}>Categories</h3>
 
