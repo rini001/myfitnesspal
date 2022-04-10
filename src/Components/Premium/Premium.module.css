@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   color: #222628;
   margin: 0;
@@ -31,35 +25,25 @@ h3 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-button,
-input {
-  overflow: visible;
-}
-img {
-  border-style: none;
-}
-main {
-  display: block;
-}
 
-.MuiContainer-root {
+.mainContainer {
   width: 100%;
   display: block;
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
-.MuiTypography_root {
+.margin0 {
   margin: 0;
 }
-.MuiTypography_body1 {
+.Fontstyle {
   font-size: 1rem;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.jss54 {
+.premium54 {
   width: 100%;
   margin: 0px auto 48px;
   display: flex;
@@ -67,15 +51,15 @@ main {
   justify-content: space-between;
 }
 
-.jss55 {
+.premium55 {
   max-width: 376px;
   padding-top: 64px;
 }
-.jss58 {
+.premium58 {
   margin-bottom: 16px;
   text-align: left;
 }
-.jss65 {
+.premium65 {
   color: #222628;
   display: inline-block;
   padding: 4px 12px;
@@ -88,75 +72,30 @@ main {
   letter-spacing: 0.25px;
   text-transform: uppercase;
 }
-.jss59 {
+.premium59 {
   margin-bottom: 32px;
   text-align: left;
 }
 
-.jss60 {
+.premium60 {
   color: #222628;
   white-space: pre-wrap;
 }
-.jss74 {
+.premium74 {
   font-size: 2rem;
   font-weight: 900;
   line-height: 1.08;
+  overflow: hidden;
 }
 
-.jss61 {
+.premium61 {
   margin-bottom: 48px;
 }
-.jss62 {
+.premium62 {
   color: #6d717a;
 }
 
-.MuiButton_root {
-  color: #222628;
-  padding: 6px 16px;
-  font-size: 0.875rem;
-  min-width: 64px;
-  box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
-  font-weight: 500;
-  line-height: 1.75;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 4px;
-  text-transform: uppercase;
-}
-
-.jss63 {
-  min-width: 344px;
-  min-height: 60px;
-  text-transform: uppercase;
-}
-
-.jss85 {
-  box-shadow: none;
-}
-
-.jss84 {
-  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
-  font-weight: 700;
-}
-
-.jss83 {
-  letter-spacing: 0.015625rem;
-}
-
-.MuiButton_containedPrimary {
-  color: #fff;
-  background-color: #0066ee;
-}
-.MuiButton_contained {
-  padding: 8px 24px;
-}
-
-.MuiButtonBase_root {
+.btntextstyle {
   border: 0;
   cursor: pointer;
   margin: 0;
@@ -168,84 +107,108 @@ main {
   vertical-align: middle;
   justify-content: center;
   text-decoration: none;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
-.MuiButton_label {
+.premium63 {
+  min-width: 344px;
+  min-height: 60px;
+  text-transform: uppercase;
+}
+
+.premium85 {
+  box-shadow: none;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.015625rem;
+}
+
+.buttoncolor {
+  color: #fff;
+  background-color: #0066ee;
+}
+.btnpadding {
+  padding: 8 8px 24px;
+}
+
+.btnspan {
   width: 100%;
   display: inherit;
   align-items: inherit;
   justify-content: inherit;
 }
-.jss80 {
+.premium80 {
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-.jss56 {
+.premium56 {
   display: none;
 }
 
-.jss57 {
+.premium57 {
   width: 100%;
   max-width: 411px;
   padding-top: 32px;
 }
 
-.MuiGrid_spacing_xs_3 {
+.widthchange {
   width: calc(100% + 12px);
   margin: -6px;
 }
 
-.MuiGrid_container {
+.secondcontainer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
 
-.jss64 {
+.premium64 {
   margin: 0px auto 32px;
   max-width: 968px;
 }
 
-.MuiGrid_spacing_xs_3 > .MuiGrid_item {
+.widthchange > .boxes {
   padding: 6px;
 }
-.MuiGrid_item {
+.boxes {
   margin: 0;
   box-sizing: border-box;
 }
 
-.jss86 {
+.premium86 {
   text-align: center;
 }
 
-.jss87 {
+.premium87 {
   margin-bottom: 4px;
 }
-.jss88 {
+.premium88 {
   max-width: 160px;
 }
-.jss90 {
+.premium90 {
   margin-bottom: 4px;
 }
 
-.jss91 {
+.premium91 {
   color: #222628;
 }
-.MuiTypography_h3 {
+.boxesh3 {
   font-size: 1.125rem;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
-.jss92 {
+.premium92 {
   color: #6d717a;
 }
 
-.MuiContainer_root {
+.yes {
+  width: 28px;
+  height: 28px;
+  color: dodgerblue;
+}
+.Container_root {
   width: 100%;
   display: block;
   padding: 48px 0px;
@@ -256,77 +219,77 @@ main {
   padding-right: 16px;
 }
 
-.jss93 {
+.premium93 {
   padding: 4px 0px 16px;
   background-size: 70px 165px;
   background-image: url(https://www.myfitnesspal.com/react-static/73d9322bba99e1feec5b35fe19026e1f.png);
   background-repeat: no-repeat;
   background-position: top 20px right;
 }
-.jss94 {
+.premium94 {
   position: relative;
   max-width: 100%;
 }
-.jss96 {
+.premium96 {
   padding: 24px 16px 32px;
   text-align: left;
 }
-.jss97 {
+.premium97 {
   font-size: 1.25rem;
 }
 
-.jss98 {
+.premium98 {
   color: #6d717a;
   margin-top: 20px;
   padding-right: 15%;
 }
-.jss95 {
+.premium95 {
   width: 100%;
 }
 
-.MuiTable_root {
+.Table {
   width: 100%;
   display: table;
   border-spacing: 0;
   border-collapse: collapse;
 }
 
-.MuiTableHead_root {
+.TableHead {
   display: table-header-group;
 }
-thead {
+/* thead {
   display: table-header-group;
   vertical-align: middle;
   border-color: inherit;
-}
+} */
 
-.MuiTableRow_root {
+.TableRow {
   color: inherit;
   display: table-row;
   outline: 0;
   vertical-align: middle;
 }
-
+/* 
 tr {
   display: table-row;
   vertical-align: inherit;
   border-color: inherit;
-}
-.jss95 thead tr th:nth-child(1) {
+} */
+.premium95 thead tr th:nth-child(1) {
   width: 70%;
 }
 
-.MuiTableCell_alignCenter {
+.thandtdalignitem {
   text-align: center;
 }
 
-.MuiTableCell_head {
+.Thheadcolor {
   color: #222628;
   font-weight: 500;
   line-height: 1.5rem;
 }
 
-.MuiTableCell_root {
+.TableColm {
   display: table-cell;
   padding: 16px;
   font-size: 0.875rem;
@@ -338,113 +301,84 @@ tr {
   vertical-align: inherit;
 }
 
-.jss95 thead tr th:not(:first-child) {
+.premium95 thead tr th:not(:first-child) {
   width: 15%;
   padding-top: 0;
   padding-bottom: 8px;
 }
 
-.jss100 {
+.premium100 {
   font-size: 0.75rem;
   font-weight: 700;
 }
 
-.jss103:first-child {
+.premium103:first-child {
   border-top: 2px solid #ffc600;
 }
 
-.jss95 tbody tr {
+.premium95 tbody tr {
   height: 96px;
   background-color: white;
 }
 
-.jss103 {
+.premium103 {
   border-bottom: 2px solid #eeeeee;
 }
 
-.jss95 tbody tr td:first-child {
+.premium95 tbody tr td:first-child {
   padding-left: 24px;
   padding-right: 0;
 }
-.MuiTableCell_alignLeft {
+.tdalignLeft {
   text-align: left;
 }
 
-.MuiTableCell_body {
+.tdcolor {
   color: #222628;
 }
-.jss104 {
+.premium104 {
   color: #222628;
   margin-bottom: 4px;
 }
-.MuiTypography_h4 {
-  font-size: 16px;
-  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
-  font-weight: 600;
-  line-height: 1.25;
-}
+
 strong,
 b {
   font-weight: 700;
 }
 
-.jss105 {
+.premium105 {
   color: #6d717a;
 }
-.jss114 {
+.premium114 {
   position: relative;
 }
 
-.jss116 {
+.premium116 {
   position: relative;
   margin-top: 12px;
   margin-bottom: 32px;
 }
 
-.jss126 {
+.premium126 {
   font-size: 1.5625rem;
   font-weight: 700;
   line-height: 1.12;
 }
-.MuiPaper_rounded {
-  border-radius: 4px;
-}
-.MuiPaper_root {
+
+.questionbox {
   color: #222628;
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background-color: #ffffff;
-}
-.MuiExpansionPanel_rounded {
-  overflow: hidden;
-  border-radius: 4px;
-}
-.MuiExpansionPanel_root {
   position: relative;
   transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   margin-bottom: 16px;
-}
-.MuiPaper_elevation1 {
+  overflow: hidden;
   box-shadow: 0px 2px 4px 0 rgb(0 0 0 / 10%), 0px 0px 1px 0px rgb(0 0 0 / 5%),
     0px 0px 3px 0px rgb(0 0 0 / 5%);
+  border-radius: 4px;
 }
 
-.MuiExpansionPanel_root:before {
-  top: -1px;
-  left: 0;
-  right: 0;
-  height: 1px;
-  content: "";
-  opacity: 1;
-  position: absolute;
-  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  background-color: transparent;
-}
-
-.MuiExpansionPanelSummary_root:hover:not(.Mui_disabled) {
-  cursor: pointer;
-}
-.MuiExpansionPanelSummary_root {
+.questions {
   display: flex;
   padding: 0px 24px;
   min-height: 80px;
@@ -453,49 +387,41 @@ b {
   background-color: #fafafa;
 }
 
-.MuiExpansionPanelSummary_content {
+.questionstext {
   margin: 12px 0;
   display: flex;
   flex-grow: 1;
   transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.MuiTypography_h4 {
+.tdhdfont {
   font-size: 16px;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   font-weight: 600;
   line-height: 1.25;
 }
 
-.MuiExpansionPanelSummary_expandIcon:hover {
-  background-color: transparent;
-}
-
-.MuiExpansionPanelSummary_expandIcon {
-  color: #9e9e9e;
-  transform: rotate(0deg);
-  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
-
-/* .MuiIconButton_edgeEnd {
-  margin-right: -12px;
-} */
-
-.MuiIconButton_root {
+.arrowicon {
   flex: 0 0 auto;
   padding: 12px;
   overflow: visible;
   font-size: 1.5rem;
   text-align: center;
   border-radius: 50%;
+  color: #9e9e9e;
+  transform: rotate(0deg);
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.MuiIconButton_label {
+.Iconspan {
   width: 100%;
   display: flex;
   align-items: inherit;
   justify-content: inherit;
 }
-.MuiSvgIcon_root {
+.upside {
+  transform: rotate(180deg);
+}
+.Aiicon {
   fill: currentColor;
   width: 1em;
   height: 1em;
@@ -511,36 +437,31 @@ b {
   transition-duration: 255ms;
 }
 
-.MuiCollapse_entered {
-  overflow: visible;
-}
-.MuiCollapse_container {
+.anscontainer {
   transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.MuiCollapse_wrapper {
+.anscontainer2 {
   display: flex;
 }
-.MuiCollapse_wrapperInner {
+.anscontainer3 {
   width: 100%;
 }
 
-.MuiExpansionPanelDetails_root {
+.anscontainer4 {
   color: #6d717a;
   display: flex;
   padding: 24px;
   background-color: #ffffff;
 }
-.MuiTypography_colorTextSecondary {
-  color: #6d717a;
-}
 
-.MuiTypography_body2 {
+.anstext {
   font-size: 0.875rem;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
+  color: #6d717a;
 }
 .hidetext {
   display: none;
@@ -548,7 +469,7 @@ b {
 .showtext {
   display: block;
 }
-.jss134 {
+.premium134 {
   background: url(https://www.myfitnesspal.com/react-static/5505f9a4cc71985801691b723cf64d9a.png)
       top right no-repeat,
     url(https://www.myfitnesspal.com/react-static/b96cec4f94f4413f2891c9bde43f3bcc.png)
@@ -557,46 +478,46 @@ b {
   background-size: 350px 819px, 169px 217px;
 }
 
-.jss135 {
+.premium135 {
   text-align: center;
   margin-bottom: 24px;
 }
-.jss66 {
+.premium66 {
   text-transform: uppercase;
 }
 
-.jss136 {
+.premium136 {
   text-align: center;
   margin-bottom: 20px;
 }
-.jss75 {
+.premium75 {
   font-size: 1.5625rem;
   font-weight: 700;
   line-height: 1.12;
 }
 
-.jss137 {
+.premium137 {
   color: #222628;
 }
-.jss138 {
+.premium138 {
   margin: 0 auto;
   max-width: 500px;
   text-align: center;
   margin-bottom: 48px;
 }
-.jss139 {
+.premium139 {
   color: #6d717a;
 }
-.jss140 {
+.premium140 {
   display: flex;
   justify-content: center;
 }
-.jss141 {
+.premium141 {
   display: flex;
   justify-content: center;
 }
 
-.jss260 {
+.premium260 {
   border: 4px solid;
   margin: 0px 12px;
   padding: 48px 32px 32px 32px;
@@ -608,7 +529,7 @@ b {
   background-color: #ffffff;
 }
 
-.jss262 {
+.premium262 {
   top: 0;
   left: 0;
   right: 0;
@@ -618,51 +539,51 @@ b {
   text-align: center;
   background-color: #ffc600;
 }
-.jss261 {
+.premium261 {
   font-weight: 900;
   text-transform: uppercase;
 }
-.jss142 {
+.premium142 {
   height: 100%;
   display: flex;
   text-align: center;
   flex-direction: column;
 }
-.jss143 {
+.premium143 {
   color: #222628;
   margin-bottom: 24px;
 }
 
-.jss146 {
+.premium146 {
   text-transform: uppercase;
 }
 
-.jss144 {
+.premium144 {
   margin-bottom: 24px;
 }
-.jss145 {
+.premium145 {
   margin-bottom: 4px;
 }
-.MuiTypography_displayInline {
+.pertext {
   display: inline;
 }
 
-.jss147 {
+.premium147 {
   margin: 0px auto 32px;
   max-width: 230px;
 }
-.jss148 {
+.premium148 {
   color: #6d717a;
 }
-.jss149 {
+.premium149 {
   margin-top: auto;
 }
-.jss150 {
+.premium150 {
   width: 100%;
   height: 60px;
 }
 
-.jss263 {
+.premium263 {
   border: 4px solid;
   margin: 0px 12px;
   display: flex;
@@ -674,14 +595,14 @@ b {
   flex-direction: column;
   background-color: #ffffff;
 }
-.MuiTypography_h5 {
+.rateh5 {
   font-size: 0.875rem;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   font-weight: 600;
   line-height: 1.334;
 }
 
-.MuiButton_outlinedPrimary {
+.whitebtn {
   color: #0066ee;
   border: 1px solid rgba(0, 102, 238, 0.5);
   border-color: #0066ee;
@@ -690,105 +611,105 @@ b {
 }
 
 @media (max-width: 575.95px) {
-  .jss54 {
+  .premium54 {
     margin: 0px auto 32px;
     padding: 16px 8px 0px 8px;
   }
-  .jss58 {
+  .premium58 {
     margin-bottom: 24px;
   }
-  .jss59 {
+  .premium59 {
     margin-bottom: 16px;
   }
-  .jss61 {
+  .premium61 {
     max-width: 270px;
     margin-bottom: 0;
   }
-  .jss63 {
+  .premium63 {
     display: none;
   }
-  .jss64 {
+  .premium64 {
     margin-bottom: 32px;
   }
-  .jss64 > div:not(:last-child) {
+  .premium64 > div:not(:last-child) {
     margin-bottom: 16px;
   }
-  .jss86 {
+  .premium86 {
     display: flex;
     text-align: left;
   }
-  .jss87 {
+  .premium87 {
     margin: 0px 16px 0px 0px;
   }
-  .jss134 {
+  .premium134 {
     display: none;
   }
 }
 
 @media (min-width: 576px) {
-  .MuiContainer_root {
+  .Container_root {
     padding-left: 24px;
     padding-right: 24px;
   }
-  .jss74 {
+  .premium74 {
     font-size: 2.5463rem;
   }
 
-  .MuiGrid_grid_sm_4 {
+  .responsivwidth {
     flex-grow: 0;
     max-width: 33.333333%;
     flex-basis: 33.333333%;
   }
-  .MuiTypography_h3 {
+  .boxesh3 {
     font-size: 1.25rem;
   }
-  .jss75 {
+  .premium75 {
     font-size: 1.7857rem;
   }
-  .jss117 {
+  .premium117 {
     margin: auto;
     padding: 0px 24px;
     max-width: 800px;
   }
-  .jss114 {
+  .premium114 {
     text-align: center;
   }
-  .jss116 {
+  .premium116 {
     margin-top: 16px;
     margin-bottom: 48px;
   }
-  .jss126 {
+  .premium126 {
     font-size: 1.7857rem;
   }
 }
 
 @media (min-width: 768px) {
-  .jss56 {
+  .premium56 {
     display: block;
   }
-  .jss93 {
+  .premium93 {
     padding-bottom: 0;
     background-image: none;
   }
-  .jss96 {
+  .premium96 {
     height: 100%;
     padding: 32px 16px 32px;
     background: none;
     text-align: center;
     background-image: none;
   }
-  .jss97 {
+  .premium97 {
     font-size: 2rem;
   }
-  .jss98 {
+  .premium98 {
     padding-left: 100px;
     padding-right: 100px;
   }
-  .jss101 {
+  .premium101 {
     position: relative;
   }
 
-  .jss102 {
+  .premium102 {
     top: 35px;
     left: 0;
     right: 0;
@@ -796,18 +717,18 @@ b {
     position: absolute;
     box-shadow: 0px 4px 14px 0px rgb(0 0 0 / 15%);
   }
-  .jss95 {
+  .premium95 {
     position: relative;
   }
-  .jss100 {
+  .premium100 {
     font-size: 0.875rem;
   }
-  .jss95 tbody tr td:first-child {
+  .premium95 tbody tr td:first-child {
     padding-left: 32px;
   }
 }
 @media screen and (max-width: 767px) {
-  .jss55 {
+  .premium55 {
     max-width: none;
   }
 }
@@ -823,21 +744,21 @@ b {
 }
 
 @media (max-width: 991.95px) {
-  .jss134 {
+  .premium134 {
     padding: 0 12px 100px 12px;
     background: none;
   }
-  .jss141 {
+  .premium141 {
     align-items: center;
     flex-direction: column;
   }
-  .jss55 {
+  .premium55 {
     padding-top: 32px;
   }
 }
 
 @media (min-width: 992px) {
-  .jss53 {
+  .premium53 {
     padding-top: 0;
     padding-bottom: 0;
     background-size: 330px 548px;
@@ -846,20 +767,20 @@ b {
     background-position: right top;
   }
 
-  .jss52 {
+  .premium52 {
     background-size: contain;
     background-image: url(https://www.myfitnesspal.com/react-static/78a85ff61ae51bacb70e2839935c0b84.svg);
   }
-  .jss74 {
+  .premium74 {
     font-size: 2.7778rem;
   }
-  .MuiTypography_h3 {
+  .boxesh3 {
     font-size: 1.25rem;
   }
-  .jss75 {
+  .premium75 {
     font-size: 2.0089rem;
   }
-  .jss126 {
+  .premium126 {
     font-size: 2.0089rem;
   }
 }
@@ -875,16 +796,16 @@ b {
 }
 
 @media screen and (min-width: 1200px) {
-  .MuiContainer_maxWidthLg {
+  .permium1001 {
     max-width: 1200px;
   }
-  .jss74 {
+  .premium74 {
     font-size: 3.0093rem;
   }
-  .MuiTypography_h3 {
+  .boxesh3 {
     font-size: 1.25rem;
   }
-  .jss93 {
+  .premium93 {
     padding: 8px 0px 48px;
     overflow: hidden;
     max-width: 1366px;
@@ -894,38 +815,38 @@ b {
     background-repeat: no-repeat, no-repeat;
     background-position: top 30px left, bottom right;
   }
-  .jss94 {
+  .premium94 {
     margin: 0 auto;
     max-width: 800px;
   }
-  .jss96 {
+  .premium96 {
     margin-bottom: 0;
   }
-  .jss75 {
+  .premium75 {
     font-size: 2.2321rem;
   }
 
-  .jss102 {
+  .premium102 {
     top: 38px;
     min-width: 800px;
   }
-  .jss95 thead tr th:nth-child(1) {
+  .premium95 thead tr th:nth-child(1) {
     width: 60%;
   }
-  .jss95 thead tr th:nth-child(2) {
+  .premium95 thead tr th:nth-child(2) {
     padding-bottom: 12px;
   }
-  .jss95 thead tr th:nth-child(3) {
+  .premium95 thead tr th:nth-child(3) {
     width: 17%;
     padding-bottom: 12px;
   }
-  .jss95 tbody {
+  .premium95 tbody {
     border-radius: 4px;
   }
-  .jss95 tbody tr td:first-child {
+  .premium95 tbody tr td:first-child {
     padding-left: 48px;
   }
-  .jss126 {
+  .premium126 {
     font-size: 2.2321rem;
   }
 }

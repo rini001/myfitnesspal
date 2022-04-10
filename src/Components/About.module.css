@@ -1,23 +1,3 @@
-* {
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-body {
-  background: #fff;
-  color: #000;
-  font-size: 100.01%;
-  min-height: 100%;
-  text-align: left;
-}
-div {
-  display: block;
-}
 .maincontainer {
   margin: auto;
   position: relative;
@@ -38,9 +18,7 @@ div {
 .content {
   padding: 20px 0 4em;
 }
-script {
-  display: none;
-}
+
 .maindiv {
   width: 620px;
   float: left;
@@ -61,31 +39,6 @@ h2.main_title {
   color: #0a5282;
   font-weight: bolder;
   border-bottom: 1px solid #e6e6e6;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: normal;
-}
-p,
-ul,
-ol,
-table,
-dl,
-dd,
-pre {
-  margin: 0 0 1em;
-}
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .p1 {
@@ -119,25 +72,6 @@ p {
   margin: 51px 0 19px 0;
 }
 
-strong {
-  font-weight: bold;
-  font-style: normal;
-}
-
-ul {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-ul,
-ol {
-  list-style: none;
-  list-style-position: outside;
-}
-
 .list0 li {
   background: transparent url(https://www.myfitnesspal.com/assets/sprite.v6.gif)
     no-repeat scroll 0 0;
@@ -146,12 +80,6 @@ ol {
   padding-left: 23px;
 }
 
-h5 {
-  margin-block-start: 1.67em;
-  margin-block-end: 1.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
 .list0 h5 {
   font-weight: bold;
   margin: 0;
@@ -252,33 +180,6 @@ a.aboutbtn {
   float: right;
 }
 
-form {
-  margin: auto;
-  overflow: visible;
-  width: 308px;
-  display: block;
-}
-
-input,
-select,
-textarea,
-button {
-  font-size: 1em;
-  line-height: normal;
-  width: auto;
-  vertical-align: middle;
-}
-
-input[type="hidden" i] {
-  appearance: none;
-  background-color: initial;
-  cursor: default;
-  display: none !important;
-  border: initial;
-  border-color: initial;
-  border-radius: initial;
-}
-
 form.login div.member_login {
   padding: 20px 30px;
   margin-top: 20px;
@@ -296,22 +197,11 @@ form.login div.member_login h2 {
   color: #333;
 }
 
-h1,
 h2,
-h3,
 h4,
-h5,
-h6 {
+h5 {
   font-weight: normal;
   line-height: normal;
-}
-
-h2 {
-  display: block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 form.login div.member_login ul {
@@ -323,10 +213,7 @@ form.login div.member_login ul li {
   margin-top: 6px;
   clear: both;
 }
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
+
 .fb_iframe_widget {
   display: inline-block;
   position: relative;

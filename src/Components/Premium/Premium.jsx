@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import styles from "../Components/Premium.module.css";
+import styles from "./Premium.module.css";
 import { AiOutlineDown } from "react-icons/ai";
+import { AiFillCheckCircle } from "react-icons/ai";
 
 const Premium = () => {
   const [show1, setShow1] = useState(false);
@@ -22,131 +23,122 @@ const Premium = () => {
   };
   return (
     <>
-      <main className={styles.jss52}>
+      <main className={styles.premium52}>
         <div
-          className={`${styles.MuiContainer_root} ${styles.jss53} ${styles.MuiContainer_maxWidthLg}`}
+          className={`${styles.mainContainer} ${styles.premium53} ${styles.permium1001}`}
         >
-          <div className={styles.jss54}>
-            <div className={styles.jss55}>
-              <div className={styles.jss58}>
-                <div className={styles.jss65}>Premium</div>
+          <div className={styles.premium54}>
+            <div className={styles.premium55}>
+              <div className={styles.premium58}>
+                <div className={styles.premium65}>Premium</div>
               </div>
-              <div className={styles.jss59}>
+              <div className={styles.premium59}>
                 <h1
-                  className={`${styles.MuiTypography_root} ${styles.jss74} ${styles.jss60}`}
+                  className={`${styles.margin0} ${styles.premium74} ${styles.premium60}`}
                 >
                   Start Your Free Trial Today
                 </h1>
               </div>
-              <div className={styles.jss61}>
+              <div className={styles.premium61}>
                 <p
-                  className={`${styles.MuiTypography_root} ${styles.jss62} ${styles.MuiTypography_body1}`}
+                  className={`${styles.margin0} ${styles.premium62} ${styles.Fontstyle}`}
                 >
                   Premium members are 65% more likely to reach their weight loss
                   goal.
                 </p>
               </div>
               <button
-                className={`${styles.MuiButtonBase_root} ${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.jss83} ${styles.jss84} ${styles.jss85} ${styles.jss63} ${styles.MuiButton_containedPrimary}`}
-                tabindex="0"
+                className={`${styles.btntextstyle}  ${styles.btnpadding}  ${styles.premium85} ${styles.premium63} ${styles.buttoncolor}`}
                 type="button"
               >
-                <span className={styles.MuiButton_label}>
-                  <span
-                    className={`${styles.MuiTypography_root} ${styles.jss80}`}
-                  >
+                <span className={styles.btnspan}>
+                  <span className={`${styles.margin0} ${styles.premium80}`}>
                     Start free 1-month trial
                   </span>
                 </span>
               </button>
             </div>
-            <div className={styles.jss56}>
+            <div className={styles.premium56}>
               <img
                 src="https://www.myfitnesspal.com/react-static/e4537e1d014a66cb6083eb6025813bb6.png"
-                className={styles.jss57}
+                className={styles.premium57}
                 alt="hero gif"
               />
             </div>
           </div>
           <div>
             <div
-              className={`${styles.MuiGrid_root} ${styles.jss64} ${styles.MuiGrid_container} ${styles.MuiGrid_spacing_xs_3}`}
+              className={`${styles.premium64} ${styles.secondcontainer} ${styles.widthchange}`}
             >
-              <div
-                className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.MuiGrid_grid_xs_12} ${styles.MuiGrid_grid_sm_4}`}
-              >
-                <div className={styles.jss86}>
-                  <div className={styles.jss87}>
+              <div className={`${styles.boxes} ${styles.responsivwidth}`}>
+                <div className={styles.premium86}>
+                  <div className={styles.premium87}>
                     <img
                       src="https://www.myfitnesspal.com/react-static/51b6c01dec78ddfb6d693b1ff8d23d44.png"
-                      className={styles.jss88}
+                      className={styles.premium88}
                       alt="feature logo"
                     />
                   </div>
                   <div>
-                    <div className={styles.jss90}>
+                    <div className={styles.premium90}>
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss91} ${styles.MuiTypography_h3}`}
+                        className={`${styles.margin0} ${styles.premium91} ${styles.boxesh3}`}
                       >
                         Meal Plans &amp; Recipes
                       </h3>
                     </div>
                     <p
-                      className={`${styles.MuiTypography_root} ${styles.jss92} ${styles.MuiTypography_body1}`}
+                      className={`${styles.margin0} ${styles.premium92} ${styles.Fontstyle}`}
                     >
                       Gain insight into your nutrition
                     </p>
                   </div>
                 </div>
               </div>
-              <div
-                className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.MuiGrid_grid_xs_12} ${styles.MuiGrid_grid_sm_4}`}
-              >
-                <div className={styles.jss86}>
-                  <div className={styles.jss87}>
+              <div className={`${styles.boxes} ${styles.responsivwidth}`}>
+                <div className={styles.premium86}>
+                  <div className={styles.premium87}>
                     <img
                       src="https://www.myfitnesspal.com/react-static/c51db6a037b248c10816974faac845f9.png"
-                      className={styles.jss88}
+                      className={styles.premium88}
                       alt="feature logo"
                     />
                   </div>
                   <div>
-                    <div className={styles.jss90}>
+                    <div className={styles.premium90}>
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss91} ${styles.MuiTypography_h3}`}
+                        className={`${styles.margin0} ${styles.premium91} ${styles.boxesh3}`}
                       >
                         Personalized Goals
                       </h3>
                     </div>
                     <p
-                      className={`${styles.MuiTypography_root} ${styles.jss92} ${styles.MuiTypography_body1}`}
+                      className={`${styles.margin0} ${styles.premium92} ${styles.Fontstyle}`}
                     >
                       Get guidance &amp; coaching tailored to you
                     </p>
                   </div>
                 </div>
               </div>
-              <div
-                className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.MuiGrid_grid_xs_12} ${styles.MuiGrid_grid_sm_4}`}
-              >
-                <div className={styles.jss86}>
-                  <div className={styles.jss87}>
+              <div className={`${styles.boxes} ${styles.responsivwidth}`}>
+                <div className={styles.premium86}>
+                  <div className={styles.premium87}>
                     <img
                       src="https://www.myfitnesspal.com/react-static/93c7966575adb77a179235b991596985.png"
-                      className={styles.jss88}
+                      className={styles.premium88}
                       alt="feature logo"
                     />
                   </div>
                   <div>
-                    <div className={styles.jss90}>
+                    <div className={styles.premium90}>
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss91} ${styles.MuiTypography_h3}`}
+                        className={`${styles.margin0} ${styles.premium91} ${styles.boxesh3}`}
                       >
                         Ad-Free Experience
                       </h3>
                     </div>
                     <p
-                      className={`${styles.MuiTypography_root} ${styles.jss92} ${styles.MuiTypography_body1}`}
+                      className={`${styles.margin0} ${styles.premium92} ${styles.Fontstyle}`}
                     >
                       Focus on your goals without distraction
                     </p>
@@ -156,423 +148,325 @@ const Premium = () => {
             </div>
           </div>
         </div>
-        <div className={`${styles.MuiContainer_root} ${styles.jss93}`}>
-          <div className={styles.jss94}>
-            <header className={styles.jss96}>
+        <div className={`${styles.mainContainer} ${styles.premium93}`}>
+          <div className={styles.premium94}>
+            <header className={styles.premium96}>
               <h2
-                className={`${styles.MuiTypography_root} ${styles.jss75} ${styles.jss97}`}
+                className={`${styles.margin0} ${styles.premium75} ${styles.premium97}`}
               >
                 Your Goals, Your Way
               </h2>
               <p
-                className={`${styles.MuiTypography_root} ${styles.jss98} ${styles.MuiTypography_body1}`}
+                className={`${styles.margin0} ${styles.premium98} ${styles.Fontstyle}`}
               >
                 Advanced tools and in-depth analysis to help you build lifelong
                 healthy habits.
               </p>
             </header>
-            <div className={styles.jss101}>
-              <div className={styles.jss102}></div>
-              <table className={`${styles.MuiTable_root} ${styles.jss95}`}>
-                <thead className={`${styles.MuiTableHead_root}`}>
-                  <tr
-                    className={`${styles.MuiTableRow_root} ${styles.MuiTableRow_head}`}
-                  >
+            <div className={styles.premium101}>
+              <div className={styles.premium102}></div>
+              <table className={`${styles.Table} ${styles.premium95}`}>
+                <thead className={`${styles.TableHead}`}>
+                  <tr className={styles.TableRow}>
                     <th
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_head} ${styles.MuiTableCell_alignCenter}`}
-                      role="columnheader"
-                      scope="col"
+                      className={`${styles.TableColm} ${styles.Thheadcolor} ${styles.thandtdalignitem}`}
                     ></th>
                     <th
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_head} ${styles.MuiTableCell_alignCenter}`}
-                      role="columnheader"
-                      scope="col"
+                      className={`${styles.TableColm} ${styles.Thheadcolor} ${styles.thandtdalignitem}`}
                     >
-                      <span className={styles.jss100}>Free</span>
+                      <span className={styles.premium100}>Free</span>
                     </th>
                     <th
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_head} ${styles.MuiTableCell_alignCenter}`}
-                      role="columnheader"
-                      scope="col"
+                      className={`${styles.TableColm} ${styles.Thheadcolor} ${styles.thandtdalignitem}`}
                     >
-                      <span className={styles.jss100}>Premium</span>
+                      <span className={styles.premium100}>Premium</span>
                     </th>
                   </tr>
                 </thead>
-                <tbody className={styles.MuiTableBody_root}>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                <tbody>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Nutrition Tracking</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Log your food from our extensive database.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>
                           Customizable Carbs, Protein &amp; Fat Goals
                         </strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Track your macros by gram or percentage.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Guided Fitness &amp; Nutrition Plans</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Get coaching and content to achieve your goals.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Custom Home Screen Dashboard</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Reach goals faster by seeing what’s important to you.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Food Analysis &amp; Insights</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Follow your progress through your data.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Meals &amp; Recipes</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Learn how to eat with your goals in mind.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Ad-Free Experience</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Focus on your fitness and nutrition without ads.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Subtract Exercise Calories</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Adjust your day’s calorie goal automatically.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>Quick-Add Carbs, Fat &amp; Protein</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Log your meals quickly and easily.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
-                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                  <tr
+                    className={`${styles.TableRow_root} ${styles.premium103}`}
+                  >
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.tdalignLeft}`}
                     >
                       <h3
-                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                        className={`${styles.margin0} ${styles.premium104} ${styles.tdhdfont}`}
                       >
                         <strong>File Export</strong>
                       </h3>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                        className={`${styles.margin0} ${styles.premium105} ${styles.Fontstyle}`}
                       >
                         Download CSV files of all your progress.
                       </p>
                     </td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     ></td>
                     <td
-                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                      className={`${styles.TableColm} ${styles.tdcolor} ${styles.thandtdalignitem}`}
                     >
                       <div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 22"
-                        >
-                          <path
-                            fill="#0066EE"
-                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
-                          ></path>
-                        </svg>
+                        <AiFillCheckCircle className={styles.yes} />
                       </div>
                     </td>
                   </tr>
@@ -581,65 +475,47 @@ const Premium = () => {
             </div>
           </div>
         </div>
-        <div
-          className={`${styles.MuiContainer_root} ${styles.MuiContainer_maxWidthLg}`}
-        >
-          <div className={styles.jss117}>
-            <header className={styles.jss114}>
-              <div className={styles.jss65}>Premium</div>
+        <div className={`${styles.mainContainer} ${styles.permium1001}`}>
+          <div className={styles.premium117}>
+            <header className={styles.premium114}>
+              <div className={styles.premium65}>Premium</div>
               <h2
-                className={`${styles.MuiTypography_root} ${styles.jss126} ${styles.jss116}`}
+                className={`${styles.margin0} ${styles.premium126} ${styles.premium116}`}
               >
                 Frequently Asked Questions
               </h2>
             </header>
-            <div
-              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
-            >
+            <div className={styles.questionbox}>
               <div
                 onClick={handleShow1}
-                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
-                tabindex="0"
-                role="button"
-                aria-disabled="false"
-                aria-expanded="false"
-                aria-controls="faq-1-content"
-                id="faq-1-header"
+                className={`${styles.btntextstyle} ${styles.questions}`}
               >
-                <div className={styles.MuiExpansionPanelSummary_content}>
-                  <h3
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
-                  >
+                <div className={styles.questionstext}>
+                  <h3 className={`${styles.margin0} ${styles.tdhdfont}`}>
                     When will I get charged?
                   </h3>
                 </div>
-                <div
-                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
-                  aria-disabled="false"
-                  aria-hidden="true"
-                >
-                  <span className={styles.MuiIconButton_label}>
-                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                <div className={`${styles.btntextstyle} ${styles.arrowicon} `}>
+                  <span className={styles.Iconspan}>
+                    <AiOutlineDown
+                      className={`${show1 ? styles.upside : styles.downside} ${
+                        styles.Aiicon
+                      }`}
+                    />
                   </span>
                 </div>
               </div>
               <div
                 className={`${show1 ? styles.showtext : styles.hidetext} ${
                   styles.p1
-                } ${styles.MuiCollapse_container} ${styles.MuiCollapse_hidden}`}
+                } ${styles.anscontainer}`}
                 //   style="min-height: 0px;"
               >
-                <div className={styles.MuiCollapse_wrapper}>
-                  <div className={styles.MuiCollapse_wrapperInner}>
-                    <div
-                      aria-labelledby="faq-1-header"
-                      id="faq-1-content"
-                      role="region"
-                    >
-                      <div className={styles.MuiExpansionPanelDetails_root}>
-                        <p
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
-                        >
+                <div className={styles.anscontainer2}>
+                  <div className={styles.anscontainer3}>
+                    <div>
+                      <div className={styles.anscontainer4}>
+                        <p className={`${styles.margin0} ${styles.anstext}`}>
                           If you’ve never upgraded to Premium or never started a
                           Premium trial before, you are eligible for a 1-month
                           trial, and the first Premium subscription charge on
@@ -655,52 +531,36 @@ const Premium = () => {
                 </div>
               </div>
             </div>
-            <div
-              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
-            >
+            <div className={`${styles.questionbox}`}>
               <div
                 onClick={handleShow2}
-                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
-                tabindex="0"
-                role="button"
-                aria-disabled="false"
-                aria-expanded="false"
-                aria-controls="faq-2-content"
-                id="faq-2-header"
+                className={`${styles.btntextstyle} ${styles.questions}`}
               >
-                <div className={styles.MuiExpansionPanelSummary_content}>
-                  <h3
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
-                  >
+                <div className={styles.questionstext}>
+                  <h3 className={`${styles.margin0} ${styles.tdhdfont}`}>
                     Will my subscription automatically renew?
                   </h3>
                 </div>
-                <div
-                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
-                  aria-disabled="false"
-                  aria-hidden="true"
-                >
-                  <span className={styles.MuiIconButton_label}>
-                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                <div className={`${styles.btntextstyle} ${styles.arrowicon} `}>
+                  <span className={styles.Iconspan}>
+                    <AiOutlineDown
+                      className={`${show2 ? styles.upside : styles.downside} ${
+                        styles.Aiicon
+                      }`}
+                    />
                   </span>
                 </div>
               </div>
               <div
                 className={`${show2 ? styles.showtext : styles.hidetext} ${
-                  styles.MuiCollapse_container
-                } ${styles.MuiCollapse_hidden}`}
+                  styles.anscontainer
+                }`}
               >
-                <div className={styles.MuiCollapse_wrapper}>
-                  <div className={styles.MuiCollapse_wrapperInner}>
-                    <div
-                      aria-labelledby="faq-2-header"
-                      id="faq-2-content"
-                      role="region"
-                    >
-                      <div className={styles.MuiExpansionPanelDetails_root}>
-                        <p
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
-                        >
+                <div className={styles.anscontainer2}>
+                  <div className={styles.anscontainer3}>
+                    <div>
+                      <div className={styles.anscontainer4}>
+                        <p className={`${styles.margin0} ${styles.anstext}`}>
                           MyFitnessPal Premium features are available on a
                           monthly or yearly subscription basis, depending on
                           which one you purchase. By default, your subscription
@@ -713,52 +573,36 @@ const Premium = () => {
                 </div>
               </div>
             </div>
-            <div
-              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
-            >
+            <div className={`${styles.questionbox}`}>
               <div
                 onClick={handleShow3}
-                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
-                tabindex="0"
-                role="button"
-                aria-disabled="false"
-                aria-expanded="false"
-                aria-controls="faq-3-content"
-                id="faq-3-header"
+                className={`${styles.btntextstyle} ${styles.questions}`}
               >
-                <div className={styles.MuiExpansionPanelSummary_content}>
-                  <h3
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
-                  >
+                <div className={styles.questionstext}>
+                  <h3 className={`${styles.margin0} ${styles.tdhdfont}`}>
                     Can I cancel anytime?
                   </h3>
                 </div>
-                <div
-                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
-                  aria-disabled="false"
-                  aria-hidden="true"
-                >
-                  <span className={styles.MuiIconButton_label}>
-                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                <div className={`${styles.btntextstyle} ${styles.arrowicon} `}>
+                  <span className={styles.Iconspan}>
+                    <AiOutlineDown
+                      className={`${show3 ? styles.upside : styles.downside} ${
+                        styles.Aiicon
+                      }`}
+                    />
                   </span>
                 </div>
               </div>
               <div
                 className={`${show3 ? styles.showtext : styles.hidetext} ${
-                  styles.MuiCollapse_container
-                } ${styles.MuiCollapse_hidden}`}
+                  styles.anscontainer
+                }`}
               >
-                <div className={styles.MuiCollapse_wrapper}>
-                  <div className={styles.MuiCollapse_wrapperInner}>
-                    <div
-                      aria-labelledby="faq-3-header"
-                      id="faq-3-content"
-                      role="region"
-                    >
-                      <div className={styles.MuiExpansionPanelDetails_root}>
-                        <p
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
-                        >
+                <div className={styles.anscontainer2}>
+                  <div className={styles.anscontainer3}>
+                    <div>
+                      <div className={styles.anscontainer4}>
+                        <p className={`${styles.margin0} ${styles.anstext}`}>
                           Yes, you may cancel your recurring subscription at any
                           time. Cancel at least 24 hours before the next renewal
                           date to avoid being charged for the upcoming billing
@@ -774,52 +618,36 @@ const Premium = () => {
                 </div>
               </div>
             </div>
-            <div
-              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
-            >
+            <div className={`${styles.questionbox}`}>
               <div
                 onClick={handleShow4}
-                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
-                tabindex="0"
-                role="button"
-                aria-disabled="false"
-                aria-expanded="false"
-                aria-controls="faq-4-content"
-                id="faq-4-header"
+                className={`${styles.btntextstyle} ${styles.questions}`}
               >
-                <div className={styles.MuiExpansionPanelSummary_content}>
-                  <h3
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
-                  >
+                <div className={styles.questionstext}>
+                  <h3 className={`${styles.margin0} ${styles.tdhdfont}`}>
                     What do I need to upgrade?
                   </h3>
                 </div>
-                <div
-                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
-                  aria-disabled="false"
-                  aria-hidden="true"
-                >
-                  <span className={styles.MuiIconButton_label}>
-                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                <div className={`${styles.btntextstyle} ${styles.arrowicon} `}>
+                  <span className={styles.Iconspan}>
+                    <AiOutlineDown
+                      className={`${show4 ? styles.upside : styles.downside} ${
+                        styles.Aiicon
+                      }`}
+                    />
                   </span>
                 </div>
               </div>
               <div
                 className={`${show4 ? styles.showtext : styles.hidetext} ${
-                  styles.MuiCollapse_container
-                } ${styles.MuiCollapse_hidden}`}
+                  styles.anscontainer
+                }`}
               >
-                <div className={styles.MuiCollapse_wrapper}>
-                  <div className={styles.MuiCollapse_wrapperInner}>
-                    <div
-                      aria-labelledby="faq-4-header"
-                      id="faq-4-content"
-                      role="region"
-                    >
-                      <div className={styles.MuiExpansionPanelDetails_root}>
-                        <p
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
-                        >
+                <div className={styles.anscontainer2}>
+                  <div className={styles.anscontainer3}>
+                    <div>
+                      <div className={styles.anscontainer4}>
+                        <p className={`${styles.margin0} ${styles.anstext}`}>
                           Just tap one of the buttons below to start a monthly
                           or annual subscription. A Premium subscription adds
                           more extensive options to MyFitnessPal's feature set,
@@ -838,119 +666,113 @@ const Premium = () => {
         </div>
         <div>
           <div
-            className={`${styles.MuiContainer_root} ${styles.jss134} ${styles.MuiContainer_maxWidthLg}`}
+            className={`${styles.mainContainer} ${styles.premium134} ${styles.permium1001}`}
           >
-            <div className={styles.jss135}>
-              <div className={`${styles.jss65} ${styles.jss66}`}>
+            <div className={styles.premium135}>
+              <div className={`${styles.premium65} ${styles.premium66}`}>
                 1-month free
               </div>
             </div>
-            <div className={styles.jss136}>
+            <div className={styles.premium136}>
               <h2
-                className={`${styles.MuiTypography_root} ${styles.jss75} ${styles.jss137}`}
+                className={`${styles.margin0} ${styles.premium75} ${styles.premium137}`}
               >
                 Go Premium, Get Results
               </h2>
             </div>
-            <div className={styles.jss138}>
+            <div className={styles.premium138}>
               <p
-                className={`${styles.MuiTypography_root} ${styles.jss139} ${styles.MuiTypography_body1}`}
+                className={`${styles.margin0} ${styles.premium139} ${styles.Fontstyle}`}
               >
                 Choose a MyFitnessPal Premium plan to start your 1-month free
                 trial. You will be charged after the trial has ended—cancel
                 anytime.
               </p>
             </div>
-            <div className={styles.jss140}>
+            <div className={styles.premium140}>
               <div>
-                <div className={styles.jss141}>
-                  <div className={styles.jss260}>
-                    <div className={styles.jss262}>
-                      <span className={styles.jss261}>
+                <div className={styles.premium141}>
+                  <div className={styles.premium260}>
+                    <div className={styles.premium262}>
+                      <span className={styles.premium261}>
                         <h4
-                          className={`${styles.MuiTypography_root} ${styles.jss261} ${styles.MuiTypography_h4}`}
+                          className={`${styles.margin0} ${styles.premium261} ${styles.tdhdfont}`}
                         >
                           Save 67%
                         </h4>
                       </span>
                     </div>
-                    <div className={styles.jss142}>
-                      <div className={styles.jss143}>
+                    <div className={styles.premium142}>
+                      <div className={styles.premium143}>
                         <h3
-                          className={`${styles.MuiTypography_root} ${styles.jss146} ${styles.MuiTypography_h3}`}
+                          className={`${styles.margin0} ${styles.premium146} ${styles.boxesh3}`}
                         >
                           Annual
                         </h3>
                       </div>
-                      <div className={styles.jss144}>
+                      <div className={styles.premium144}>
                         <h3
-                          className={`${styles.MuiTypography_root} ${styles.jss74} ${styles.jss145}`}
+                          className={`${styles.margin0} ${styles.premium74} ${styles.premium145}`}
                         >
                           $79.99
                           <h4
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4} ${styles.MuiTypography_displayInline}`}
+                            className={`${styles.margin0} ${styles.tdhdfont} ${styles.pertext}`}
                           >
                             Per Year
                           </h4>
                         </h3>
                       </div>
-                      <div className={styles.jss147}>
+                      <div className={styles.premium147}>
                         <h4
-                          className={`${styles.MuiTypography_root} ${styles.jss148} ${styles.MuiTypography_h4}`}
+                          className={`${styles.margin0} ${styles.premium148} ${styles.tdhdfont}`}
                         >
                           $79.99 billed yearly after free trial ends.
                         </h4>
                       </div>
-                      <div className={styles.jss149}>
+                      <div className={styles.premium149}>
                         <button
-                          className={`${styles.MuiButtonBase_root} ${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.jss83} ${styles.jss84} ${styles.jss85} ${styles.jss150} ${styles.MuiButton_containedPrimary}`}
-                          tabindex="0"
+                          className={`${styles.btntextstyle} ${styles.btnpadding}  ${styles.premium85} ${styles.premium150} ${styles.buttoncolor}`}
                           type="button"
                         >
-                          <span className={styles.MuiButton_label}>
-                            Subscribe
-                          </span>
+                          <span className={styles.btnspan}>Subscribe</span>
                         </button>
                       </div>
                     </div>
                   </div>
-                  <div className={styles.jss263}>
-                    <div className={styles.jss142}>
-                      <div className={styles.jss143}>
+                  <div className={styles.premium263}>
+                    <div className={styles.premium142}>
+                      <div className={styles.premium143}>
                         <h3
-                          className={`${styles.MuiTypography_root} ${styles.jss146} ${styles.MuiTypography_h3}`}
+                          className={`${styles.margin0} ${styles.premium146} ${styles.boxesh3}`}
                         >
                           Monthly
                         </h3>
                       </div>
-                      <div className={styles.jss144}>
+                      <div className={styles.premium144}>
                         <h3
-                          className={`${styles.MuiTypography_root} ${styles.jss74} ${styles.jss145}`}
+                          className={`${styles.margin0} ${styles.premium74} ${styles.premium145}`}
                         >
                           $19.99
                           <div
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_h5} ${styles.MuiTypography_displayInline}`}
+                            className={`${styles.margin0} ${styles.rateh5} ${styles.pertext}`}
                           >
                             Per Month
                           </div>
                         </h3>
                       </div>
-                      <div className={styles.jss147}>
+                      <div className={styles.premium147}>
                         <h4
-                          className={`${styles.MuiTypography_root} ${styles.jss148} ${styles.MuiTypography_h4}`}
+                          className={`${styles.margin0} ${styles.premium148} ${styles.tdhdfont}`}
                         >
                           $19.99 billed monthly after free trial ends.
                         </h4>
                       </div>
-                      <div className={styles.jss149}>
+                      <div className={styles.premium149}>
                         <button
-                          className={`${styles.MuiButtonBase_root} ${styles.MuiButton_root} ${styles.MuiButton_outlined} ${styles.jss83} ${styles.jss84} ${styles.jss85} ${styles.jss150} ${styles.MuiButton_outlinedPrimary}`}
-                          tabindex="0"
+                          className={`${styles.btntextstyle}  ${styles.whitebtn}  ${styles.premium85} ${styles.premium150} ${styles.Button_outlinedPrimary}`}
                           type="button"
                         >
-                          <span className={styles.MuiButton_label}>
-                            Subscribe
-                          </span>
+                          <span className={styles.btnspan}>Subscribe</span>
                         </button>
                       </div>
                     </div>
