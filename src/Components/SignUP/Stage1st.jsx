@@ -4,48 +4,28 @@ import styles from "./All.module.css";
 const Stage1st = () => {
   return (
     <>
-      <section className={`${styles.MuiBox_root} ${styles.css_1fxczvu}`}>
+      <section className={`${styles.alingleft} ${styles.SignUP1fxczvu}`}>
         <span className={styles.span1}>
           <img
             alt="background"
             sizes="100vw"
             src="https://www.myfitnesspal.com/_next/image?url=%2Fpages%2Fsignup%2Fbg.png&w=2048&q=75"
-            decoding="async"
-            data-nimg="fill"
             className={styles.img1}
           />
         </span>
-        <div
-          className={`${styles.MuiContainer_root} ${styles.MuiContainer_maxWidthSm} ${styles.css_qpa126}`}
-        >
-          <main className={`${styles.MuiBox_root} ${styles.css_dmeihm}`}>
-            <div className={`${styles.MuiBox_root} ${styles.css_1t5i1n4}`}>
-              <div
-                className={`${styles.MuiGrid_root} ${styles.MuiGrid_container} ${styles.MuiGrid_direction_xs_column} ${styles.css_dw3q30}`}
-              >
-                <div
-                  className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.css_10r4g2f}`}
-                >
-                  <h1
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h2} ${styles.MuiTypography_alignCenter} ${styles.css_ak8is5}`}
-                  >
+        <div className={styles.SignUP1001}>
+          <main className={`${styles.alingleft} ${styles.SignUP1002}`}>
+            <div className={`${styles.alingleft} ${styles.SignUP1003}`}>
+              <div className={styles.SignUP1004}>
+                <div className={`${styles.containeritem} ${styles.SignUP1005}`}>
+                  <h1 className={styles.SignUP1006}>
                     Welcome! Just a few quick questions so we can customize
                     MyFitnessPal for you.
                   </h1>
                 </div>
-                <div
-                  className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.css_1wxaqej}`}
-                >
-                  <button
-                    className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root}  ${styles.css_1gpft47}`}
-                    tabindex="0"
-                    type="button"
-                  >
-                    <span
-                      className={`${styles.MuiTypography_root}${styles.MuiTypography_button1} ${styles.css_b9fb38}`}
-                    >
-                      Continue
-                    </span>
+                <div className={`${styles.containeritem} ${styles.SignUP1007}`}>
+                  <button className={styles.SignUP1008} type="button">
+                    <span className={styles.SignUPbutton}>Continue</span>
                   </button>
                 </div>
               </div>

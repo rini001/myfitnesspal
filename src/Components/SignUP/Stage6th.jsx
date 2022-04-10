@@ -4,7 +4,7 @@ import styles from "./All.module.css";
 const Stage6th = () => {
   return (
     <>
-      <section className={`${styles.MuiBox_root} ${styles.css_1fxczvu}`}>
+      <section className={`${styles.alingleft} ${styles.SignUP1fxczvu}`}>
         <span className={styles.span1}>
           <img
             alt="background"
@@ -15,106 +15,90 @@ const Stage6th = () => {
             className={styles.img1}
           />
         </span>
-        <div
-          className={`${styles.MuiContainer_root} ${styles.MuiContainer_maxWidthSm} ${styles.css_qpa126}`}
-        >
-          <main className={`${styles.MuiBox_root} ${styles.css_dmeihm}`}>
-            <div className={`${styles.MuiBox_root} ${styles.css_1t5i1n4}`}>
+        <div className={styles.SignUP1001}>
+          <main className={`${styles.alingleft} ${styles.SignUP1002}`}>
+            <div className={`${styles.alingleft} ${styles.SignUP1003}`}>
               <form className={styles.section3}>
-                <div
-                  className={`${styles.MuiGrid_root} ${styles.MuiGrid_container} ${styles.MuiGrid_direction_xs_column} ${styles.css_1wkwmmc}`}
-                >
-                  <h1
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h3} ${styles.MuiTypography_gutterBottom} ${styles.css_l8px71}`}
-                  >
+                <div className={` ${styles.SignUP1009}`}>
+                  <h1 className={`${styles.SignUPl8px71}`}>
                     Almost there! Create your account.
                   </h1>
-                  <div
-                    className={`${styles.MuiFormControl_root} ${styles.MuiTextField_root} ${styles.css_toc561}`}
-                  >
+                  <div className={`${styles.SignUPtoc561}`}>
                     <label
-                      className={`${styles.MuiInputLabel_root} ${styles.MuiInputLabel_formControl} ${styles.MuiInputLabel_animated} ${styles.MuiInputLabel_outlined} ${styles.MuiFormLabel_root} ${styles.MuiFormLabel_colorPrimary} ${styles.Mui_error} ${styles.css_nhysvk}`}
+                      className={`${styles._error} ${styles.SignUPnhysvk}`}
                       for="Email address"
                       id="Email address-label"
                     >
                       Email address
                     </label>
-                    <div
-                      className={`${styles.MuiOutlinedInput_root} ${styles.MuiInputBase_root} ${styles.MuiInputBase_colorPrimary} ${styles.Mui_error} ${styles.MuiInputBase_formControl} ${styles.css_1k70y2s}`}
-                    >
+                    <div className={`${styles._error} ${styles.SignUP1k70y2s}`}>
                       <input
                         aria-invalid="true"
                         id="Email address"
                         name="email"
                         type="text"
-                        className={`${styles.MuiOutlinedInput_input} ${styles.MuiInputBase_input} ${styles.css_5v3ygq}`}
+                        className={`  ${styles.SignUP5v3ygq}`}
                         value=""
                       />
                       <fieldset
                         aria-hidden="true"
-                        className={`${styles.MuiOutlinedInput_notchedOutline} ${styles.css_igs3ac}`}
+                        className={`${styles.OutlinedInput_notchedOutline} ${styles.SignUPigs3ac}`}
                       >
-                        <legend className={`${styles.css_173wfxe}`}>
+                        <legend className={`${styles.SignUP173wfxe}`}>
                           <span>Email address</span>
                         </legend>
                       </fieldset>
                     </div>
                   </div>
                   <p
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.css_z2clho}`}
+                    className={`${styles.Typography_inherit} ${styles.SignUPz2clho}`}
                   >
                     Please enter a valid email address.
                   </p>
-                  <div
-                    className={`${styles.MuiFormControl_root} ${styles.MuiTextField_root} ${styles.css_toc561}`}
-                  >
+                  <div className={`${styles.SignUPtoc561}`}>
                     <label
-                      className={`${styles.MuiInputLabel_root} ${styles.MuiInputLabel_formControl} ${styles.MuiInputLabel_animated} ${styles.MuiInputLabel_outlined} ${styles.MuiFormLabel_root} ${styles.MuiFormLabel_colorPrimary} ${styles.css_nhysvk}`}
+                      className={`${styles.SignUPnhysvk}`}
                       for="Create a password"
                       id="Create a password-label"
                     >
                       Create a password
                     </label>
-                    <div
-                      className={`${styles.MuiOutlinedInput_root} ${styles.MuiInputBase_root} ${styles.MuiInputBase_colorPrimary} ${styles.MuiInputBase_formControl} ${styles.css_1k70y2s}`}
-                    >
+                    <div className={`${styles.SignUP1k70y2s}`}>
                       <input
                         aria-invalid="false"
                         id="Create a password"
                         name="password"
                         type="password"
-                        className={`${styles.MuiOutlinedInput_input} ${styles.MuiInputBase_input} ${styles.css_5v3ygq}`}
+                        className={`  ${styles.SignUP5v3ygq}`}
                         value=""
                       />
                       <fieldset
                         aria-hidden="true"
-                        className={`${styles.MuiOutlinedInput_notchedOutline} ${styles.css_igs3ac}`}
+                        className={`${styles.OutlinedInput_notchedOutline} ${styles.SignUPigs3ac}`}
                       >
-                        <legend className={`${styles.css_173wfxe}`}>
+                        <legend className={`${styles.SignUP173wfxe}`}>
                           <span>Create a password</span>
                         </legend>
                       </fieldset>
                     </div>
                   </div>
                   <p
-                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.MuiTypography_gutterBottom} ${styles.css_t7wqvm}`}
+                    className={`${styles.Typography_inherit} ${styles.SignUPt7wqvm}`}
                   >
                     Must be at least 10 characters, no spaces.
                   </p>
                   <div
-                    className={`${styles.MuiBox_root} ${styles.css_1307frf}`}
+                    className={`${styles.alingleft} ${styles.SignUP1307frf}`}
                   >
-                    <label
-                      className={`${styles.MuiFormControlLabel_root} ${styles.MuiFormControlLabel_labelPlacementEnd} ${styles.css_2al6ig}`}
-                    >
+                    <label className={`${styles.SignUP2al6ig}`}>
                       <div
-                        className={`${styles.MuiBox_root} ${styles.css_w2cwt3}`}
+                        className={`${styles.alingleft} ${styles.SignUPw2cwt3}`}
                       >
                         <span
-                          className={`${styles.MuiCheckbox_root} ${styles.MuiCheckbox_colorPrimary} ${styles.MuiButtonBase_root} ${styles.MuiCheckbox_root} ${styles.MuiCheckbox_colorPrimary} ${styles.PrivateSwitchBase_root} ${styles.css_1o0bbnm}`}
+                          className={`${styles.Checkalingleft} ${styles.Checkbox_colorPrimary}  ${styles.Checkalingleft} ${styles.Checkbox_colorPrimary} ${styles.PrivateSwitchBase_root} ${styles.SignUP1o0bbnm}`}
                         >
                           <input
-                            className={`${styles.PrivateSwitchBase_input} ${styles.css_1m9pwf3}`}
+                            className={`${styles.SignUP1m9pwf3}`}
                             name="termsConsent"
                             type="checkbox"
                             data-indeterminate="false"
@@ -122,24 +106,24 @@ const Stage6th = () => {
                         </span>
                       </div>
                       <span
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_body1} ${styles.MuiFormControlLabel_label} ${styles.css_17pbj4j}`}
+                        className={`${styles.btntext} ${styles.SignUP1013}`}
                       >
                         <p
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4} ${styles.css_1uv1xxs}`}
+                          className={`${styles.Typography_h4} ${styles.SignUP1uv1xxs}`}
                         >
                           Terms &amp; Conditions
                         </p>
                       </span>
                     </label>
                     <div
-                      className={`${styles.MuiBox_root} ${styles.css_1kcxdgd}`}
+                      className={`${styles.alingleft} ${styles.SignUP1kcxdgd}`}
                     >
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.css_y3uz54}`}
+                        className={`${styles.Typography_inherit} ${styles.SignUPy3uz54}`}
                       >
                         I agree to MyFitnessPal's
                         <a
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.MuiLink_root} ${styles.MuiLink_underlineNone} ${styles.css_q6fa8i}`}
+                          className={`${styles.Typography_inherit} ${styles.Link_root} ${styles.Link_underlineNone} ${styles.SignUPq6fa8i}`}
                           href="/en/terms-of-service"
                           rel="noreferrer"
                           target="_blank"
@@ -149,7 +133,7 @@ const Stage6th = () => {
                         </a>
                         and
                         <a
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.MuiLink_root} ${styles.MuiLink_underlineNone} ${styles.css_q6fa8i}`}
+                          className={`${styles.Typography_inherit} ${styles.Link_root} ${styles.Link_underlineNone} ${styles.SignUPq6fa8i}`}
                           rel="noreferrer"
                           target="_blank"
                           href="/privacy-policy"
@@ -160,7 +144,7 @@ const Stage6th = () => {
                         .
                       </p>
                       <p
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.css_k38b6r}`}
+                        className={`${styles.Typography_inherit} ${styles.SignUPk38b6r}`}
                       >
                         Please accept the Terms &amp; Conditions in order to
                         proceed.
@@ -168,14 +152,14 @@ const Stage6th = () => {
                     </div>
                   </div>
                   <div
-                    className={`${styles.MuiBox_root} ${styles.css_1mmhoqt}`}
+                    className={`${styles.alingleft} ${styles.SignUP1mmhoqt}`}
                   >
                     <p
-                      className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.css_kb8a8y}`}
+                      className={`${styles.Typography_inherit} ${styles.SignUPkb8a8y}`}
                     >
                       By signing up for MyFitnessPal, you are agreeing to our
                       <a
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.MuiLink_root} ${styles.MuiLink_underlineNone} ${styles.css_q6fa8i}`}
+                        className={`${styles.Typography_inherit} ${styles.Link_root} ${styles.Link_underlineNone} ${styles.SignUPq6fa8i}`}
                         href="/en/privacy-policy"
                         rel="noreferrer"
                         target="_blank"
@@ -185,7 +169,7 @@ const Stage6th = () => {
                       </a>
                       and
                       <a
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.MuiLink_root} ${styles.MuiLink_underlineNone} ${styles.css_q6fa8i}`}
+                        className={`${styles.Typography_inherit} ${styles.Link_root} ${styles.Link_underlineNone} ${styles.SignUPq6fa8i}`}
                         href="/en/terms-of-service"
                         rel="noreferrer"
                         target="_blank"
@@ -195,51 +179,35 @@ const Stage6th = () => {
                       </a>
                       .
                     </p>
-                    <button
-                      className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root} ${styles.css_1gpft47}`}
-                      tabindex="0"
-                      type="submit"
-                    >
-                      <span
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_button1} ${styles.css_b9fb38}`}
-                      >
-                        Continue
-                      </span>
+                    <button className={` ${styles.SignUP1008}`} type="submit">
+                      <span className={`${styles.SignUPbutton}`}>Continue</span>
                     </button>
                     <div
-                      className={`${styles.MuiBox_root} ${styles.css_iziil0}`}
+                      className={`${styles.alingleft} ${styles.SignUPiziil0}`}
                     >
-                      <p
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_body1} ${styles.css_17pbj4j}`}
-                      >
+                      <p className={`${styles.btntext} ${styles.SignUP1013}`}>
                         or
                       </p>
                     </div>
-                    <button
-                      className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root}  ${styles.css_stl828}`}
-                      tabindex="0"
-                      type="button"
-                    >
+                    <button className={`${styles.SignUPstl828}`} type="button">
                       <span
-                        className={`${styles.MuiButton_startIcon} ${styles.MuiButton_iconSizeMedium} ${styles.css_1l6c7y9}`}
+                        className={`${styles.Button_startIcon} ${styles.Button_iconSizeMedium} ${styles.SignUP1l6c7y9}`}
                       ></span>
-                      <span
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_button1} ${styles.css_b9fb38}`}
-                      >
+                      <span className={`${styles.SignUPbutton}`}>
                         Continue with Facebook
                       </span>
                     </button>
                     <p
-                      className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.css_ushlfk}`}
+                      className={`${styles.Typography_inherit} ${styles.SignUPushlfk}`}
                     >
                       We will never post anything without your permission
                     </p>
                     <p
-                      className={`${styles.MuiTypography_root} ${styles.MuiTypography_caption} ${styles.css_1stans}`}
+                      className={`${styles.Typography_caption} ${styles.SignUP1stans}`}
                     >
                       This site is protected by reCAPTCHA and the Google
                       <a
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.MuiLink_root} ${styles.MuiLink_underlineNone} ${styles.css_q6fa8i}`}
+                        className={`${styles.Typography_inherit} ${styles.Link_root} ${styles.Link_underlineNone} ${styles.SignUPq6fa8i}`}
                         rel="noreferrer"
                         target="_blank"
                         href="https://policies.google.com/privacy"
@@ -249,7 +217,7 @@ const Stage6th = () => {
                       </a>
                       and
                       <a
-                        className={`${styles.MuiTypography_root} ${styles.MuiTypography_inherit} ${styles.MuiLink_root} ${styles.MuiLink_underlineNone} ${styles.css_q6fa8i}`}
+                        className={`${styles.Typography_inherit} ${styles.Link_root} ${styles.Link_underlineNone} ${styles.SignUPq6fa8i}`}
                         rel="noreferrer"
                         target="_blank"
                         href="https://policies.google.com/terms"

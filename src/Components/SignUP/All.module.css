@@ -23,7 +23,7 @@ h1 {
   font-weight: bold;
 }
 
-.css_qpa126 {
+.SignUP1001 {
   width: 100%;
   margin-left: auto;
   box-sizing: border-box;
@@ -32,18 +32,18 @@ h1 {
   padding-left: 16px;
   padding-right: 16px;
 }
-.css_dmeihm {
+.SignUP1002 {
   background-color: rgb(255, 255, 255);
 }
 main {
   display: block;
 }
 
-.css_1t5i1n4 {
+.SignUP1003 {
   padding-top: 24px;
 }
 
-.css_dw3q30 {
+.SignUP1004 {
   box-sizing: border-box;
   display: flex;
   flex-flow: column wrap;
@@ -51,10 +51,10 @@ main {
   -webkit-box-pack: center;
   justify-content: center;
 }
-.css_dw3q30 > .MuiGrid_item {
+.SignUP1004 > .containeritem {
   max-width: none;
 }
-.css_10r4g2f {
+.SignUP1005 {
   box-sizing: border-box;
   margin: 0px;
   flex-direction: row;
@@ -93,7 +93,7 @@ main {
   object-fit: cover;
 }
 
-.css_ak8is5 {
+.SignUP1006 {
   margin: 0px;
   text-align: center;
   font-size: 1.25rem;
@@ -101,13 +101,13 @@ main {
   line-height: 1.15;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-.css_1wxaqej {
+.SignUP1007 {
   box-sizing: border-box;
   margin: 0;
   flex-direction: row;
 }
 
-.css_1gpft47 {
+.SignUP1008 {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -142,7 +142,7 @@ main {
   box-shadow: none;
   letter-spacing: 0.015625rem;
 }
-.css_b9fb38 {
+.SignUPbutton {
   margin: 0;
   font-size: 1rem;
   font-weight: 700;
@@ -164,7 +164,7 @@ form {
   margin-top: 0em;
 }
 
-.css_1wkwmmc {
+.SignUP1009 {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +172,7 @@ form {
   flex-direction: column;
 }
 
-.css_bwtxxq {
+.SignUP1010 {
   margin: 0;
   font-size: 1.125rem;
   font-weight: 700;
@@ -184,18 +184,14 @@ form {
   line-height: 1.2;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-.css_1nvizyd {
+.SignUP1011 {
   display: inline-flex;
   border-radius: 4px;
   flex-direction: column;
   min-width: 200px;
 }
 
-.css_1nvizyd .MuiToggleButtonGroup_grouped:not(:last-of-type) {
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-.css_1b72681 {
+.SignUP1012 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -222,27 +218,20 @@ form {
   padding: 14px;
 }
 
-.css_1b72681 .MuiTypography_body1 {
+.SignUP1012 .btntext {
   color: #222628;
   font-weight: 400;
 }
 
-.MuiToggleButton_standard:focus {
+.onfocus:focus {
   border: 2px solid rgb(0, 102, 238);
 }
 
-.css_17pbj4j {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
-}
-
-.css_1y4j5le {
+.SignUP1014 {
   display: flex;
   justify-content: space-between;
 }
-.css_1215evx {
+.SignUP1015 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -272,7 +261,7 @@ form {
   padding: 8px 20px;
   letter-spacing: 0.015625rem;
 }
-.css_1q2wf90 {
+.SignUP1016 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -311,12 +300,12 @@ form {
 
 /* section3 ka csss */
 
-.css_1m7nlmx > .MuiGrid_item {
+.SignUP1m7nlmx > .containeritem {
   padding-left: 32px;
   padding-top: 32px;
   max-width: none;
 }
-.css_1m7nlmx {
+.SignUP1m7nlmx {
   box-sizing: border-box;
   display: flex;
   flex-flow: column wrap;
@@ -325,19 +314,19 @@ form {
   margin-left: -32px;
 }
 
-.css_1lytz60 {
+.SignUP1lytz60 {
   box-sizing: border-box;
   margin: 0px;
   flex-direction: row;
 }
 
-.css_172n4b4 {
+.SignUP172n4b4 {
   margin: 0px 0px 0.35em;
   font-weight: 700;
   line-height: 1.2;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-.css_1fqwhl7 {
+.SignUP1fqwhl7 {
   margin: 0px;
   color: rgb(109, 113, 122);
   font-size: 0.875rem;
@@ -346,14 +335,14 @@ form {
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
 
-.css_6474a7 {
+.SignUP6474a7 {
   display: inline-flex;
   border-radius: 4px;
   flex-direction: column;
   min-width: 200px;
 }
 
-.css_1dl41vr {
+.SignUP1dl41vr {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -381,29 +370,24 @@ form {
   background-color: white;
 }
 
-.css_6474a7 .MuiToggleButtonGroup_grouped:not(:last-of-type) {
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-
-/* .css_1dl41vr.Mui_selected {
+/* .SignUP1dl41vr._selected {
   border-color: rgb(0, 102, 238);
   background-color: white;
   color: rgb(34, 38, 40);
 } */
-/* .css_1dl41vr.Mui_selected .MuiTypography_body1 {
+/* .SignUP1dl41vr._selected .btntext {
   color: rgb(0, 102, 238);
   font-weight: 700;
 } */
 
-.css_1dl41vr .MuiTypography_body2 {
+.SignUP1dl41vr .Typography_body2 {
   color: rgb(109, 113, 122);
   font-weight: 400;
 }
-.css_1dl41vr.Mui_selected .MuiTypography_body2 {
+.SignUP1dl41vr._selected .Typography_body2 {
   color: rgb(34, 38, 40);
 }
-.css_xq5ncm {
+.SignUPxq5ncm {
   margin: 0px;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -437,18 +421,18 @@ form {
 
 /* section4 ka csss */
 
-.css_4tr9mt {
+.SignUP4tr9mt {
   text-align: left;
   margin: 0px;
   font-weight: 700;
   line-height: 1.2;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-.css_18r8671 {
+.SignUP18r8671 {
   display: flex;
   flex-flow: row wrap;
 }
-.css_1th7rei {
+.SignUP1th7rei {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -461,7 +445,7 @@ form {
   padding-bottom: 14px;
   margin-right: 32px;
 }
-.css_wiurcy {
+.SignUPwiurcy {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -480,10 +464,10 @@ form {
   color: rgb(109, 113, 122);
   padding: 8px;
 }
-.MuiBox_root {
+.alingleft {
   text-align: left;
 }
-.css_142gop6 {
+.SignUP142gop6 {
   display: inline-flex;
   align-items: center;
   background-color: rgb(255, 255, 255);
@@ -491,7 +475,7 @@ form {
   padding-left: 0px;
   cursor: pointer;
 }
-.css_1stmbwu {
+.SignUP1stmbwu {
   text-align: left;
   margin: 0px 0px 0px 8px;
   font-size: 1rem;
@@ -501,7 +485,7 @@ form {
   color: rgb(0, 102, 238);
   display: inline;
 }
-.css_tuxzvu {
+.SignUPtuxzvu {
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
@@ -510,17 +494,17 @@ form {
   margin-left: -8px;
 }
 
-.css_tuxzvu > .MuiGrid_item {
+.SignUPtuxzvu > .containeritem {
   padding-left: 8px;
   padding-top: 8px;
 }
-.css_wpl0hm {
+.SignUPwpl0hm {
   box-sizing: border-box;
   margin: 12px 0px 0px;
   flex-direction: row;
   width: 100%;
 }
-.css_tzsjye {
+.SignUPtzsjye {
   display: inline-flex;
   flex-direction: column;
   position: relative;
@@ -531,10 +515,10 @@ form {
   vertical-align: top;
   width: 100%;
 }
-.css_5v3ygq {
+.SignUP5v3ygq {
   width: 170px;
 }
-.css_3etz74 {
+.SignUP3etz74 {
   margin: 0px 0px 12px;
   color: rgb(109, 113, 122);
   font-size: 0.875rem;
@@ -560,7 +544,7 @@ form {
 
 /* section 5 ka csss */
 
-.css_12dsom7 {
+.SignUP12dsom7 {
   box-sizing: border-box;
   display: flex;
   flex-flow: column wrap;
@@ -569,12 +553,12 @@ form {
   margin-left: -20px;
 }
 
-.css_12dsom7 > .MuiGrid_item {
+.SignUP12dsom7 > .containeritem {
   padding-left: 20px;
   padding-top: 20px;
   max-width: none;
 }
-.css_3o5yhq {
+.SignUP3o5yhq {
   margin: 0px 0px 0.35em;
   font-size: 1.125rem;
   font-weight: 700;
@@ -582,12 +566,12 @@ form {
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   padding-bottom: 5px;
 }
-.css_1can3ro {
+.SignUP1can3ro {
   box-sizing: border-box;
   margin: 0px;
   flex-direction: row;
 }
-.css_toc561 {
+.SignUPtoc561 {
   display: inline-flex;
   flex-direction: column;
   position: relative;
@@ -599,10 +583,10 @@ form {
   opacity: 0.7;
   height: 64px;
 }
-.css_nhysvk.Mui_error {
+.SignUPnhysvk._error {
   color: rgb(242, 38, 19);
 }
-.css_nhysvk {
+.SignUPnhysvk {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4375em;
@@ -625,7 +609,7 @@ form {
   pointer-events: none;
   color: rgb(34, 38, 40);
 }
-.css_yyj737 {
+.SignUPyyj737 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4375em;
@@ -640,7 +624,7 @@ form {
   border-radius: 4px;
   padding-right: 14px;
 }
-.css_106dx4m {
+.SignUP106dx4m {
   font: inherit;
   letter-spacing: inherit;
   color: currentcolor;
@@ -653,11 +637,11 @@ form {
   display: block;
   min-width: 0px;
   width: 100%;
-  animation-name: mui-auto-fill-cancel;
+  animation-name: -auto-fill-cancel;
   animation-duration: 10ms;
   padding: 16.5px 0px 16.5px 14px;
 }
-.css_1ffzwmf {
+.SignUP1ffzwmf {
   display: flex;
   height: 0.01em;
   max-height: 2em;
@@ -666,17 +650,17 @@ form {
   margin-left: 8px;
   color: #222628;
 }
-.css_17pbj4j {
+.SignUP1013 {
   margin: 0px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-.css_yyj737.Mui_error .MuiOutlinedInput_notchedOutline {
+.SignUPyyj737._error .OutlinedInput_notchedOutline {
   border-color: rgb(242, 38, 19);
 }
-.css_igs3ac {
+.SignUPigs3ac {
   text-align: left;
   position: absolute;
   inset: -5px 0px 0px;
@@ -689,7 +673,7 @@ form {
   overflow: hidden;
   min-width: 0%;
 }
-.css_173wfxe {
+.SignUP173wfxe {
   float: unset;
   display: block;
   width: auto;
@@ -701,19 +685,19 @@ form {
   transition: max-width 50ms cubic-bezier(0, 0, 0.2, 1) 0ms;
   white-space: nowrap;
 }
-.css_173wfxe > span {
+.SignUP173wfxe > span {
   padding-left: 5px;
   padding-right: 5px;
   display: inline-block;
 }
-.css_k38b6r {
+.SignUPk38b6r {
   margin: 0px;
   color: rgb(242, 38, 19);
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
 }
-.css_1b47e06 {
+.SignUP1b47e06 {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -735,7 +719,7 @@ form {
   text-decoration: none;
   color: inherit;
 }
-.css_1pufet8 {
+.SignUP1pufet8 {
   margin: 0px 0px 16px;
   font-size: 1rem;
   font-weight: 400;
@@ -743,7 +727,7 @@ form {
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   color: rgb(0, 102, 238);
 }
-.css_1tsy5de {
+.SignUP1tsy5de {
   margin: 0px 0px 0.35em;
   color: rgb(109, 113, 122);
   font-size: 0.875rem;
@@ -767,7 +751,7 @@ form {
 
 /* section 7 ka csss */
 
-.css_1vi05hx {
+.SignUP1vi05hx {
   box-sizing: border-box;
   display: flex;
   flex-flow: column wrap;
@@ -776,12 +760,12 @@ form {
   margin-left: -32px;
 }
 
-.css_1vi05hx > .MuiGrid_item {
+.SignUP1vi05hx > .containeritem {
   padding-left: 32px;
   padding-top: 32px;
   max-width: none;
 }
-.css_1ojbn3v {
+.SignUP1ojbn3v {
   display: inline-flex;
   flex-direction: column;
   position: relative;
@@ -795,7 +779,7 @@ form {
   height: 64px;
 }
 
-.css_1v3dwsv {
+.SignUP1v3dwsv {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4375em;
@@ -810,7 +794,7 @@ form {
   position: relative;
   border-radius: 4px;
 }
-.css_5v3ygq {
+.SignUP5v3ygq {
   font: inherit;
   letter-spacing: inherit;
   color: currentcolor;
@@ -823,16 +807,16 @@ form {
   display: block;
   min-width: 0px;
   width: 100%;
-  animation-name: mui-auto-fill-cancel;
+  animation-name: -auto-fill-cancel;
   animation-duration: 10ms;
   padding: 16.5px 14px;
 }
 
-.css_5v3ygq {
+.SignUP5v3ygq {
   border: 2px solid rgb(34, 38, 40);
 }
 
-.css_1vi05hx > div:last-of-type {
+.SignUP1vi05hx > div:last-of-type {
   margin-top: 300px;
 }
 
@@ -850,7 +834,7 @@ form {
   line-height: 1.2;
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-.css_1k70y2s {
+.SignUP1k70y2s {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4375em;
@@ -865,14 +849,14 @@ form {
   border-radius: 4px;
 }
 
-.css_z2clho {
+.SignUPz2clho {
   margin: 0px 0px 8px;
   color: rgb(242, 38, 19);
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
 }
-.css_t7wqvm {
+.SignUPt7wqvm {
   margin: 0px 0px 0.35em;
   color: rgb(109, 113, 122);
   font-size: 0.875rem;
@@ -880,14 +864,14 @@ form {
   line-height: 1.5;
 }
 
-.css_1307frf {
+.SignUP1307frf {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   margin-top: 16px;
 }
 
-.css_2al6ig {
+.SignUP2al6ig {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -901,7 +885,7 @@ form {
   margin-left: 0px;
 }
 
-.css_1o0bbnm {
+.SignUP1o0bbnm {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -924,19 +908,19 @@ form {
   color: rgb(109, 113, 122);
 }
 
-.css_1kcxdgd {
+.SignUP1kcxdgd {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
 }
-.css_y3uz54 {
+.SignUPy3uz54 {
   margin: 0px;
   color: rgb(109, 113, 122);
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
 }
-.css_kb8a8y {
+.SignUPkb8a8y {
   margin: 12px 0px;
   color: rgb(109, 113, 122);
   font-size: 0.875rem;
@@ -944,15 +928,15 @@ form {
   line-height: 1.5;
   text-align: center;
 }
-.css_iziil0 {
+.SignUPiziil0 {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   color: rgb(34, 38, 40);
   margin: 8px 0px;
 }
-.css_iziil0::before,
-.css_iziil0::after {
+.SignUPiziil0::before,
+.SignUPiziil0::after {
   -webkit-box-flex: 1;
   flex-grow: 1;
   height: 1px;
@@ -961,7 +945,7 @@ form {
   margin: 0px 8px;
   content: "";
 }
-.css_stl828 {
+.SignUPstl828 {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -997,14 +981,14 @@ form {
   background-color: rgb(66, 103, 178);
   text-indent: 20px;
 }
-.css_ushlfk {
+.SignUPushlfk {
   margin: 8px 0px 0px;
   color: rgb(109, 113, 122);
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
 }
-.css_1stans {
+.SignUP1stans {
   margin: 12px 0px 0px;
   color: rgb(109, 113, 122);
   font-size: 0.75rem;
@@ -1012,7 +996,7 @@ form {
   font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
   line-height: 1.66;
 }
-.css_1z7n62 {
+.SignUP1z7n62 {
   float: unset;
   display: block;
   width: auto;
@@ -1033,35 +1017,31 @@ form {
 
 /* section 7 ka csss */
 @media (min-width: 0px) {
-  .css_dmeihm {
+  .SignUP1002 {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .css_dw3q30 {
+  .SignUP1004 {
     min-height: 75vh;
   }
-  .css_bwtxxq {
+  .SignUP1010 {
     text-align: left;
   }
-  .css_1nvizyd {
+  .SignUP1011 {
     margin: 26px 0px 0px 0px;
   }
-  .css_1y4j5le {
+  .SignUP1014 {
     bottom: 16px;
     left: 0;
     width: 100%;
   }
-  .css_1215evx {
+  .SignUP1015 {
     max-width: 100%;
     margin-right: 4px;
     width: 100%;
   }
-  .css_1215evx {
-    max-width: 100%;
-    margin-right: 4px;
-    width: 100%;
-  }
-  .css_1q2wf90 {
+
+  .SignUP1016 {
     max-width: none;
     position: fixed;
     width: calc(100% - 32px);
@@ -1069,39 +1049,36 @@ form {
   }
 
   /* section 3 */
-  .css_1lytz60 {
+  .SignUP1lytz60 {
     text-align: left;
   }
-  .css_q9ysjp {
-    display: none;
-  }
+
   /* section 6 */
   .css-1mmhoqt {
     margin: 155px 0px 0px;
   }
-  .css_ushlfk {
+  .SignUPushlfk {
     text-align: left;
   }
-  .css_1stans {
+  .SignUP1stans {
     text-align: left;
   }
 }
 
 @media (min-width: 576px) {
-  .css_1fxczvu {
+  .SignUP1fxczvu {
     background-color: rgb(240, 242, 244);
     position: relative;
     height: calc(100vh - 64px);
     overflow: auto;
   }
-  .css_qpa126 {
+  .SignUP1001 {
     padding-left: 20px;
     padding-right: 20px;
-  }
-  .css_qpa126 {
     max-width: 576px;
   }
-  .css_dmeihm {
+
+  .SignUP1002 {
     box-shadow: rgb(0 0 0 / 12%) 0px 8px 32px;
     border-radius: 12px;
     position: relative;
@@ -1113,57 +1090,51 @@ form {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .css_1t5i1n4 {
+  .SignUP1003 {
     padding: 48px 64px;
   }
-  .css_dw3q30 {
+  .SignUP1004 {
     min-height: 542px;
   }
-  .css_ak8is5 {
+  .SignUP1006 {
     font-size: 1.3043rem;
   }
-  .css_bwtxxq {
+  .SignUP1010 {
     font-size: 1.25rem;
     text-align: center;
   }
-  .css_1nvizyd {
+  .SignUP1011 {
     margin: 36px 0px 87px 0px;
   }
-  .css_1y4j5le {
+  /* .SignUP1014 {
     bottom: unset;
     left: unset;
     width: unset;
-  }
-  .css_1215evx {
+  } */
+  .SignUP1015 {
     max-width: 181px;
     margin-right: unset;
   }
-  .css_1215evx {
-    max-width: 181px;
-    margin-right: unset;
-  }
-  .css_1q2wf90 {
+
+  .SignUP1016 {
     max-width: 181px;
     position: unset;
     bottom: unset;
   }
 
   /* section 3 */
-  .css_1lytz60 {
+  .SignUP1lytz60 {
     text-align: center;
   }
-  .css_172n4b4 {
+  .SignUP172n4b4 {
     font-size: 1.25rem;
-  }
-  .css_q9ysjp {
-    display: block;
   }
 
   /* section 4 ka css */
-  .css_4tr9mt {
+  .SignUP4tr9mt {
     font-size: 1.25rem;
   }
-  .css_wpl0hm {
+  .SignUPwpl0hm {
     flex-basis: 50%;
     -webkit-box-flex: 0;
     flex-grow: 0;
@@ -1171,10 +1142,10 @@ form {
   }
 
   /* section 5 */
-  .css_3o5yhq {
+  .SignUP3o5yhq {
     font-size: 1.25rem;
   }
-  .css_1can3ro {
+  .SignUP1can3ro {
     flex-basis: 50%;
     -webkit-box-flex: 0;
     flex-grow: 0;
@@ -1182,18 +1153,18 @@ form {
   }
 
   /* section 6  */
-  .css_l8px71 {
+  .SignUPl8px71 {
     font-size: 1.25rem;
     text-align: center;
     margin-bottom: 28px;
   }
-  .css_1mmhoqt {
+  .SignUP1mmhoqt {
     margin: 95px 0px 0px;
   }
-  .css_ushlfk {
+  .SignUPushlfk {
     text-align: center;
   }
-  .css_1stans {
+  .SignUP1stans {
     text-align: center;
   }
   /* section 7 */
@@ -1203,29 +1174,29 @@ form {
 }
 
 @media (min-width: 992px) {
-  .css_ak8is5 {
+  .SignUP1006 {
     font-size: 1.5217rem;
   }
-  .css_bwtxxq {
+  .SignUP1010 {
     font-size: 1.25rem;
   }
   /* section 3 */
-  .css_172n4b4 {
+  .SignUP172n4b4 {
     font-size: 1.25rem;
   }
 
   /* section 4 ka css */
-  .css_4tr9mt {
+  .SignUP4tr9mt {
     font-size: 1.25rem;
   }
-  .css_wpl0hm {
+  .SignUPwpl0hm {
     flex-basis: 50%;
     -webkit-box-flex: 0;
     flex-grow: 0;
     max-width: 50%;
   }
   /* section 5 ka css */
-  .css_1can3ro {
+  .SignUP1can3ro {
     flex-basis: 50%;
     -webkit-box-flex: 0;
     flex-grow: 0;
@@ -1235,20 +1206,20 @@ form {
 }
 
 @media (min-width: 1200px) {
-  .css_ak8is5 {
+  .SignUP1006 {
     font-size: 1.5217rem;
   }
-  .css_bwtxxq {
+  .SignUP1010 {
     font-size: 1.25rem;
   }
 
   /* section 3 */
-  .css_172n4b4 {
+  .SignUP172n4b4 {
     font-size: 1.25rem;
   }
 
   /* section 6  */
-  .css_l8px71 {
+  .SignUPl8px71 {
     font-size: 1.25rem;
   }
 }

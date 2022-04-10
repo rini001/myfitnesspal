@@ -4,7 +4,7 @@ import styles from "./All.module.css";
 const Stage3rd = () => {
   return (
     <>
-      <section className={`${styles.MuiBox_root} ${styles.css_1fxczvu}`}>
+      <section className={`${styles.alingleft} ${styles.SignUP1fxczvu}`}>
         <span className={styles.span1}>
           <img
             alt="background"
@@ -15,63 +15,42 @@ const Stage3rd = () => {
             className={styles.img1}
           />
         </span>
-        <div
-          className={`${styles.MuiContainer_root} ${styles.MuiContainer_maxWidthSm} ${styles.css_qpa126}`}
-        >
-          <main className={`${styles.MuiBox_root} ${styles.css_dmeihm}`}>
-            <span
-              className={`${styles.MuiLinearProgress_root} ${styles.MuiLinearProgress_colorPrimary} ${styles.MuiLinearProgress_determinate} ${styles.css_q9ysjp}`}
-              role="progressbar"
-              aria-valuenow="11"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              aria-label="progress bar"
-            >
-              <span
-                className={`${styles.MuiLinearProgress_bar} ${styles.MuiLinearProgress_barColorPrimary} ${styles.MuiLinearProgress_bar1Determinate} ${styles.css_1c2o5lx}`}
-              ></span>
-            </span>
-            <div className={`${styles.MuiBox_root} ${styles.css_1t5i1n4}`}>
+        <div className={styles.SignUP1001}>
+          <main className={`${styles.alingleft} ${styles.SignUP1002}`}>
+            <div className={`${styles.alingleft} ${styles.SignUP1003}`}>
               <form className={styles.section3}>
                 <div
-                  className={`${styles.MuiGrid_root} ${styles.MuiGrid_container} ${styles.MuiGrid_spacing_xs_8} ${styles.MuiGrid_direction_xs_column} ${styles.css_1m7nlmx}`}
+                  className={`${styles.Grid_spacing_xs_8}  ${styles.SignUP1m7nlmx}`}
                 >
                   <div
-                    className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.css_1lytz60}`}
+                    className={`${styles.containeritem} ${styles.SignUP1lytz60}`}
                   >
-                    <h1
-                      className={`${styles.MuiTypography_root} ${styles.MuiTypography_h3} ${styles.MuiTypography_gutterBottom} ${styles.css_172n4b4}`}
-                    >
+                    <h1 className={`${styles.SignUP172n4b4}`}>
                       What is your baseline activity level?
                     </h1>
                     <p
-                      className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.css_1fqwhl7}`}
+                      className={`${styles.Typography_body2} ${styles.SignUP1fqwhl7}`}
                     >
                       Not including workouts–we count that separately
                     </p>
                   </div>
                   <div
-                    className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.css_1wxaqej}`}
+                    className={`${styles.containeritem} ${styles.SignUP1007}`}
                   >
-                    <div
-                      role="group"
-                      className={`${styles.MuiToggleButtonGroup_root} ${styles.MuiToggleButtonGroup_vertical} ${styles.css_6474a7}`}
-                    >
+                    <div className={`${styles.SignUP6474a7}`}>
                       <button
-                        className={`${styles.MuiButtonBase_root} ${styles.MuiToggleButton_root} ${styles.Mui_selected} ${styles.MuiToggleButton_sizeMedium} ${styles.MuiToggleButton_standard} ${styles.MuiToggleButtonGroup_grouped} ${styles.MuiToggleButtonGroup_groupedVertical} ${styles.css_1dl41vr}`}
-                        tabindex="0"
+                        className={`${styles._selected} ${styles.onfocus} ${styles.SignUP1dl41vr}`}
                         type="button"
                         value="1"
-                        aria-pressed="true"
                       >
                         <div>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body1} ${styles.css_17pbj4j}`}
+                            className={`${styles.btntext} ${styles.SignUP1013}`}
                           >
                             Not Very Active
                           </p>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.css_xq5ncm}`}
+                            className={`${styles.Typography_body2} ${styles.SignUPxq5ncm}`}
                           >
                             Spend most of the day sitting (e.g., bankteller,
                             desk job)
@@ -79,20 +58,18 @@ const Stage3rd = () => {
                         </div>
                       </button>
                       <button
-                        className={`${styles.MuiButtonBase_root} ${styles.MuiToggleButton_root} ${styles.MuiToggleButton_sizeMedium} ${styles.MuiToggleButton_standard} ${styles.MuiToggleButtonGroup_grouped} ${styles.MuiToggleButtonGroup_groupedVertical} ${styles.css_1dl41vr}`}
-                        tabindex="0"
+                        className={`${styles.onfocus} ${styles.SignUP1dl41vr}`}
                         type="button"
                         value="2"
-                        aria-pressed="false"
                       >
                         <div>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body1} ${styles.css_17pbj4j}`}
+                            className={`${styles.btntext} ${styles.SignUP1013}`}
                           >
                             Lightly Active
                           </p>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.css_xq5ncm}`}
+                            className={`${styles.Typography_body2} ${styles.SignUPxq5ncm}`}
                           >
                             Spend a good part of the day on your feet (e.g.,
                             teacher, salesperson)
@@ -100,20 +77,18 @@ const Stage3rd = () => {
                         </div>
                       </button>
                       <button
-                        className={`${styles.MuiButtonBase_root} ${styles.MuiToggleButton_root} ${styles.MuiToggleButton_sizeMedium} ${styles.MuiToggleButton_standard} ${styles.MuiToggleButtonGroup_grouped} ${styles.MuiToggleButtonGroup_groupedVertical} ${styles.css_1dl41vr}`}
-                        tabindex="0"
+                        className={`${styles.onfocus} ${styles.SignUP1dl41vr}`}
                         type="button"
                         value="3"
-                        aria-pressed="false"
                       >
                         <div>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body1} ${styles.css_17pbj4j}`}
+                            className={`${styles.btntext} ${styles.SignUP1013}`}
                           >
                             Active
                           </p>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.css_xq5ncm}`}
+                            className={`${styles.Typography_body2} ${styles.SignUPxq5ncm}`}
                           >
                             Spend a good part of the day doing some physical
                             activity (e.g., food server, postal carrier)
@@ -121,20 +96,18 @@ const Stage3rd = () => {
                         </div>
                       </button>
                       <button
-                        className={`${styles.MuiButtonBase_root} ${styles.MuiToggleButton_root} ${styles.MuiToggleButton_sizeMedium} ${styles.MuiToggleButton_standard} ${styles.MuiToggleButtonGroup_grouped} ${styles.MuiToggleButtonGroup_groupedVertical} ${styles.css_1dl41vr}`}
-                        tabindex="0"
+                        className={`${styles.onfocus} ${styles.SignUP1dl41vr}`}
                         type="button"
                         value="4"
-                        aria-pressed="false"
                       >
                         <div>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body1} ${styles.css_17pbj4j}`}
+                            className={`${styles.btntext} ${styles.SignUP1013}`}
                           >
                             Very Active
                           </p>
                           <p
-                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.css_xq5ncm}`}
+                            className={`${styles.Typography_body2} ${styles.SignUPxq5ncm}`}
                           >
                             Spend a good part of the day doing heavy physical
                             activity (e.g., bike messenger, carpenter)
@@ -144,32 +117,14 @@ const Stage3rd = () => {
                     </div>
                   </div>
                   <div
-                    className={`${styles.MuiGrid_root} ${styles.MuiGrid_item} ${styles.css_1wxaqej}`}
+                    className={`${styles.containeritem} ${styles.SignUP1007}`}
                   >
-                    <nav
-                      className={`${styles.MuiBox_root} ${styles.css_1y4j5le}`}
-                    >
-                      <a
-                        className={`${styles.MuiButton_root} ${styles.MuiButton_outlined} ${styles.MuiButton_outlinedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_outlinedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root} ${styles.css_1215evx}`}
-                        tabindex="0"
-                        href="/account/create/goals"
-                      >
-                        <span
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_button1} ${styles.css_b9fb38}`}
-                        >
-                          Back
-                        </span>
+                    <nav className={`${styles.alingleft} ${styles.SignUP1014}`}>
+                      <a className={` ${styles.SignUP1015}`} href="#">
+                        <span className={`${styles.SignUPbutton}`}>Back</span>
                       </a>
-                      <button
-                        className={`${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.MuiButton_containedPrimary} ${styles.MuiButton_sizeMedium} ${styles.MuiButton_containedSizeMedium} ${styles.MuiButton_fullWidth} ${styles.MuiButtonBase_root} ${styles.css_1q2wf90}`}
-                        tabindex="0"
-                        type="submit"
-                      >
-                        <span
-                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_button1} ${styles.css_b9fb38}`}
-                        >
-                          Next
-                        </span>
+                      <button className={` ${styles.SignUP1016}`} type="submit">
+                        <span className={`${styles.SignUPbutton}`}>Next</span>
                       </button>
                     </nav>
                   </div>

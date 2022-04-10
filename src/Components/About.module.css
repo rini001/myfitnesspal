@@ -1,303 +1,1220 @@
-.maincontainer {
-  margin: auto;
-  position: relative;
-  text-align: left;
-  width: 940px;
+html {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+}
+body {
+  margin: 0px;
+  color: rgb(34, 38, 40);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  background-color: rgb(240, 242, 244);
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.SignUP1001 {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.SignUP1002 {
+  background-color: rgb(255, 255, 255);
+}
+main {
+  display: block;
+}
+
+.SignUP1003 {
+  padding-top: 24px;
+}
+
+.SignUP1004 {
+  box-sizing: border-box;
   display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  justify-content: center;
   overflow: hidden;
 }
+.SignUP1004 > .containeritem {
+  max-width: none;
+}
+.SignUP1005 {
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+  padding-bottom: 32px;
+}
 
-.content {
-  clear: both;
-  float: left;
-  display: inline;
+.span1 {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  inset: 0px;
+}
+
+.img1 {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.SignUP1006 {
+  margin: 0px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.15;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+.SignUP1007 {
+  box-sizing: border-box;
+  margin: 0;
+  flex-direction: row;
+}
+
+.SignUP1008 {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
   position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 2px solid transparent;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 102, 238);
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px 20px;
+  box-shadow: none;
+  letter-spacing: 0.015625rem;
+}
+.SignUPbutton {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* 
+
+
+
+*/
+
+/* section no.2 */
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.SignUP1009 {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+}
+
+.SignUP1010 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  margin-bottom: 0.35em;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+.SignUP1011 {
+  display: inline-flex;
+  border-radius: 4px;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.SignUP1012 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  outline: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  border: 1px solid #dee1e7;
+  color: #222628;
+  text-transform: none;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: #dee1e7;
+  margin: 2px 0px;
+  border-style: solid;
+  background-color: #ffffff;
+  padding: 14px;
+}
+
+.SignUP1012 .btntext {
+  color: #222628;
+  font-weight: 400;
+}
+
+.onfocus:focus {
+  border: 2px solid rgb(0, 102, 238);
+}
+
+.SignUP1014 {
+  display: flex;
+  justify-content: space-between;
+}
+.SignUP1015 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 2px solid rgb(0, 102, 238);
+  color: rgb(0, 102, 238);
+  border-radius: 4px;
+  padding: 8px 20px;
+  letter-spacing: 0.015625rem;
+}
+.SignUP1016 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #0066ee;
+  width: 100%;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+}
+
+/* 
+
+
+
+*/
+
+/* section3 ka csss */
+
+.SignUP1m7nlmx > .containeritem {
+  padding-left: 32px;
+  padding-top: 32px;
+  max-width: none;
+}
+.SignUP1m7nlmx {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: -32px;
+  width: calc(100% + 32px);
+  margin-left: -32px;
+}
+
+.SignUP1lytz60 {
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+}
+
+.SignUP172n4b4 {
+  margin: 0px 0px 0.35em;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+.SignUP1fqwhl7 {
+  margin: 0px;
+  color: rgb(109, 113, 122);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+.SignUP6474a7 {
+  display: inline-flex;
+  border-radius: 4px;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.SignUP1dl41vr {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  border: 2px solid rgb(222, 225, 231);
+  text-transform: none;
+  border-radius: 4px;
+  margin: 2px 0px;
+  padding: 14px;
+  text-align: left;
+  justify-content: left;
+  background-color: white;
+}
+
+/* .SignUP1dl41vr._selected {
+  border-color: rgb(0, 102, 238);
+  background-color: white;
+  color: rgb(34, 38, 40);
+} */
+/* .SignUP1dl41vr._selected .btntext {
+  color: rgb(0, 102, 238);
+  font-weight: 700;
+} */
+
+.SignUP1dl41vr .Typography_body2 {
+  color: rgb(109, 113, 122);
+  font-weight: 400;
+}
+.SignUP1dl41vr._selected .Typography_body2 {
+  color: rgb(34, 38, 40);
+}
+.SignUPxq5ncm {
+  margin: 0px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+.css-q9ysjp {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  z-index: 0;
+  background-color: rgb(222, 225, 231);
+  border-radius: 12px 12px 0px 0px;
+  height: 8px;
+}
+.section3 {
   width: 100%;
 }
+/* 
 
-.content {
-  padding: 20px 0 4em;
-}
 
-.maindiv {
-  width: 620px;
-  float: left;
-  margin-top: 20px;
-}
 
-h2.main_title {
-  margin: 27px 0 25px 0;
-}
-.main_title,
-.main_title-2 {
-  padding-bottom: 5px;
-  font-size: 20px;
-}
+*/
 
-.main_title,
-.main_title-2 {
-  color: #0a5282;
-  font-weight: bolder;
-  border-bottom: 1px solid #e6e6e6;
-}
+/* section3 ka csss */
 
-.p1 {
-  font-size: 14px;
-  line-height: 18px;
-  margin-bottom: 18px;
-  font-family: Arial, sans-serif;
+/* 
+
+
+
+*/
+
+/* section4 ka csss */
+
+.SignUP4tr9mt {
+  text-align: left;
+  margin: 0px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-.about001 {
-  padding: 44px 43px 46px 162px;
-  background-color: #f6f6f6;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  margin: 65px 0 42px;
+.SignUP18r8671 {
+  display: flex;
+  flex-flow: row wrap;
+}
+.SignUP1th7rei {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: -11px;
+  max-height: 34px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-right: 32px;
+}
+.SignUPwiurcy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  background: url(https://www.myfitnesspal.com/assets/img-about-us.png)
-    no-repeat left bottom;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  border-radius: 50%;
+  color: rgb(109, 113, 122);
+  padding: 8px;
 }
-.about001 p {
-  margin: 0 0 6px;
-  font-size: 14px;
-  line-height: 18px;
-  font-family: Arial, sans-serif;
+.alingleft {
+  text-align: left;
 }
-
-.about002 {
-  margin-top: 0;
-  color: #0a5282;
-  font-weight: bold;
-  font-size: 18px;
-  margin: 51px 0 19px 0;
+.SignUP142gop6 {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+  padding-left: 0px;
+  cursor: pointer;
 }
-
-.list0 li {
-  background: transparent url(https://www.myfitnesspal.com/assets/sprite.v6.gif)
-    no-repeat scroll 0 0;
-  background-position: 5px -515px !important;
-  padding: 0 0 9px 18px;
-  padding-left: 23px;
-}
-
-.list0 h5 {
-  font-weight: bold;
-  margin: 0;
-  font-size: 14px;
+.SignUP1stmbwu {
+  text-align: left;
+  margin: 0px 0px 0px 8px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  color: rgb(0, 102, 238);
   display: inline;
 }
-
-ul.list0 li span {
-  background: none;
+.SignUPtuxzvu {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: -8px;
+  width: calc(100% + 8px);
+  margin-left: -8px;
 }
-ul.list0 li span {
-  background-position: 5px -515px !important;
-  padding-left: 20px;
+
+.SignUPtuxzvu > .containeritem {
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.SignUPwpl0hm {
+  box-sizing: border-box;
+  margin: 12px 0px 0px;
+  flex-direction: row;
+  width: 100%;
+}
+.SignUPtzsjye {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  vertical-align: top;
+  width: 100%;
+}
+.SignUP5v3ygq {
+  width: 170px;
+}
+.SignUP3etz74 {
+  margin: 0px 0px 12px;
+  color: rgb(109, 113, 122);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  text-align: center;
+}
+
+/* 
+
+
+
+*/
+
+/* section4 ka csss */
+
+/* 
+
+
+
+*/
+
+/* section 5 ka csss */
+
+.SignUP12dsom7 {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: -20px;
+  width: calc(100% + 20px);
   margin-left: -20px;
 }
 
-ul.list0 p {
-  font-weight: normal;
-  font-size: 14px;
-  display: inline;
-  margin: 0;
+.SignUP12dsom7 > .containeritem {
+  padding-left: 20px;
+  padding-top: 20px;
+  max-width: none;
 }
-
-.about003 {
-  padding: 0;
-  margin: 0;
-  min-height: 176px;
-  background: #f6f6f6;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
+.SignUP3o5yhq {
+  margin: 0px 0px 0.35em;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  padding-bottom: 5px;
+}
+.SignUP1can3ro {
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+}
+.SignUPtoc561 {
+  display: inline-flex;
+  flex-direction: column;
   position: relative;
-  overflow: hidden;
-}
-
-.about004 {
-  background: url(https://www.myfitnesspal.com/assets/img-about-us-2.png)
-    no-repeat left bottom;
-  position: absolute;
-  padding: 31px 33px 32px 128px;
-  top: -6px;
-  left: -12px;
-}
-
-.about004 p {
-  margin: 0 0 6px 0;
-}
-
-.maindiv p {
-  font-size: 14px;
-  line-height: 18px;
-  font-family: Arial, sans-serif;
-}
-
-.aboutbtn {
-  text-align: center;
-  margin: 23px 0 0;
-}
-p.aboutbtn a.aboutbtn {
-  padding: 7px 15px;
-}
-
-a.aboutbtn {
-  font-size: 13px;
-  width: auto;
-  display: inline-block;
-  border: 1px solid #408140;
-  border-radius: 5px;
-  padding: 8px 25px;
-  text-align: center;
-  cursor: pointer;
-  color: #ffffff;
-  text-transform: capitalize;
-  background-color: #51a351;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0.26, #62c462),
-    color-stop(0.75, #51a351)
-  );
-}
-
-.span194 {
-  vertical-align: bottom;
-  width: 225px;
-  height: 40px;
-}
-
-.iframe211 {
-  border: none;
-  visibility: visible;
-  width: 225px;
-  height: 40px;
-}
-
-.secondDiv {
-  padding-top: 35px;
-  width: 300px;
-  float: right;
-}
-
-form.login div.member_login {
-  padding: 20px 30px;
-  margin-top: 20px;
-}
-
-form.login div.member_login {
-  background: none;
-  border: 3px solid #f3f1f1;
-  border-radius: 1em;
-  width: 234px;
-}
-form.login div.member_login h2 {
-  margin: 0;
-  font-size: 1.4em;
-  color: #333;
-}
-
-h2,
-h4,
-h5 {
-  font-weight: normal;
-  line-height: normal;
-}
-
-form.login div.member_login ul {
-  margin-bottom: 0;
+  min-width: 0px;
   padding: 0px;
+  margin: 0px;
+  border: 2px;
+  vertical-align: top;
+  opacity: 0.7;
+  height: 64px;
 }
-
-form.login div.member_login ul li {
-  margin-top: 6px;
-  clear: both;
+.SignUPnhysvk._error {
+  color: rgb(242, 38, 19);
 }
-
-.fb_iframe_widget {
-  display: inline-block;
+.SignUPnhysvk {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4375em;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  padding: 0px;
+  display: block;
+  transform-origin: left top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 24px);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: translate(14px, 16px) scale(1);
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  z-index: 1;
+  pointer-events: none;
+  color: rgb(34, 38, 40);
+}
+.SignUPyyj737 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4375em;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  color: rgb(34, 38, 40);
+  box-sizing: border-box;
+  cursor: text;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
   position: relative;
+  border-radius: 4px;
+  padding-right: 14px;
 }
-form.login div.member_login ul li.or {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
-form.login div.member_login input.text {
+.SignUP106dx4m {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentcolor;
+  border: 0px;
+  box-sizing: content-box;
   background: none;
-  width: 216px;
-  margin-bottom: 5px;
-  background-color: #f2f2f2;
-  height: 20px;
-  font-size: 100%;
-  border-top: 1px solid #b2b2b2;
-  border-right: 1px solid #d9d9d9;
-  border-left: 1px solid #d9d9d9;
-  border-bottom: 1px solid #f2f2f2;
-  outline: none;
-  box-shadow: inset 1px 0 1px #d9d9d9, inset -1px 0 1px #d9d9d9,
-    inset 0 1px 1px #b2b2b2;
+  height: 1.4375em;
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0px;
+  width: 100%;
+  animation-name: -auto-fill-cancel;
+  animation-duration: 10ms;
+  padding: 16.5px 0px 16.5px 14px;
 }
-
-input.text {
-  color: #444;
-  margin: 3px 0;
-  padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  border: none;
+.SignUP1ffzwmf {
+  display: flex;
+  height: 0.01em;
+  max-height: 2em;
+  align-items: center;
+  white-space: nowrap;
+  margin-left: 8px;
+  color: #222628;
 }
-
-input[type="checkbox" i] {
-  background-color: initial;
-  cursor: default;
-  appearance: auto;
-  box-sizing: border-box;
-  border: initial;
+.SignUP1013 {
+  margin: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
 }
-
-input[type="submit" i] {
-  appearance: auto;
-  user-select: none;
-  white-space: pre;
-  align-items: flex-start;
-  box-sizing: border-box;
+.SignUPyyj737._error .OutlinedInput_notchedOutline {
+  border-color: rgb(242, 38, 19);
 }
-
-form.login div.member_login input[type="submit"] {
-  width: 220px;
+.SignUPigs3ac {
+  text-align: left;
+  position: absolute;
+  inset: -5px 0px 0px;
+  margin: 0px;
+  padding: 0px 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
 }
-form.login div.member_login ul li.submit {
-  width: 220px;
+.SignUP173wfxe {
+  float: unset;
+  display: block;
+  width: auto;
+  padding: 0px;
+  height: 11px;
+  font-size: 0.75em;
+  visibility: hidden;
+  max-width: 0.01px;
+  transition: max-width 50ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  white-space: nowrap;
 }
-form.login div.member_login input[type="submit"] {
-  text-align: center;
-  border-radius: 0.3em;
-  text-decoration: none;
-  font-weight: bold;
+.SignUP173wfxe > span {
+  padding-left: 5px;
+  padding-right: 5px;
   display: inline-block;
-  padding: 0.5em 14px;
-  border: 1px solid #999999;
-  background-image: -webkit-gradient(
-    linear,
-    0% 100%,
-    0% 0%,
-    from(#cccccc),
-    to(#f0f0f0)
-  );
-  background-color: #cccccc;
-  color: #666;
-  cursor: pointer;
 }
-
-form.login ul.forgot {
-  margin: 10px 0 0 10px;
+.SignUPk38b6r {
+  margin: 0px;
+  color: rgb(242, 38, 19);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
-
-a,
-a:link {
-  color: #0072bc;
+.SignUP1b47e06 {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  padding: 0px;
   cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
   text-decoration: none;
+  color: inherit;
+}
+.SignUP1pufet8 {
+  margin: 0px 0px 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  color: rgb(0, 102, 238);
+}
+.SignUP1tsy5de {
+  margin: 0px 0px 0.35em;
+  color: rgb(109, 113, 122);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
+/* 
+
+
+
+*/
+
+/* section 6 ka csss */
+
+/* 
+
+
+
+*/
+
+/* section 7 ka csss */
+
+.SignUP1vi05hx {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: -32px;
+  width: calc(100% + 32px);
+  margin-left: -32px;
+}
+
+.SignUP1vi05hx > .containeritem {
+  padding-left: 32px;
+  padding-top: 32px;
+  max-width: none;
+}
+.SignUP1ojbn3v {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 2px;
+  vertical-align: top;
+  width: 100%;
+  opacity: 0.7;
+  height: 64px;
+}
+
+.SignUP1v3dwsv {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4375em;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  color: rgb(34, 38, 40);
+  box-sizing: border-box;
+  cursor: text;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-radius: 4px;
+}
+.SignUP5v3ygq {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentcolor;
+  border: 0px;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0px;
+  width: 100%;
+  animation-name: -auto-fill-cancel;
+  animation-duration: 10ms;
+  padding: 16.5px 14px;
+}
+
+.SignUP5v3ygq {
+  border: 2px solid rgb(34, 38, 40);
+}
+
+.SignUP1vi05hx > div:last-of-type {
+  margin-top: 300px;
+}
+
+/* 
+
+
+
+*/
+
+/* section 7 ka csss */
+
+.css-l8px71 {
+  margin: 0px 0px 0.35em;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+.SignUP1k70y2s {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4375em;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  color: rgb(34, 38, 40);
+  box-sizing: border-box;
+  cursor: text;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+}
+
+.SignUPz2clho {
+  margin: 0px 0px 8px;
+  color: rgb(242, 38, 19);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.SignUPt7wqvm {
+  margin: 0px 0px 0.35em;
+  color: rgb(109, 113, 122);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.SignUP1307frf {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.SignUP2al6ig {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  margin-right: 16px;
+  max-height: 34px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: 0px;
+}
+
+.SignUP1o0bbnm {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  padding: 9px;
+  border-radius: 50%;
+  color: rgb(109, 113, 122);
+}
+
+.SignUP1kcxdgd {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.SignUPy3uz54 {
+  margin: 0px;
+  color: rgb(109, 113, 122);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.SignUPkb8a8y {
+  margin: 12px 0px;
+  color: rgb(109, 113, 122);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+.SignUPiziil0 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(34, 38, 40);
+  margin: 8px 0px;
+}
+.SignUPiziil0::before,
+.SignUPiziil0::after {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  font-size: 0px;
+  line-height: 0;
+  margin: 0px 8px;
+  content: "";
+}
+.SignUPstl828 {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 2px solid transparent;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px 20px;
+  box-shadow: none;
+  letter-spacing: 0.015625rem;
+  background-color: rgb(66, 103, 178);
+  text-indent: 20px;
+}
+.SignUPushlfk {
+  margin: 8px 0px 0px;
+  color: rgb(109, 113, 122);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.SignUP1stans {
+  margin: 12px 0px 0px;
+  color: rgb(109, 113, 122);
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+  line-height: 1.66;
+}
+.SignUP1z7n62 {
+  float: unset;
+  display: block;
+  width: auto;
+  padding: 0px;
+  height: 11px;
+  font-size: 0.75em;
+  visibility: hidden;
+  max-width: 100%;
+  transition: max-width 100ms cubic-bezier(0, 0, 0.2, 1) 50ms;
+  white-space: nowrap;
+}
+
+/* 
+
+
+
+*/
+
+/* section 7 ka csss */
+@media (min-width: 0px) {
+  .SignUP1002 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .SignUP1004 {
+    min-height: 75vh;
+  }
+  .SignUP1010 {
+    text-align: left;
+  }
+  .SignUP1011 {
+    margin: 26px 0px 0px 0px;
+  }
+  .SignUP1014 {
+    bottom: 16px;
+    left: 0;
+    width: 100%;
+  }
+  .SignUP1015 {
+    max-width: 100%;
+    margin-right: 4px;
+    width: 100%;
+  }
+
+  .SignUP1016 {
+    max-width: none;
+    position: fixed;
+    width: calc(100% - 32px);
+    bottom: 16px;
+  }
+
+  /* section 3 */
+  .SignUP1lytz60 {
+    text-align: left;
+  }
+
+  /* section 6 */
+  .css-1mmhoqt {
+    margin: 155px 0px 0px;
+  }
+  .SignUPushlfk {
+    text-align: left;
+  }
+  .SignUP1stans {
+    text-align: left;
+  }
+}
+
+@media (min-width: 576px) {
+  .SignUP1fxczvu {
+    background-color: rgb(240, 242, 244);
+    position: relative;
+    height: calc(100vh - 64px);
+    overflow: auto;
+  }
+  .SignUP1001 {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 576px;
+  }
+
+  .SignUP1002 {
+    box-shadow: rgb(0 0 0 / 12%) 0px 8px 32px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    min-height: unset;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .SignUP1003 {
+    padding: 48px 64px;
+  }
+  .SignUP1004 {
+    min-height: 542px;
+  }
+  .SignUP1006 {
+    font-size: 1.3043rem;
+  }
+  .SignUP1010 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .SignUP1011 {
+    margin: 36px 0px 87px 0px;
+  }
+  /* .SignUP1014 {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  } */
+  .SignUP1015 {
+    max-width: 181px;
+    margin-right: unset;
+  }
+
+  .SignUP1016 {
+    max-width: 181px;
+    position: unset;
+    bottom: unset;
+  }
+
+  /* section 3 */
+  .SignUP1lytz60 {
+    text-align: center;
+  }
+  .SignUP172n4b4 {
+    font-size: 1.25rem;
+  }
+
+  /* section 4 ka css */
+  .SignUP4tr9mt {
+    font-size: 1.25rem;
+  }
+  .SignUPwpl0hm {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+
+  /* section 5 */
+  .SignUP3o5yhq {
+    font-size: 1.25rem;
+  }
+  .SignUP1can3ro {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+
+  /* section 6  */
+  .SignUPl8px71 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .SignUP1mmhoqt {
+    margin: 95px 0px 0px;
+  }
+  .SignUPushlfk {
+    text-align: center;
+  }
+  .SignUP1stans {
+    text-align: center;
+  }
+  /* section 7 */
+  .css-_1vi05hx {
+    min-height: 542px;
+  }
+}
+
+@media (min-width: 992px) {
+  .SignUP1006 {
+    font-size: 1.5217rem;
+  }
+  .SignUP1010 {
+    font-size: 1.25rem;
+  }
+  /* section 3 */
+  .SignUP172n4b4 {
+    font-size: 1.25rem;
+  }
+
+  /* section 4 ka css */
+  .SignUP4tr9mt {
+    font-size: 1.25rem;
+  }
+  .SignUPwpl0hm {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+  /* section 5 ka css */
+  .SignUP1can3ro {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+  /* section 6 ka css */
+}
+
+@media (min-width: 1200px) {
+  .SignUP1006 {
+    font-size: 1.5217rem;
+  }
+  .SignUP1010 {
+    font-size: 1.25rem;
+  }
+
+  /* section 3 */
+  .SignUP172n4b4 {
+    font-size: 1.25rem;
+  }
+
+  /* section 6  */
+  .SignUPl8px71 {
+    font-size: 1.25rem;
+  }
 }
