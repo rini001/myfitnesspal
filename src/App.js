@@ -4,8 +4,8 @@ import Premium from "./Components/Premium/Premium";
 function App() {
   return (
     <div className="App">
-      {/* <About /> */}
-      <Premium />
+      <About />
+      {/* <Premium /> */}
     </div>
   );
 }

@@ -3,7 +3,7 @@
   position: relative;
   text-align: left;
   width: 940px;
-  display: inline-block;
+  display: flex;
   overflow: hidden;
 }
 
@@ -111,6 +111,7 @@ ul.list0 p {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   position: relative;
+  overflow: hidden;
 }
 
 .about004 {
