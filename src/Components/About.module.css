@@ -18,7 +18,7 @@ body {
 div {
   display: block;
 }
-.wrap {
+.maincontainer {
   margin: auto;
   position: relative;
   text-align: left;
@@ -41,7 +41,7 @@ div {
 script {
   display: none;
 }
-.main {
+.maindiv {
   width: 620px;
   float: left;
   margin-top: 20px;
@@ -94,7 +94,7 @@ p {
   margin-bottom: 18px;
   font-family: Arial, sans-serif;
 }
-.our_system {
+.about001 {
   padding: 44px 43px 46px 162px;
   background-color: #f6f6f6;
   border: 1px solid #e6e6e6;
@@ -104,14 +104,14 @@ p {
   background: url(https://www.myfitnesspal.com/assets/img-about-us.png)
     no-repeat left bottom;
 }
-.our_system p {
+.about001 p {
   margin: 0 0 6px;
   font-size: 14px;
   line-height: 18px;
   font-family: Arial, sans-serif;
 }
 
-.secondary_title {
+.about002 {
   margin-top: 0;
   color: #0a5282;
   font-weight: bold;
@@ -175,7 +175,7 @@ ul.list0 p {
   margin: 0;
 }
 
-.healty_living {
+.about003 {
   padding: 0;
   margin: 0;
   min-height: 176px;
@@ -185,7 +185,7 @@ ul.list0 p {
   position: relative;
 }
 
-.healty_living_sub {
+.about004 {
   background: url(https://www.myfitnesspal.com/assets/img-about-us-2.png)
     no-repeat left bottom;
   position: absolute;
@@ -194,25 +194,25 @@ ul.list0 p {
   left: -12px;
 }
 
-.healty_living_sub p {
+.about004 p {
   margin: 0 0 6px 0;
 }
 
-.main p {
+.maindiv p {
   font-size: 14px;
   line-height: 18px;
   font-family: Arial, sans-serif;
 }
 
-.button {
+.aboutbtn {
   text-align: center;
   margin: 23px 0 0;
 }
-p.button a.button {
+p.aboutbtn a.aboutbtn {
   padding: 7px 15px;
 }
 
-a.button {
+a.aboutbtn {
   font-size: 13px;
   width: auto;
   display: inline-block;
@@ -246,7 +246,7 @@ a.button {
   height: 40px;
 }
 
-.sidebar {
+.secondDiv {
   padding-top: 35px;
   width: 300px;
   float: right;

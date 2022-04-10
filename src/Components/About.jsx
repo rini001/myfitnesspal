@@ -4,12 +4,9 @@ import styles from "../Components/About.module.css";
 const About = () => {
   return (
     <>
-      <div className={styles.wrap}>
+      <div className={styles.maincontainer}>
         <div className={styles.content}>
-          <script type="text/javascript">
-            facebook_error_string ="Your Facebook account was not authorized.";
-          </script>
-          <div className={styles.main}>
+          <div className={styles.maindiv}>
             <h2 className={styles.main_title}>
               Lose Weight with MyFitnessPal.com — for FREE!
             </h2>
@@ -39,8 +36,8 @@ const About = () => {
               more likely you are to succeed in your weight loss goals.
             </p>
 
-            <div className={styles.our_system}>
-              <h4 className={styles.secondary_title}>How does it work?</h4>
+            <div className={styles.about001}>
+              <h4 className={styles.about002}>How does it work?</h4>
 
               <p>
                 The reason our system is so easy to use is because{" "}
@@ -56,9 +53,7 @@ const About = () => {
               </p>
             </div>
 
-            <h4 className={styles.secondary_title}>
-              With a FREE membership you get:
-            </h4>
+            <h4 className={styles.about002}>With a FREE membership you get:</h4>
 
             <ul className={styles.list0}>
               <li>
@@ -135,12 +130,12 @@ const About = () => {
               </li>
             </ul>
 
-            <h4 className={styles.secondary_title}>
+            <h4 className={styles.about002}>
               Don't wait! Start losing weight the healthy way - all for FREE!
             </h4>
 
-            <div className={styles.healty_living}>
-              <div className={styles.healty_living_sub}>
+            <div className={styles.about003}>
+              <div className={styles.about004}>
                 <p>
                   All the tools you need for healthy, sustainable weight loss
                   are right at your fingertips - and you'll never have to pay a
@@ -154,8 +149,8 @@ const About = () => {
                   </strong>
                 </p>
 
-                <p className={styles.button}>
-                  <a className={styles.button} href="#">
+                <p className={styles.aboutbtn}>
+                  <a className={styles.aboutbtn} href="#">
                     Join Now for FREE!
                   </a>
                 </p>
@@ -163,39 +158,17 @@ const About = () => {
             </div>
           </div>
 
-          <div className={styles.sidebar}>
+          <div className={styles.secondDiv}>
             <form className={`${styles.form} ${styles.login}`}>
-              <input name="utf8" type="hidden" value="✓" />
-              <input type="hidden" name="authenticity_token" value=" " />
               <div className={styles.member_login}>
                 <h2>Member Login</h2>
                 <ul>
                   <li>
                     <div
                       className={`${styles.fb_login_button} ${styles.fb_iframe_widget}`}
-                      data-onlogin="MFP.onFBLogin();"
-                      data-max-rows="1"
-                      data-size="large"
-                      data-button-type="login_with"
-                      data-show-faces="false"
-                      data-auto-logout-link="false"
-                      data-use-continue-as="true"
-                      login_text="Log in with Facebook"
-                      fb-xfbml-state="rendered"
-                      fb-iframe-plugin-query="app_id=186796388009496&amp;auto_logout_link=false&amp;button_type=login_with&amp;container_width=234&amp;locale=en_US&amp;login_text=Log%20in%20with%20Facebook&amp;max_rows=1&amp;sdk=joey&amp;show_faces=false&amp;size=large&amp;use_continue_as=true"
                     >
                       <span className={styles.span194}>
                         <iframe
-                          name="f134297aae6a718"
-                          width="1000px"
-                          height="1000px"
-                          data-testid="fb:login_button Facebook Social Plugin"
-                          title="fb:login_button Facebook Social Plugin"
-                          frameborder="0"
-                          allowtransparency="true"
-                          allowfullscreen="true"
-                          scrolling="no"
-                          allow="encrypted-media"
                           src="https://www.facebook.com/v3.2/plugins/login_button.php?app_id=186796388009496&amp;auto_logout_link=false&amp;button_type=login_with&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfc1fec02d130c%26domain%3Dwww.myfitnesspal.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.myfitnesspal.com%252Ff24c5bde514eda%26relation%3Dparent.parent&amp;container_width=234&amp;locale=en_US&amp;login_text=Log%20in%20with%20Facebook&amp;max_rows=1&amp;sdk=joey&amp;show_faces=false&amp;size=large&amp;use_continue_as=true"
                           className={styles.iframe211}
                         ></iframe>
@@ -210,7 +183,6 @@ const About = () => {
                       name="username"
                       id="username"
                       value=""
-                      size="12"
                       className={styles.text}
                     />
                   </li>
@@ -221,7 +193,6 @@ const About = () => {
                       name="password"
                       id="password"
                       value=""
-                      size="12"
                       className={styles.text}
                     />
                   </li>
@@ -243,9 +214,7 @@ const About = () => {
               </div>
               <ul className={styles.forgot}>
                 <li>
-                  <a href="#">
-                    Forgot password or username?
-                  </a>
+                  <a href="#">Forgot password or username?</a>
                 </li>
                 <li>
                   Not a member yet? <a href="#">Sign up now!</a>
@@ -259,4 +228,4 @@ const About = () => {
   );
 };
 
-export {About};
+export { About };
