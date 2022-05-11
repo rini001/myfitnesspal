@@ -1,10 +1,6 @@
 import { useEffect,useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
 import ex from '../Exercise/ex.module.css'
-import { getData } from '../Redux/Exercise/exAction'
 const Exercise = () => {
-    const exname = useSelector(state => state.exercise)
-    const dispatch = useDispatch()
     const [search, setSearch] = useState([])
     const [find, setFind] = useState('')
     const [w, setW] = useState('')
@@ -32,17 +28,13 @@ const Exercise = () => {
     }
     function handleSubmit(event){
         event.preventDefault()
-        dispatch(getData(search))
     }
-    const {exercise, loading} = exname
-    console.log(exercise);
     const handle = (e) => {
     console.log(e.target.value);
    }
    
    const handlecx = (e) => {
     setCx(e.target.value)
-    setBur(exercise[0].burned * cx)
     console.log(bur);
    }
    
@@ -64,13 +56,7 @@ const Exercise = () => {
                     <p>Matching exercises:</p>
                     <section className={ex.box}>
 
-                        {exercise.map(res => {
-                            return (
-                                <div key={res.id}>
-                                    <p style={{cursor:'pointer', fontSize:'16px', color: 'black', padding:'0px 2px'}} onClick={() => setFind(res.title)}>{res.title}</p>
-                                </div>
-                            )
-                        })}
+                     
                     </section>
                 </section>
                 <section className={ex.select}>
