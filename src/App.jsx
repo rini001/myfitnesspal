@@ -1,25 +1,25 @@
 import "./App.css";
 
-import { HomePage } from "./components/Homepage";
-import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
+import { HomePage } from "./Components/Homepage";
+import { Navbar } from "./Components/Navbar";
+import { Footer } from "./Components/Footer";
 import { Routes, Route } from "react-router-dom";
-import { Food } from "./components/Food";
-import { Payment } from "./components/Payment";
-import { Welcome } from "./components/signup/welcome";
-import { LooseWeight } from "./components/signup/weightgoal";
-import { BaselineActivity } from "./components/signup/activitylevelpage";
-import { Detail } from "./components/signup/detailspage";
-import { BodyCheckout } from "./components/signup/bodyscanpg";
-import { WeightReduce } from "./components/signup/WeightReducepg";
-import { AllApps } from "./components/allApps/AllApps";
-import { Goals } from "./components/goals/Goals";
-import { CreateAccount } from "./components/signup/createaccountpg";
-import { Login } from "./components/signup/loginpg";
-import { CreateUsername } from "./components/signup/createusernamepg";
-import {Exercise} from './components/Exercise/Exercise'
-import { Premium } from "./components/premium/Premium";
-import { About } from "./components/About";
+import { Food } from "./Components/Food";
+import { Payment } from "./Components/Payment";
+import { Welcome } from "./Components/signup/welcome";
+import { LooseWeight } from "./Components/signup/weightgoal";
+import { BaselineActivity } from "./Components/signup/activitylevelpage";
+import { Detail } from "./Components/signup/detailspage";
+import { BodyCheckout } from "./Components/signup/bodyscanpg";
+import { WeightReduce } from "./Components/signup/WeightReducepg";
+import { AllApps } from "./Components/allApps/AllApps";
+import { Goals } from "./Components/goals/Goals";
+import { CreateAccount } from "./Components/signup/createaccountpg";
+import { Login } from "./Components/signup/loginpg";
+import { CreateUsername } from "./Components/signup/createusernamepg";
+import {Exercise} from './Components/Exercise/Exercise'
+import { Premium } from "./Components/Premium/Premium";
+import { About } from "./Components/About";
 
 function App() {
   return (
